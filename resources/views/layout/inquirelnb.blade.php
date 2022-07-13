@@ -1,6 +1,6 @@
 <style>
     .lnb-info{
-        background-image: url("{{ URL::asset('img/banner/banner5.jpg') }}");
+        background-image: url("{{ URL::asset('img/banner/banner4.jpg') }}");
         background-size:100% 400px;
     }
 </style>

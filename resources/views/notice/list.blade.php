@@ -1,5 +1,5 @@
 @include('layout.header')
-@include('layout.lnb')
+@include('layout.noticelnb')
 <div class="board-layout">
     <div class="section-title">
         공지사항

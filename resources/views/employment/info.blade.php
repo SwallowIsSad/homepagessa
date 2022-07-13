@@ -1,5 +1,11 @@
 @include('layout.header')
 @include('layout.lnb')
+<style>
+    .employment-info .label ul .active{
+        color:#0152a4;
+        font-weight: bold;
+    }
+</style>
 <div class="cs-layout">
     <div class="section-title">
         채용정보
@@ -7,7 +13,7 @@
     <div class="employment-info">
         <nav class="label m20b">
             <ul>
-                <li>전체</li>
+                <li class="active">전체</li>
                 <li>인턴</li>
                 <li>신입</li>
                 <li>경력</li>

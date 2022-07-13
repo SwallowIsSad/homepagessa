@@ -1,5 +1,5 @@
 @include('layout.header')
-@include('layout.lnb')
+@include('layout.boardlnb')
 <div class="sub-page-layout">
     <div class="sub-page-header">정보공시</div>
 </div>
