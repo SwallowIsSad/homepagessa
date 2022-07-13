@@ -1,0 +1,367 @@
+// 메인페이지 배경
+.header {
+    position: relative;
+    background: #fff;
+
+    .nav-layout {
+        .top-nav-area {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            background: $main-color;
+            .top-nav-layout {
+                position: relative;
+                width: 1250px;
+                margin: 0 auto;
+                text-align: right;
+
+                .top-nav {
+                    font-size: 13px;
+                    height: 35px;
+                    line-height: 35px;
+                    color: #fff;
+                    font-weight: 300;
+
+                    li {
+                        display: inline-block;
+                        font-weight: 300;
+
+                        &:after {
+                            content: "|";
+                            display: inline-block;
+                            margin: 0 9px;
+                        }
+
+                        &:last-child:after {
+                            content: "";
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .global-nav {
+            position: relative;
+            margin: 0 auto;
+            width: 1250px;
+            text-align: center;
+
+            .logo {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                @include translateY(-50%);
+            }
+
+            .gnb-menu-layout {
+                height: 95px;
+                line-height: 95px;
+
+                li {
+                    display: inline-block;
+                    color: $main-color;
+                    font-size: 0px;
+
+                    .gnb-menu {
+                        display: block;
+                        margin-left: 45px;
+                        font-size: 18px;
+                        font-weight: 450;
+                    }
+                }
+            }
+
+            .all-menu {
+                position: absolute;
+                top: 50%;
+                @include translateY(-50%);
+                right: 0;
+                font-size: 16px;
+                color: $main-color;
+
+                li {
+                    display: inline-block;
+                    vertical-align: middle;
+
+                    a {
+                        display: block;
+
+                        img {
+                        }
+                    }
+                }
+
+                .lang {
+                    padding-left: 20px;
+                    position: relative;
+                    line-height: 12px;
+                    font-size: 13px;
+                    color: #606060;
+
+                    &:after {
+                        position: absolute;
+                        width: 2px;
+                        height: 13px;
+                        background: #989898;
+                        content: "";
+                        display: block;
+                        left: 0;
+                        top: 50%;
+                        @include translateY(-50%);
+                    }
+
+                    p,
+                    img {
+                        display: inline-block;
+                    }
+
+                    img {
+                        margin-bottom: 2px;
+                        padding-left: 2px;
+                        width: 11px;
+                        height: 6px;
+                    }
+                }
+            }
+        }
+
+        .gnb-sub-menu-area {
+            position: absolute;
+            display: none;
+            width: 100%;
+            background: #fff;
+            border-top: 1px solid $main-color;
+            border-bottom: 1px solid $main-color;
+            font-size: 0;
+            z-index: 5;
+
+            .close-sub-menu {
+                font-size: 14px;
+                text-align: center;
+                height: 40px;
+                line-height: 40px;
+                background: $main-color;
+                color: $white;
+                font-size: 12px;
+                img {
+                    padding-left: 4px;
+                    padding-bottom: 2px;
+                }
+            }
+
+            .gnb-sub-menu-layout {
+                padding: 50px 0;
+                margin: 0 auto;
+                width: 1100px;
+                text-align: center;
+            }
+
+            .box {
+                display: inline-block;
+                vertical-align: top;
+                text-align: left;
+
+                .title {
+                    margin-top: 20px;
+                    width: 180px;
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: #004993;
+                    font-weight: 500;
+                }
+
+                .desc {
+                    margin-top: 5px;
+                    width: 180px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #555;
+                }
+            }
+        }
+    }
+}
+
+.all-menu-layout {
+    width: 100%;
+
+    ul {
+        margin-left: 55px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    ul:last-child {
+        margin-right: 18px;
+    }
+
+    li {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #606060;
+    }
+}
+
+/*
+    local nav
+*/
+.local-nav-layout {
+    position: relative;
+    width: 100%;
+    background: $main-color;
+
+    .lnb-layout {
+        margin: 0 auto;
+        width: 1250px;
+        text-align: center;
+    }
+
+    .lnb-nav {
+        position: relative;
+        color: #fff;
+
+        li {
+            display: inline-block;
+            border-right: 1px solid #fff;
+
+            &:first-child {
+                border-left: 1px solid #fff;
+            }
+
+            a {
+                display: block;
+                width: 120px;
+                height: 40px;
+                line-height: 40px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.lnb-back {
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    .text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        line-height: 55px;
+        font-size: 30px;
+        letter-spacing: -1px;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.lnb-info {
+    height: 300px;
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.lnb-fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+/*
+    sub page layout
+*/
+.sub-page-layout {
+    border-bottom: 1px solid #d9d9d9;
+    .sub-page-header {
+        text-align: center;
+        font-size: 30px;
+        line-height: 110px;
+    }
+}
+
+.footer {
+    width: 100%;
+    background: #606060;
+    clear: both;
+
+    .footer-layout {
+        padding: 40px 0;
+        width: 1250px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        font-size: 0;
+        li {
+            position: relative;
+            padding: 0 8px;
+            display: inline-block;
+            vertical-align: middle;
+            color: #bbbbbb;
+            font-size: 14px;
+            font-weight: bold;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:after {
+                position: absolute;
+                content: "";
+                display: block;
+                width: 2px;
+                height: 15px;
+                top: 0;
+                right: 0;
+                background: #7b7b7b;
+            }
+
+            &:last-child:after {
+                background: none;
+            }
+        }
+    }
+
+    address {
+        padding: 20px 0;
+        font-style: normal;
+        color: #bbbbbb;
+        line-height: 19px;
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 13px;
+        color: #bbbbbb;
+    }
+}
+
+.section-title {
+    padding-bottom: 35px;
+    margin-bottom: 70px;
+    width: 1100px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 30px;
+    letter-spacing: -1px;
+
+    span {
+        font-size: 25px;
+        color: #606060;
+    }
+}
+
+.top {
+    position: fixed;
+    right: 100px;
+    bottom: 220px;
+}

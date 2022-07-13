@@ -1,0 +1,121 @@
+.visual-area {
+    position: relative;
+    width: 100%;
+    height: $slide-height;
+
+    .visual-front {
+        position: relative;
+        margin: 0 auto;
+        width: 1250px;
+        z-index: 2;
+
+        .slide-btn {
+            position: absolute;
+            width: 100%;
+            height: 400px;
+
+            .left,
+            .right {
+                position: absolute;
+                top: 70%;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+            .left {
+                left: 0;
+            }
+
+            .right {
+                right: 0;
+            }
+        }
+
+        .slide-font {
+            padding: 200px 0 0 200px;
+            .title {
+                font-size: 62px;
+                line-height: 75px;
+                letter-spacing: -1px;
+                color: #fff;
+            }
+
+            .desc {
+                padding-top: 20px;
+                font-size: 24px;
+                color: #fff;
+            }
+        }
+
+        .slide-index {
+            position: absolute;
+            left: 57%;
+            top: 614px;
+            @include translateX(-50%);
+
+            li {
+                margin: 0 9px;
+
+                a {
+                    display: block;
+                    cursor: pointer;
+                }
+            }
+
+            .active a {
+                background: #fff;
+            }
+        }
+    }
+
+    .visual-back {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: $slide-height;
+        overflow: hidden;
+        z-index: 0;
+
+        li {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: $slide-height;
+            }
+        }
+    }
+}
+
+.visual-area {
+    .visual-back {
+        .sy-controls {
+            display: none !important;
+        }
+        .sy-pager {
+            position: absolute;
+            bottom: 110px;
+            z-index: 300;
+
+            .sy-active {
+                a {
+                    background: $white;
+                    border: 1px solid $white;
+                }
+            }
+
+            li {
+                width: 9px;
+                height: 9px;
+                margin: 0 10px;
+
+                a {
+                    background: none;
+                    border: 1px solid $white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+%btn-default {
+    width: 130px;
+    text-align: center;
+}
+.btn {
+    box-sizing: border-box;
+    @extend %btn-default;
+    padding: 10px 0px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 30px;
+}
+a.btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-white {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #0152a4;
+    border: 1px solid #0152a4;
+}
+.btn-transparent {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+.btn-area {
+    padding: 30px;
+}
+.area-center {
+    text-align: center;
+}

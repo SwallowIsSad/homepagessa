@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+
+
+
+body {
+    font-size : $base-font-size;
+}
+
+
+
+%htags {
+    font-weight : inherit;
+    margin: 0;
+    color:$dark-gray;
+}
+
+h1 {
+    @extend %htags;
+    font-size : 2em;
+}
+
+h2 {
+    @extend %htags;
+    font-size : 1.15em;
+}
+
+.text-center {
+    text-align:center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+
+.f-blue {
+    color:$light-blue;
+}
+.f-dark-gray {
+    color:$dark-gray;
+}
+
+.f-white {
+    color : #fff !important;
+}
+.f-w-gray {
+    color: $warm-gray;
+}
+.f-c-gray {
+    color: $cool-gray;
+}
+
+.active{
+    color:$light-blue;
+}

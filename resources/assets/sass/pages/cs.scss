@@ -1,0 +1,342 @@
+.cs-layout {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 1100px;
+
+    .map {
+        img {
+            width: 100%;
+        }
+
+        .title {
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+    }
+}
+
+.inquire-layout {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 1100px;
+}
+
+.map-layout {
+    position: relative;
+    .map-tab {
+        width: 100%;
+        font-size: 0;
+        border: 1px solid $main-color;
+
+        li {
+            text-align: center;
+            width: 50%;
+            height: 55px;
+            line-height: 55px;
+            font-size: 20px;
+            display: inline-block;
+            background: #fff;
+            color: $main-color;
+        }
+
+        .active {
+            background: $main-color;
+            color: #fff;
+        }
+    }
+
+    .map {
+        li {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    }
+
+    .map-label {
+        position: absolute;
+        top: 95px;
+        left: 25px;
+        width: 350px;
+        height: 200px;
+        background: #004fa2;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1px;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 40px 0 40px 0;
+        z-index: 1;
+
+        .desc {
+            padding-top: 40px;
+            padding-left: 40px;
+        }
+
+        .tel {
+            margin-top: 30px;
+            padding-left: 40px;
+        }
+        .fax {
+            margin-top: 10px;
+            padding-left: 40px;
+        }
+    }
+
+    .type2 {
+        background: $main-color;
+    }
+}
+.inquire-form {
+    width: 100%;
+
+    .check-text {
+        line-height: 25px;
+    }
+
+    .check {
+        display: inline-block;
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+        background: #f7f7f7;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+
+        img {
+            margin-top: 7px;
+        }
+    }
+
+    .personal-info {
+        .info {
+            margin-bottom: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .pi-text {
+            padding: 20px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #606060;
+            background: #f7f7f7;
+        }
+    }
+
+    .inquire-input {
+        margin-top: 50px;
+        font-size: 0;
+        .inquire {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e6e6e6;
+            .title,
+            .input-layout {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .title {
+                font-weight: bold;
+                width: 100px;
+                font-size: 15px;
+            }
+
+            .input-layout {
+                width: calc(100% - 100px);
+
+                input {
+                    margin: 5px 0;
+                    padding-left: 10px;
+                    font-size: 15px;
+                    width: 100%;
+                    height: 30px;
+                    border: none;
+                }
+            }
+
+            textarea {
+                box-sizing: border-box;
+                padding: 20px;
+                margin-top: 10px;
+                font-size: 15px;
+                width: 100%;
+                height: 150px;
+                resize: none;
+                border: 1px solid #e6e6e6;
+                border-width: 1px 1px 0 1px;
+            }
+        }
+
+        .need {
+            span {
+                display: inline-block;
+                margin-left: 2px;
+                color: #ff0000;
+            }
+        }
+
+        .left,
+        .right {
+            width: calc(50% - 20px);
+            display: inline-block;
+        }
+
+        .left {
+            margin-right: 40px;
+        }
+    }
+}
+.employment-info {
+    .label {
+        ul {
+            font-size: 0;
+            li {
+                display: inline-block;
+                vertical-align: middle;
+                color: #606060;
+                font-size: 17px;
+
+                &:after {
+                    margin: 0 15px;
+                    content: "";
+                    display: inline-block;
+                    width: 1px;
+                    height: 15px;
+                    background: #ababab;
+                }
+
+                &:last-child:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .info-box {
+        ul {
+            font-size: 0;
+            li {
+                position: relative;
+                padding: 40px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                box-sizing: border-box;
+                width: 540px;
+                height: 150px;
+                display: inline-block;
+                vertical-align: top;
+                background: #f7f7f7;
+
+                .title {
+                    margin-bottom: 15px;
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+                .date {
+                    font-weight: normal;
+                    font-size: 15px;
+                }
+                .button {
+                    position: absolute;
+                    padding: 9px 0;
+                    top: 50%;
+                    @include translateY(-50%);
+                    right: 40px;
+                    width: 130px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: bold;
+                    background: #606060;
+                    border-radius: 30px;
+                }
+
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+
+                &:before {
+                    transition: all 0.5s;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: block;
+                    content: "";
+                    width: 0%;
+                    height: 1px;
+                    background: #0152a4;
+                }
+
+                &:after {
+                    transition: all 0.5s;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    display: block;
+                    content: "";
+                    width: 0%;
+                    height: 1px;
+                    background: #0152a4;
+                }
+
+                div:before {
+                    transition: all 0.5s;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: block;
+                    content: "";
+                    width: 1px;
+                    height: 0%;
+                    background: #0152a4;
+                }
+
+                div:after {
+                    transition: all 0.5s;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    display: block;
+                    content: "";
+                    width: 1px;
+                    height: 0%;
+                    background: #0152a4;
+                }
+
+                &:hover {
+                    .title {
+                        color: #0152a4;
+                    }
+                    .button {
+                        background: #0152a4;
+                    }
+                    &:before {
+                        width: 100%;
+                    }
+
+                    &:after {
+                        width: 100%;
+                    }
+
+                    div:before {
+                        height: 100%;
+                    }
+
+                    div:after {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

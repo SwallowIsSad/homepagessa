@@ -1,0 +1,40 @@
+// Variables
+@import "./store/variables";
+
+@import "./store/mixins";
+/////////////BEGIN Global Settings ///////////////
+//fonts
+@import "./store/font";
+
+// input
+@import "./store/input";
+
+// btn
+@import "./store/btn";
+
+/////////////END Global Settings ///////////////
+
+/////////////BEGIN PAGES  ///////////////
+
+// login, signup, find password
+@import "./pages/header.scss";
+
+// nav
+@import "./pages/nav.scss";
+
+// company
+@import "./pages/company.scss";
+
+// business
+@import "./pages/business.scss";
+
+// cs
+@import "./pages/cs.scss";
+
+// board
+@import "./pages/board.scss";
+
+// nav
+// @import 'resources/assets/sass/store/pages/footer';
+
+/////////////END PAGES  ///////////////w

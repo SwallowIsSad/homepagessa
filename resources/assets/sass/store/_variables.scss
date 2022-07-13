@@ -1,0 +1,122 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+$font-family-sans-serif: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$font-family-base: "Source Sans Pro", Helvetica, Arial, sans-serif;
+
+$main-color: #506354;
+$white: #ffffff;
+
+//사용 : 로그인 페이지
+$gray: #f4f6fa;
+
+//사용 : 로그인 창 보더 인풋보더
+$semidark-gray: #dfe3e9;
+
+//사용 : 로그인창 헤드 헤딩(h1,h2), 그레이버튼 색, 로그인 카피라이트
+$dark-gray: #354052;
+
+$bright-gray: #dddddd;
+
+//사용 : 로그인 창 헤드, 인풋 백그라운 네비게이션 백그라운드
+$blue-gray: #f8fafc;
+
+//사용 : 연한 글씨색, 패스워드 찾기시 설명
+$font-gray: #7f8ea3;
+
+//사용 : 레젤 로고, 이메일색
+$lejel-orange: #ff6400;
+
+//사용 인풋 텍스트
+$cool-gray: #969da7;
+
+//파란글씨
+$blue-font: #5a6c8a;
+
+//사용 a tag
+$light-blue: #2298f1;
+
+//에러 글로벌 색
+$error-color: #ff3811;
+
+//사용 : 그린버튼 보더 기본
+$green: #249533;
+
+//그린버튼 그라디언트
+$green-gradient: linear-gradient(to bottom, #39b54a, #33aa44);
+
+//로그인 sign up, back to login
+$warm-gray: #7f8fa4;
+
+//qna 답변 색상
+$qna-gray: #f0f0f0;
+
+//gray btn
+$ashe-gray: #f7f7f7;
+
+//가격표
+$blood-red: #d21f30;
+////////////////////borders///////////////////
+$input-default-border: solid 1px $semidark-gray;
+
+$auth-page-border: solid 1px $semidark-gray;
+
+$cs-nav-border: solid 2px $dark-gray;
+
+$detail-cool-gray: solid 1px $cool-gray;
+
+$checkout-page-border: solid 1px $warm-gray;
+
+$checkout-page-subborder: solid 1px $semidark-gray;
+
+$bright-gray-border: solid 1px $bright-gray;
+
+$green-btn-border: solid 1px $green;
+
+$blue-btn-border: solid 1px $blue-gray;
+
+$gray-btn-border: solid 1px $warm-gray;
+
+$main-notice-border: solid 1px $semidark-gray;
+
+$contents-header-border: solid 2px $dark-gray;
+
+$category-pagination-border: solid 1px $dark-gray;
+
+$cs-table-header-border: solid 1px $dark-gray;
+
+$cs-table-border: solid 1px $semidark-gray;
+
+$cs-contact-footer: solid 1px $dark-gray;
+
+$nav-mobile-border: solid 1px $semidark-gray;
+
+$suggest-border: 0 0 0 1px $semidark-gray;
+////////////////////fontsize /////////////////
+
+$base-font-size: 14px;
+$mobile-font-size: 12px;
+//////////////////// NAV /////////////////////
+$nav-zindex: 1000;
+$nav-mobile-zindex: 1005;
+//$nav-mobile-contents-zindex:1006;
+$nav-height: 108px;
+$nav-top-height: 70px;
+$nav-menus-height: 110px;
+$slide-height: 750px;
+
+$nav-mobile-top-height: 64px;
+$nav-mobile-logout-height: 60px;
+$nav-mobile-slide-height: 52px;
+
+$nav-background-color: #fdfdfe;
+
+$nav-mobile-category-container-minus: $nav-mobile-top-height + $nav-menus-height +
+    $nav-mobile-logout-height;
+//////////////////////////////////////////////
+//////////////////override bootstrap options//////////////
+$text-color: #000;
+$font-size-base: $base-font-size;
+
+$link-color: inherit;
+$link-hover-color: inherit;
+$link-hover-decoration: none;

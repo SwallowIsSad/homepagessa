@@ -1,0 +1,118 @@
+.board-layout {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    .table {
+        width: 100%;
+        font-size: 0;
+
+        .td {
+            display: inline-block;
+            vertical-align: middle;
+            height: 50px;
+            line-height: 50px;
+            font-size: 14px;
+            text-align: center;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        .num {
+            width: 8%;
+        }
+
+        .title {
+            width: 67%;
+        }
+
+        .file {
+            width: 7%;
+        }
+
+        .date {
+            width: 10%;
+        }
+
+        .hit {
+            width: 8%;
+        }
+
+        .thead {
+            div {
+                border-top: 1px solid #a0a0a0;
+                color: #000;
+                background: #f7f7f7;
+            }
+        }
+        .tbody {
+            .title {
+                text-align: left;
+            }
+            td {
+                color: #606060;
+            }
+        }
+
+        .content {
+            display: none;
+            padding: 10px 20px;
+            text-align: left;
+            background: #ececec;
+            line-height: 20px;
+            font-size: 15px;
+        }
+    }
+
+    .search-area {
+        position: relative;
+        padding: 0px 0 20px 0;
+        text-align: right;
+        border-bottom: 1px solid #333;
+
+        .board-count {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            color: #606060;
+            font-size: 14px;
+        }
+
+        input {
+            padding-left: 5px;
+            width: 200px;
+            height: 30px;
+            border: none;
+        }
+
+        img {
+            padding-bottom: 5px;
+            vertical-align: middle;
+        }
+    }
+
+    .pagination {
+        margin-top: 70px;
+        text-align: center;
+
+        li {
+            margin-right: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 17px;
+            color: #606060;
+        }
+
+        .active {
+            span {
+                width: 30px;
+                height: 30px;
+                line-height: 28px;
+                border-radius: 50%;
+                display: inline-block;
+                background: #0152a4;
+                color: #fff;
+            }
+        }
+    }
+}
