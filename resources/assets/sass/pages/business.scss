@@ -130,14 +130,31 @@
     margin: 0 auto;
     width: 900px;
     .bs-content-box {
+        padding-top:20px;
+        padding-bottom:40px;
+        margin-bottom:20px;
         text-align: center;
         font-size: 0;
+        border-bottom: 1px solid #e6e6e6;
+
+        &:last-child{
+            border:none;
+        }
+
+        
+
+        .image-layout{
+            width: 40%;
+        }
+
+        .text-layout{
+            width: 60%;
+        }
 
         .image-layout,
         .text-layout {
             display: inline-block;
             vertical-align: top;
-            width: 50%;
         }
 
         .text-layout {
@@ -152,6 +169,7 @@
             }
             .title {
                 font-size: 30px;
+                font-weight: 500;
             }
             .desc {
                 line-height: 24px;
@@ -159,7 +177,7 @@
                 color: #606060;
             }
             .hr {
-                margin: 25px 0;
+                margin: 15px 0;
                 width: 25px;
                 height: 2px;
                 background: #929292;

@@ -62,7 +62,6 @@
                     font-size: 0px;
 
                     .gnb-menu {
-                        display: block;
                         margin-left: 45px;
                         font-size: 18px;
                         font-weight: 450;
@@ -78,15 +77,18 @@
                 font-size: 16px;
                 color: $main-color;
 
+                .show-all{
+                    img{
+                        padding-bottom: 4px;
+                    }
+                }
+
                 li {
                     display: inline-block;
                     vertical-align: middle;
 
                     a {
                         display: block;
-
-                        img {
-                        }
                     }
                 }
 
@@ -271,6 +273,7 @@
 
 .lnb-fix {
     position: fixed;
+    width:100%;
     top: 0;
     left: 0;
     z-index: 4;

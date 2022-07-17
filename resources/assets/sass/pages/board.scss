@@ -55,8 +55,9 @@
         }
 
         .content {
+            transition: all .5s;
             display: none;
-            padding: 10px 20px;
+            padding: 10px 20px 10px 90px;
             text-align: left;
             background: #ececec;
             line-height: 20px;

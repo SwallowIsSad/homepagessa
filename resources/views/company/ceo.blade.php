@@ -99,7 +99,8 @@
         CEO 인사
     </div>
     <div class="cooperative m200b">
-        <img src="{{ URL::asset('img/company/ceo.png') }}" alt="">
+        <img src="{{ URL::asset('img/company/ceo.jpg') }}" alt="">
+        <img src="{{ URL::asset('img/company/ceotext.png') }}" alt="" class="text-img">
     </div>
     <div class="section-title"  id="content3">
         연혁

@@ -24,11 +24,14 @@
     }
 
     .cooperative {
+        position: relative;
         margin-bottom: 90px;
         font-size: 0;
 
-        img {
-            width: 100%;
+        .text-img{
+            top: 70px;
+            right: 0;
+            position: absolute;
         }
     }
 

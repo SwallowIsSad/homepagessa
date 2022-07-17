@@ -73,13 +73,14 @@
                                         <img src="{{ URL::asset('img/gnb/h_sns02.png') }}" alt="" style="height:16px;">
                                     </a>
                                 </li>
-                                <li class="lang m30r">
-                                    <p>KOR</p>
-                                    <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="">
+                                <li class="lang">
+                                    <p>영업정보서비스</p>
+                                    <!-- 고객지원서비스 -->
+                                    <!-- 구버전 바로가기 -->
                                 </li>
                                 <li>
                                     <a href="javscript:;" class="show-all">
-                                        <img src="{{ URL::asset('img/gnb/all-menu.png') }}" alt="" />
+                                        <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" />
                                     </a>
                                 </li>
                             </ul>
@@ -101,7 +102,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">기업이념</p>
-                                            <p class="desc">신승지류유통의<br />기업이념 입니다.</p>
+                                            <p class="desc">신승지류유통은 기업이념을 소개합니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -113,7 +114,7 @@
                                         <div class="text">
                                             <p class="title">CEO인사</p>
                                             <p class="desc">
-                                                고객의 소증함을 아는 기업<br />신승지류유통입니다.
+                                            고객 여러분의 가치 증대와 발전을 함께하는 성실한 동반자가 되겠습니다.
                                             </p>
                                         </div>
                                     </a>
@@ -125,7 +126,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">회사연혁</p>
-                                            <p class="desc">신승지류유통의<br />연혁입니다.</p>
+                                            <p class="desc">한 눈에 알아보는 신승지류유통의 과거와 현재입니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -136,7 +137,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">관계업체</p>
-                                            <p class="desc">신승지류유통의<br />관계업체입니다.</p>
+                                            <p class="desc">신승지류유통과 함께하는 관련업체입니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -151,7 +152,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">사업개요</p>
-                                            <p class="desc">신승지류유통의<br />사업개요입니다.</p>
+                                            <p class="desc">최상의 상품과 편리한 유통망을 제공합니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -162,7 +163,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">제품소개</p>
-                                            <p class="desc">신승지류유통의<br />제품소개입니다.</p>
+                                            <p class="desc">신승지류유통의 공급 제품을 만나보세요.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -173,7 +174,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">사업장소개</p>
-                                            <p class="desc">신승지류유통의<br />사업장소개입니다.</p>
+                                            <p class="desc">최첨단 설비와 전문 인력을 통한 경영시스템</p>
                                         </div>
                                     </a>
                                 </div>
@@ -184,7 +185,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">협력업체</p>
-                                            <p class="desc">신승지류유통의<br />협력업체입니다.</p>
+                                            <p class="desc">고객과 함께하는 신승의 협력업체입니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -210,7 +211,7 @@
                                         <div class="text">
                                             <p class="title">공지사항</p>
                                             <p class="desc">
-                                                신승지류유통의 공지사항입니다.
+                                                고객 여러분들께 알려드립니다.
                                             </p>
                                         </div>
                                     </a>
@@ -223,7 +224,7 @@
                                         <div class="text">
                                             <p class="title">정보공시</p>
                                             <p class="desc">
-                                                정보공시입니다.
+                                                정확하고 명확한 정보를 제공합니다.
                                             </p>
                                         </div>
                                     </a>
@@ -235,7 +236,7 @@
                                     <div class="text">
                                         <p class="title">주문시스템</p>
                                         <p class="desc">
-                                            주문시스템입니다.
+                                            신승지류유통의 영업정보서비스 입니다.
                                         </p>
                                     </div>
                                 </div>
@@ -247,7 +248,7 @@
                                         <div class="text">
                                             <p class="title">홍보센터</p>
                                             <p class="desc">
-                                                홍보센터입니다
+                                                가장 빠르게 신승지류유통의 새로운 소식을 만나보세요.
                                             </p>
                                         </div>
                                     <a>
@@ -266,7 +267,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">인재상</p>
-                                            <p class="desc">신승지류유통의<br />인재상입니다.</p>
+                                            <p class="desc">신승인이 갖추어야 할 핵심가치를 알려드립니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -277,7 +278,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">채용정보</p>
-                                            <p class="desc">신승지류유통의<br />채용정보입니다.</p>
+                                            <p class="desc">신승지류유통과 함께 꿈과 미래를 펼쳐 나갈 인재를 찾습니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -288,7 +289,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">지원서제출</p>
-                                            <p class="desc">신승지류유통의<br />지원서제출입니다.</p>
+                                            <p class="desc">여러분들을 열림마음으로 기다리고 있습니다.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -303,7 +304,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">문의하기</p>
-                                            <p class="desc">신승지류유통의<br />문의하기입니다.</p>
+                                            <p class="desc">궁금하신 사항을 자유롭게 문의하세요.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -314,7 +315,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">제안하기</p>
-                                            <p class="desc">신승지류유통의<br />제안하기입니다.</p>
+                                            <p class="desc">고객님의 소중한 의견을 제안해주세요.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -325,7 +326,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">오시는길</p>
-                                            <p class="desc">신승지류유통의<br />오시는길입니다.</p>
+                                            <p class="desc">신승지류유통의 본사/물류센터 오시는 길</p>
                                         </div>
                                     </a>
                                 </div>

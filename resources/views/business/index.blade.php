@@ -3,18 +3,13 @@
 <div class="sub-page-layout">
     <div>
         <div class="bs-layout" id="content1">
-            <div class="section-title">사업개요</div>
-            <div class="bs-title m80b">
-                VALUE TOP 3
-                <span>3대 가치</span>
-            </div>
             <div class="bs-content">
-                <div class="bs-content-box">
+                <div class="bs-content-box m20t">
                     <div class="image-layout">
-                        <img src="{{ URL::asset('img/bu/place1-1.png') }}" alt="" class="m80b">
+                        <img src="{{ URL::asset('img/bu/place2.jpg') }}" alt="" class="">
                     </div>
                     <div class="text-layout" style="text-align:left">
-                        <p class="title puple">Premium</p>
+                        <p class="title ">Premium</p>
                         <p class="hr"></p>
                         <p class="desc">
                             신승지류유통은 “고객만족”을 최고의 가치로 생각합니다.
@@ -30,8 +25,11 @@
                     </div>
                 </div>
                 <div class="bs-content-box">
+                    <div class="image-layout">
+                        <img src="{{ URL::asset('img/bu/place2-1.jpg') }}" alt="" class="">
+                    </div>
                     <div class="text-layout" style="text-align:left">
-                        <p class="title blue">Partnership</p>
+                        <p class="title ">Partnership</p>
                         <p class="hr"></p>
                         <p class="desc">
                             신승지류유통은 “정직함”을 최고의 가치로 생각합니다.
@@ -45,16 +43,13 @@
                             유지하고 있습니다.
                         </p>
                     </div>
-                    <div class="image-layout">
-                        <img src="{{ URL::asset('img/bu/place1-2.png') }}" alt="" class="m80b">
-                    </div>
                 </div>
                 <div class="bs-content-box">
                     <div class="image-layout">
-                        <img src="{{ URL::asset('img/bu/place1-3.png') }}" alt="" class="m80b">
+                        <img src="{{ URL::asset('img/bu/place2-3.jpg') }}" alt="" class="">
                     </div>
                     <div class="text-layout" style="text-align:left">
-                        <p class="title green">Growth</p>
+                        <p class="title ">Growth</p>
                         <p class="hr"></p>
                         <p class="desc">
                             신승지류유통은 “더 나은 방식을 통한 새로운 가치 창출”을 최고의 가치로
@@ -69,12 +64,13 @@
                     </div>
                 </div>
             </div>
+            <!-- 
             <div class="section-title">RESULT <span>성과</span></div>
             <img src="{{ URL::asset('img/bu/company.png') }}" alt="" class="m80b">
+-->
         </div>
     </div>
     <div class="bs-layout" id="content2">
-        <div class="section-title">제품소개</div>
     </div>
     <div class="product-layout">
         <div class="text-area">

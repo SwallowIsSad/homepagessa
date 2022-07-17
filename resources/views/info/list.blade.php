@@ -80,10 +80,13 @@
     $(function () {
         $(".tr").click(function (e) {
             e.preventDefault();
-            console.log(1);
             var $self = $(this);
-            $self.find(".content").show();
-            console.log($self.find(".content")[0]);
+            if($self.find(".content").is(':visible'))
+            {
+                $self.find(".content").hide();
+            } else {
+                $self.find(".content").show();
+            }
         });
     })
 </script>

@@ -80,10 +80,13 @@
     $(function () {
         $(".tr").click(function (e) {
             e.preventDefault();
-            console.log(1);
             var $self = $(this);
-            $self.find(".content").show();
-            console.log($self.find(".content")[0]);
+            if($self.find(".content").is(':visible'))
+            {
+                $self.find(".content").slideUp(200, 'linear');
+            } else {
+                $self.find(".content").slideDown(200, 'linear');
+            }
         });
     })
 </script>

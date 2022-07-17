@@ -1,17 +1,4 @@
 <!-- lnb -->
-<div class="local-nav-layout">
-    <div class="lnb-layout">
-        <nav class="lnb-nav">
-            <ul>
-                <?php foreach($menu as $key => $value):?>
-                <li>
-                    <a href="javascript:;" data-num="content<?php echo $key + 1?>"><?php echo $value?></a>
-                </li>
-                <?php endforeach;?>
-            </ul>
-        </nav>
-    </div>
-</div>
 <div class="lnb-back">
     <p class="text">
         신승지류유통은 고객에게 최상의 상품을,
@@ -25,13 +12,13 @@
 <!-- lnb -->
 <script>
     $(function () {
-        var lnb = $(".local-nav-layout").offset().top;
+        var lnb = $(".header").offset().top;
         $(window).scroll(function() {
             var window = $(this).scrollTop();
             if(lnb <= window) {
-                $(".local-nav-layout").addClass("lnb-fix");
+                $(".header").addClass("lnb-fix");
             } else {
-                $(".local-nav-layout").removeClass("lnb-fix");
+                $(".header").removeClass("lnb-fix");
             }
         })
 
