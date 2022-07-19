@@ -1,3 +1,21 @@
+.visual-area2 {
+    position: relative;
+    z-index: 2;
+
+    ul {
+        font-size: 0;
+
+        li {
+            overflow: hidden;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
 .visual-area {
     position: relative;
     width: 100%;

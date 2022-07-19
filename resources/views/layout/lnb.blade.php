@@ -1,13 +1,11 @@
 <!-- lnb -->
 <div class="lnb-back">
     <p class="text">
-        신승지류유통은 고객에게 최상의 상품을,
+        대한민국 종이유통 NO.1 신승지류유통
         <br>
-        제지사에는 더욱 편리한 	유통망을 제공하는
-        <br>
-        지류 유통 전문기업입니다.
+        21세기 새로운 기업으로 도약합니다.
     </p>
-    <img src="{{ URL::asset('img/lnb.png?2') }}" alt="">
+    <img src="{{ URL::asset('img/lnb.jpg') }}" alt="">
 </div>
 <!-- lnb -->
 <script>
@@ -15,10 +13,12 @@
         var lnb = $(".header").offset().top;
         $(window).scroll(function() {
             var window = $(this).scrollTop();
-            if(lnb <= window) {
+            if(window != 0) {
                 $(".header").addClass("lnb-fix");
+                $(".lnb-back").css("margin-top", "50px");
             } else {
                 $(".header").removeClass("lnb-fix");
+                $(".lnb-back").css("margin-top", "0px");
             }
         })
 

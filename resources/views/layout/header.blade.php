@@ -18,9 +18,9 @@
                         <div class="top-nav-layout">
                             <nav class="top-nav">
                                 <ul>
-                                    <li><a href="javascript:;">고객센터</a></li>
-                                    <li><a href="javascript:;">고객정보서비스</a></li>
                                     <li><a href="javascript:;">영업정보서비스</a></li>
+                                    <li><a href="javascript:;">고객지원서비스</a></li>
+                                    <li><a href="javascript:;">구버전 바로가기</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -74,13 +74,16 @@
                                     </a>
                                 </li>
                                 <li class="lang">
-                                    <p>영업정보서비스</p>
-                                    <!-- 고객지원서비스 -->
-                                    <!-- 구버전 바로가기 -->
+                                    <p>구버전 바로가기</p>
+                                </li>
+                                <li class="m30r">
+                                    <a href="javscript:;" class="down-arrow">
+                                        <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" />
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="javscript:;" class="show-all">
-                                        <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" />
+                                        <img src="{{ URL::asset('img/gnb/all-menu.png') }}" alt="" />
                                     </a>
                                 </li>
                             </ul>

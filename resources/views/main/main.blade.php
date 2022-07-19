@@ -1,7 +1,30 @@
 @include('layout.header')
 <script src="{{ URL::asset('js/slippry.min.js') }}"></script>
 <link rel="stylesheet" href="{{ URL::asset('css/slippry.css') }}">
-<div class="visual-area">
+<div class="visual-area2">
+    <nav class="front-area">
+
+    </nav>
+    <div class="back-area">
+        <nav>
+            <ul>
+                <li style="height: 30px;">
+                    <img src="{{ URL::asset('img/main/slide2-1.jpg') }}" alt="">
+                </li>
+                <li style="height: 30px;">
+                    <img src="{{ URL::asset('img/main/slide2-2.jpg') }}" alt="">
+                </li>
+                <li style="height: 30px;">
+                    <img src="{{ URL::asset('img/main/slide2-3.jpg') }}" alt="">
+                </li>
+                <li style="height: 30px;">
+                    <img src="{{ URL::asset('img/main/slide2-4.jpg') }}" alt="">
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- <div class="visual-area">
     <div class="visual-back">
         <ul id="slide">
             <li><img src="{{ URL::asset('img/main/slide1.jpg') }}" alt="" /></li>
@@ -37,9 +60,32 @@
         </div>
     </div>
     <div class="slide-background"></div>
-</div>
+</div> -->
 <script>
     $(function () {
+        $(document).on("click", ".back-area li", function (e) {
+            e.preventDefault();
+            var self = $(this);
+            var imgHeight = $(".back-area li").find("img").height();
+            if(self.hasClass("active"))
+            {
+                console.log(2);
+            }
+            else
+            {
+                $(".back-area li").animate({
+                    height: '30px',
+                }, 500, 'swing');
+
+                setTimeout(function() {
+                    self.animate({
+                        height: imgHeight,
+                    }, 500);
+                }, 800);
+                
+            }
+        });
+        
         var slide = $("#slide").slippry({
             // transition: 'fade',
             // useCSS: true,

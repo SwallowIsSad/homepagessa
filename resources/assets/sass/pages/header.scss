@@ -77,8 +77,8 @@
                 font-size: 16px;
                 color: $main-color;
 
-                .show-all{
-                    img{
+                .down-arrow {
+                    img {
                         padding-bottom: 4px;
                     }
                 }
@@ -264,19 +264,26 @@
 }
 
 .lnb-info {
-    height: 300px;
+    height: 200px;
     background-position: 0 0;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .lnb-fix {
     position: fixed;
-    width:100%;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 4;
+    background: #506354;
+    border-bottom: 1px solid #506354;
+
+    .gnb-menu-layout {
+        a {
+            color: #fff;
+        }
+    }
 }
 
 /*
