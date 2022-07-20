@@ -11,7 +11,11 @@
     <body>
         <div class="page">
             <!-- header -->
-            <header class="header">
+            <?php if(isset($header) && $header === 'test'):?>
+                <header class="header header-fix">
+            <?php else:?>
+                <header class="header">
+            <?php endif?>
                 <div class="nav-layout">
                     <?php if(isset($header) && $header === 'test'):?>
                     <div class="top-nav-area">

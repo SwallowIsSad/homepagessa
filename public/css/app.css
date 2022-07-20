@@ -258,9 +258,18 @@ a.btn {
   text-align: center;
 }
 
+.header-fix {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid #506354;
+}
+
 .header {
   position: relative;
-  background: #fff;
 }
 .header .nav-layout .top-nav-area {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -301,11 +310,14 @@ a.btn {
 .header .nav-layout .global-nav .logo {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 53%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.header .nav-layout .global-nav .logo img {
+  width: 200px;
 }
 .header .nav-layout .global-nav .gnb-menu-layout {
   height: 95px;
@@ -598,16 +610,35 @@ a.btn {
 .visual-area2 {
   position: relative;
   z-index: 2;
-}
-.visual-area2 ul {
-  font-size: 0;
-}
-.visual-area2 ul li {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
-.visual-area2 ul li img {
-  display: block;
+.visual-area2 #fullpage {
+  position: relative;
+  top: 0px;
+  z-index: 9;
   width: 100%;
+  height: 100%;
+}
+.visual-area2 .fullsection {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.visual-area2 .fullsection img {
+  display: block;
+  height: 100%;
+}
+.visual-area2 #fullpage span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .visual-area {
