@@ -1,3 +1,8 @@
+.nopadding-layout {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
 .bs-layout {
     position: relative;
     margin: 0 auto;
@@ -128,26 +133,24 @@
 
 .bs-content {
     margin: 0 auto;
-    width: 900px;
+    width: 1100px;
     .bs-content-box {
-        padding-top:20px;
-        padding-bottom:40px;
-        margin-bottom:20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
         text-align: center;
         font-size: 0;
         border-bottom: 1px solid #e6e6e6;
 
-        &:last-child{
-            border:none;
+        &:last-child {
+            border: none;
         }
 
-        
-
-        .image-layout{
+        .image-layout {
             width: 40%;
         }
 
-        .text-layout{
+        .text-layout {
             width: 60%;
         }
 

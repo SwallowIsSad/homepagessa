@@ -312,7 +312,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('cs/inquire') }}">
+                                    <a href="{{ url('cs/suggest') }}">
                                         <div class="img"> 
                                             <img src="{{ URL::asset('img/gnb/gnb5-2.jpg') }}" alt="" />
                                         </div>
@@ -323,7 +323,7 @@
                                     </a>
                                 </div>
                                 <div class="box">
-                                    <a href="{{ url('cs/inquire') }}">
+                                    <a href="{{ url('cs/map') }}">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb5-3.jpg') }}" alt="" />
                                         </div>

@@ -1,11 +1,11 @@
 <style>
     .lnb-info{
-        background-image: url("{{ URL::asset('img/banner/banner2.jpg') }}");
-        background-size:100% 400px;
+        background-image: url("{{ URL::asset('img/banner/banner1.jpg') }}");
+        background-size: 100%;
     }
 </style>
 <!-- lnb -->
-<div class="local-nav-layout">
+<!-- <div class="local-nav-layout">
     <div class="lnb-layout">
         <nav class="lnb-nav">
             <ul>
@@ -17,7 +17,7 @@
             </ul>
         </nav>
     </div>
-</div>
+</div> -->
 <div class="lnb-back lnb-info">
 </div>
 <!-- lnb -->

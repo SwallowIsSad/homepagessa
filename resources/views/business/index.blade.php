@@ -1,15 +1,19 @@
 @include('layout.header')
-@include('layout.lnb')
+@include('layout.introlnb')
 <div class="sub-page-layout">
     <div>
+        <div style="width:1px; height:100px"></div>
         <div class="bs-layout" id="content1">
+            <div class="section-title">
+                사업개요
+            </div>
             <div class="bs-content">
                 <div class="bs-content-box m20t">
                     <div class="image-layout">
                         <img src="{{ URL::asset('img/bu/place2.jpg') }}" alt="" class="">
                     </div>
                     <div class="text-layout" style="text-align:left">
-                        <p class="title ">Premium</p>
+                        <p class="title blue">Premium</p>
                         <p class="hr"></p>
                         <p class="desc">
                             신승지류유통은 “고객만족”을 최고의 가치로 생각합니다.
@@ -29,7 +33,7 @@
                         <img src="{{ URL::asset('img/bu/place2-1.jpg') }}" alt="" class="">
                     </div>
                     <div class="text-layout" style="text-align:left">
-                        <p class="title ">Partnership</p>
+                        <p class="title blue">Partnership</p>
                         <p class="hr"></p>
                         <p class="desc">
                             신승지류유통은 “정직함”을 최고의 가치로 생각합니다.
@@ -49,7 +53,7 @@
                         <img src="{{ URL::asset('img/bu/place2-3.jpg') }}" alt="" class="">
                     </div>
                     <div class="text-layout" style="text-align:left">
-                        <p class="title ">Growth</p>
+                        <p class="title blue">Growth</p>
                         <p class="hr"></p>
                         <p class="desc">
                             신승지류유통은 “더 나은 방식을 통한 새로운 가치 창출”을 최고의 가치로
@@ -70,7 +74,11 @@
 -->
         </div>
     </div>
-    <div class="bs-layout" id="content2">
+    <div style="width:1px; height:100px"></div>
+    <div class="nopadding-layout" id="content2">
+        <div class="section-title">
+            제품소개
+        </div>
     </div>
     <div class="product-layout">
         <div class="text-area">
@@ -175,6 +183,7 @@
         </div>
     </div>
     <div class="bs-layout" id="content3">
+        <div style="width:1px; height:100px"></div>
         <div class="section-title">사업장소개</div>
         <div class="figcaption m100b">
             <div class="image-box" style="width:730px; height: 310px; margin:0 0 0 auto;">
@@ -278,6 +287,7 @@
                 </li>
             </ul>    
         </nav>
+        <div style="width:1px; height:140px"></div>
     </div>
 </div>
 <script>
