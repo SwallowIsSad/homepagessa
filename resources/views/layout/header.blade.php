@@ -108,7 +108,7 @@
                                     </div>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('company') }}" class="m30t">
+                                    <a href="{{ url('company') }}#content1" class="m30t">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb1-1.jpg') }}" alt="" />
                                         </div>
@@ -119,7 +119,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('company') }}">
+                                    <a href="{{ url('company') }}#content2">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb1-2.jpg') }}" alt="" />
                                         </div>
@@ -132,7 +132,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('company') }}">
+                                    <a href="{{ url('company') }}#content3">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb1-3.jpg') }}" alt="" />
                                         </div>
@@ -143,7 +143,7 @@
                                     </a>
                                 </div>
                                 <div class="box">
-                                    <a href="{{ url('company') }}">
+                                    <a href="{{ url('company') }}#content4">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb1-4.jpg') }}" alt="" />
                                         </div>
@@ -158,7 +158,7 @@
                             <!-- gnb2 -->
                             <div class="gnb-sub-menu gnb2">
                                 <div class="box m40r">
-                                    <a href="{{ url('business') }}">
+                                    <a href="{{ url('business') }}#content1">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb2-1.jpg') }}" alt="" />
                                         </div>
@@ -169,7 +169,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('business') }}">
+                                    <a href="{{ url('business') }}#content2">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb2-2.jpg') }}" alt="" />
                                         </div>
@@ -180,7 +180,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('business') }}">
+                                    <a href="{{ url('business') }}#content3">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb2-3.jpg') }}" alt="" />
                                         </div>
@@ -191,7 +191,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('business') }}">
+                                    <a href="{{ url('business') }}#content4">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb2-4.jpg') }}" alt="" />
                                         </div>

@@ -496,7 +496,7 @@ a.btn {
 .lnb-back .text {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   color: #fff;
   line-height: 55px;
@@ -761,7 +761,6 @@ a.btn {
 }
 
 .company-banner {
-  margin-bottom: 70px;
   background: #eeeeee;
   text-align: center;
 }

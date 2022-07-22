@@ -1,7 +1,7 @@
 @include('layout.header')
 @include('layout.lnb')
-<div style="width:1px; height:100px"></div>
 <div class="company-layout" id="content1">
+    <div style="width:1px; height:100px"></div>
     <div class="section-title">
         경영이념
     </div>
@@ -94,22 +94,24 @@
        </nav> 
     </div>
 </div>
-<div style="width:1px; height:30px"></div>
 <div class="company-layout">
     <div class="section-title" id="content2">
+    <div style="width:1px; height:100px"></div>
         CEO 인사
     </div>
-    <div class="cooperative m200b">
+    <div class="cooperative m100b">
         <img src="{{ URL::asset('img/company/ceo.jpg') }}" alt="">
         <img src="{{ URL::asset('img/company/ceotext.png') }}" alt="" class="text-img">
     </div>
     <div class="section-title"  id="content3">
+        <div style="width:1px; height:100px"></div>
         연혁
     </div>
-    <div class="history m200b">
+    <div class="history m100b">
         <img src="{{ URL::asset('img/company/history.png') }}" alt="">
     </div>
     <div class="section-title"  id="content4">
+        <div style="width:1px; height:100px"></div>
         관계업체
     </div>
     <nav class="company-list2">
