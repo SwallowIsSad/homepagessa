@@ -488,6 +488,7 @@ a.btn {
   position: relative;
   width: 100%;
   text-align: center;
+  padding-top: 95px;
 }
 .lnb-back .text {
   position: absolute;
@@ -512,16 +513,23 @@ a.btn {
   background-attachment: fixed;
 }
 
-.lnb-fix {
+.sub-header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 4;
+  background: #fff;
+}
+
+.lnb-fix {
   background: #506354;
   border-bottom: 1px solid #506354;
 }
 .lnb-fix .gnb-menu-layout a {
+  color: #fff;
+}
+.lnb-fix .lang p {
   color: #fff;
 }
 
@@ -605,40 +613,6 @@ a.btn {
   position: fixed;
   right: 100px;
   bottom: 220px;
-}
-
-.visual-area2 {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.visual-area2 #fullpage {
-  position: relative;
-  top: 0px;
-  z-index: 9;
-  width: 100%;
-  height: 100%;
-}
-.visual-area2 .fullsection {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.visual-area2 .fullsection img {
-  display: block;
-  height: 100%;
-}
-.visual-area2 #fullpage span {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 4em;
-  font-weight: bold;
 }
 
 .visual-area {

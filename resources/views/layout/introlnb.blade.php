@@ -17,10 +17,8 @@
             var window = $(this).scrollTop();
             if(window != 0) {
                 $(".header").addClass("lnb-fix");
-                $(".lnb-back").css("margin-top", "50px");
             } else {
                 $(".header").removeClass("lnb-fix");
-                $(".lnb-back").css("margin-top", "0px");
             }
         })
 

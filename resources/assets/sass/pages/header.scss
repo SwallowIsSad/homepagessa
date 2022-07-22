@@ -256,6 +256,7 @@
     position: relative;
     width: 100%;
     text-align: center;
+    padding-top: 95px;
 
     .text {
         position: absolute;
@@ -282,17 +283,27 @@
     background-attachment: fixed;
 }
 
-.lnb-fix {
+.sub-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 4;
+    background: #fff;
+}
+
+.lnb-fix {
     background: #506354;
     border-bottom: 1px solid #506354;
 
     .gnb-menu-layout {
         a {
+            color: #fff;
+        }
+    }
+
+    .lang {
+        p {
             color: #fff;
         }
     }

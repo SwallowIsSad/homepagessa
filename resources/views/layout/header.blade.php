@@ -12,9 +12,10 @@
         <div class="page">
             <!-- header -->
             <?php if(isset($header) && $header === 'test'):?>
-                <header class="header header-fix">
+                <header class="header"> 
+                <!-- header-fix -->
             <?php else:?>
-                <header class="header">
+                <header class="header sub-header">
             <?php endif?>
                 <div class="nav-layout">
                     <?php if(isset($header) && $header === 'test'):?>
