@@ -25,7 +25,10 @@
             $(function () {
                 var lnb = $(".header").offset().top;
                 $(window).scroll(function() {
-                    scrollChk(window)
+                    if(!$(".gnb-sub-menu-area").is(':visible'))
+                    {
+                        scrollChk(window)
+                    }
                 })
 
                 function scrollChk(top)
