@@ -340,3 +340,22 @@
         }
     }
 }
+.inquire-form .inquire-input .need span {
+    margin-left: 4px;
+}
+.personal-info .info span {
+    color: #ff0000;
+    margin-left: 4px;
+}
+.inquire-form .personal-info .pi-text {
+    height: 200px;
+    overflow: scroll;
+}
+.inquire-form .inquire-input .inquire select {
+    margin: 5px 0;
+    padding-left: 10px;
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    border: none;
+}

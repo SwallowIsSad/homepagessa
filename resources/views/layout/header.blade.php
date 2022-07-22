@@ -273,7 +273,7 @@
                                     <img src="{{ URL::asset('img/gnb/gnb4.jpg') }}" alt="" />
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('employment/recruit') }}">
+                                    <a href="{{ url('employment/recruit') }}#content1">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb4-1.jpg') }}" alt="" />
                                         </div>
@@ -284,7 +284,7 @@
                                     </a>
                                 </div>
                                 <div class="box m40r">
-                                    <a href="{{ url('employment/info') }}">
+                                    <a href="{{ url('employment/recruit') }}#content2">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb4-2.jpg') }}" alt="" />
                                         </div>
@@ -295,7 +295,7 @@
                                     </a>
                                 </div>
                                 <div class="box">
-                                    <a href="{{ url('employment/apply') }}">
+                                    <a href="{{ url('employment/recruit') }}#content3">
                                         <div class="img">
                                             <img src="{{ URL::asset('img/gnb/gnb4-3.jpg') }}" alt="" />
                                         </div>

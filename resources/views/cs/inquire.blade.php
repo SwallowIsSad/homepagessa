@@ -10,7 +10,7 @@
             <div class="inquire-form">
                 <form action="#">
                     <div class="personal-info">
-                        <p class="info">개인정보 수집·활용 동의서</p>
+                        <p class="info">개인정보 수집·활용 동의서<span>*</span></p>
                         <div class="pi-text">
                             개인정보 보호를 위한 이용자 동의사항.
                             <br>
