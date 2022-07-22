@@ -108,7 +108,7 @@
         연혁
     </div>
     <div class="history m100b">
-        <img src="{{ URL::asset('img/company/history.png') }}" alt="">
+        <img src="{{ URL::asset('img/company/history.jpg') }}" alt="">
     </div>
     <div class="section-title"  id="content4">
         <div style="width:1px; height:100px"></div>
