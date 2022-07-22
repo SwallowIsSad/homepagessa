@@ -208,4 +208,4 @@
 // }
 
 </script>
-@include('layout.footer')
+@include('layout.mainfooter')

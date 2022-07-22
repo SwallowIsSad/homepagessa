@@ -45,22 +45,22 @@
                                     >
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="gnb-menu" data-num="1"
+                                    <a href="{{ url('business') }}" class="gnb-menu" data-num="1"
                                         >사업소개</a
                                     >
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="gnb-menu" data-num="2"
+                                    <a href="{{ url('info/notice') }}" class="gnb-menu" data-num="2"
                                         >신승정보</a
                                     >
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="gnb-menu" data-num="3"
+                                    <a href="{{ url('employment/recruit') }}" class="gnb-menu" data-num="3"
                                         >인재채용</a
                                     >
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="gnb-menu" data-num="4"
+                                    <a href="{{ url('cs/inquire') }}" class="gnb-menu" data-num="4"
                                         >고객센터</a
                                     >
                                 </li>
@@ -70,12 +70,14 @@
                             <ul>
                                 <li class="m10r">
                                     <a href="javascript:;">
-                                        <img src="{{ URL::asset('img/gnb/h_sns01.png') }}" alt="" style="height:15px;">
+                                        <img src="{{ URL::asset('img/gnb/h_sns01.png') }}" alt="" style="height:15px;" class="type1">
+                                        <img src="{{ URL::asset('img/gnb/sns_f_w.png') }}" alt="" style="height:15px; display:none;" class="type2">
                                     </a>
                                 </li>
                                 <li class="m20r">
                                     <a href="javascript:;">
-                                        <img src="{{ URL::asset('img/gnb/h_sns02.png') }}" alt="" style="height:16px;">
+                                        <img src="{{ URL::asset('img/gnb/h_sns02.png') }}" alt="" style="height:16px;" class="type1">
+                                        <img src="{{ URL::asset('img/gnb/sns_in_w.png') }}" alt="" style="height:16px; display:none;" class="type2">
                                     </a>
                                 </li>
                                 <li class="lang">
@@ -83,12 +85,14 @@
                                 </li>
                                 <li class="m30r">
                                     <a href="javscript:;" class="down-arrow">
-                                        <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" />
+                                        <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" class="type1">
+                                        <img src="{{ URL::asset('img/gnb/down_w.png') }}" alt="" class="down-arrowwic type2" style="display:none">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javscript:;" class="show-all">
-                                        <img src="{{ URL::asset('img/gnb/all-menu.png') }}" alt="" />
+                                        <img src="{{ URL::asset('img/gnb/all-menu.png') }}" alt="" class="all-menuc type1">
+                                        <img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" class="all-menuwc type2" style="display:none">
                                     </a>
                                 </li>
                             </ul>

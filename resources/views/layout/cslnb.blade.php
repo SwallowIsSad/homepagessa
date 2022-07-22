@@ -21,17 +21,3 @@
 <div class="lnb-back lnb-info">
 </div>
 <!-- lnb -->
-<script>
-    $(function () {
-        var lnb = $(".local-nav-layout").offset().top;
-        $(window).scroll(function() {
-            var window = $(this).scrollTop();
-            if(lnb <= window) {
-                $(".local-nav-layout").addClass("lnb-fix");
-            } else {
-                $(".local-nav-layout").removeClass("lnb-fix");
-            }  
-        })
-
-    })
-</script>

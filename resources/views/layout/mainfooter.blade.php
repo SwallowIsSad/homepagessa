@@ -23,50 +23,28 @@
         </div>
         <script>
             $(function () {
-                var lnb = $(".header").offset().top;
-                $(window).scroll(function() {
-                    scrollChk(window)
-                })
-
-                function scrollChk(top)
-                {
-                    var top = $(this).scrollTop();
-                    if(top != 0) {
-                        $(".header").addClass("lnb-fix");
-                        $(".type1").hide();
-                        $(".type2").show();
-                    } else {
-                        $(".header").removeClass("lnb-fix");
-                        $(".type1").show();
-                        $(".type2").hide();
-                    }
-                }
-                
-                $('.gnb-menu').hover(function () {
+                $('.nav-layout').hover(function () {
                     $('.header').removeClass('lnb-fix');
-                    $(".type1").show();
-                    $(".type2").hide();
                 })
 
                 $('.gnb-menu').hover(function () {
                     var $self = $(this)
-                    $('.gnb-sub-menu-area').show()
+                    $('.gnb-sub-menu-area').slideDown(200)
                     $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
                     $('.gnb-sub-menu-layout .gnb-sub-menu').eq($self.data('num')).show()
                 })
 
                 $(document).on("click", ".show-all",function (e) {
                     e.preventDefault();
-                    $('.gnb-sub-menu-area').show()
+                    $('.gnb-sub-menu-area').slideDown(200)
                     $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
                     $('.gnb-sub-menu-layout .gnb-sub-menu').eq(5).show()
                 })
 
                 $(document).on("click", ".close-sub-menu",function (e) {
                     e.preventDefault();
-                    $('.gnb-sub-menu-area').hide()
+                    $('.gnb-sub-menu-area').slideUp(200)
                     $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
-                    scrollChk($(document).scrollTop())
                 })
 
                 $(document).on("click", ".top", function (e) {

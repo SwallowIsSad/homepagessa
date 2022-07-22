@@ -12,16 +12,6 @@
 <!-- lnb -->
 <script>
     $(function () {
-        var lnb = $(".header").offset().top;
-        $(window).scroll(function() {
-            var window = $(this).scrollTop();
-            if(window != 0) {
-                $(".header").addClass("lnb-fix");
-            } else {
-                $(".header").removeClass("lnb-fix");
-            }
-        })
-
         $(".lnb-nav a").click(function () {
             var $self = $(this);
             offsetId = '#' + $self.data('num')
