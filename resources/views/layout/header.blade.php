@@ -12,7 +12,7 @@
         <div class="page">
             <!-- header -->
             <?php if(isset($header) && $header === 'test'):?>
-                <header class="header"> 
+                <header class="header main-header"> 
                 <!-- header-fix -->
             <?php else:?>
                 <header class="header sub-header">
@@ -23,9 +23,9 @@
                         <div class="top-nav-layout">
                             <nav class="top-nav">
                                 <ul>
-                                    <li><a href="javascript:;">영업정보서비스</a></li>
-                                    <li><a href="javascript:;">고객지원서비스</a></li>
-                                    <li><a href="javascript:;">구버전 바로가기</a></li>
+                                    <li><a href="http://211.54.23.129">영업정보서비스</a></li>
+                                    <li><a href="http://211.54.23.129:8077">고객지원서비스</a></li>
+                                    <!-- <li><a href="javascript:;">구버전 바로가기</a></li> -->
                                 </ul>
                             </nav>
                         </div>
