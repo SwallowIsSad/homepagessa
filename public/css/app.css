@@ -574,6 +574,7 @@ a.btn {
   width: 100%;
   background: #606060;
   clear: both;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 992px) {
   .footer {
@@ -628,7 +629,7 @@ a.btn {
 .section-title {
   padding-bottom: 35px;
   margin-bottom: 70px;
-  width: 1100px;
+  max-width: 1100px;
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
   font-size: 30px;
@@ -761,7 +762,7 @@ a.btn {
   position: relative;
   margin: 0 auto;
   padding: 30px 0;
-  width: 1100px;
+  max-width: 1100px;
 }
 .company-layout .ceo {
   text-align: left;
@@ -794,7 +795,7 @@ a.btn {
 }
 
 .history-map {
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 .history-map img {
@@ -807,6 +808,7 @@ a.btn {
 }
 
 .company-banner {
+  box-sizing: border-box;
   background: #eeeeee;
   text-align: center;
 }
@@ -818,6 +820,12 @@ a.btn {
   display: inline-block;
   vertical-align: top;
   width: 280px;
+}
+@media only screen and (max-width: 992px) {
+  .company-banner ul li {
+    margin: 0 0 30px 0;
+    width: 100%;
+  }
 }
 .company-banner ul li .background {
   padding: 60px 0;
@@ -882,6 +890,12 @@ a.btn {
   font-size: 15px;
   color: #333;
 }
+@media only screen and (max-width: 992px) {
+  .company-list2 li {
+    margin-right: 0;
+    width: 100%;
+  }
+}
 
 .figcaption {
   position: relative;
@@ -891,6 +905,14 @@ a.btn {
 }
 .figcaption .image-box {
   overflow: hidden;
+}
+@media only screen and (max-width: 992px) {
+  .figcaption .image-box {
+    width: 100% !important;
+  }
+  .figcaption .image-box img {
+    width: 100%;
+  }
 }
 .figcaption .image-box img {
   transition: all 0.5s;

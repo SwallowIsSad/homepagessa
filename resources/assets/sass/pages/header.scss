@@ -361,6 +361,7 @@
     width: 100%;
     background: #606060;
     clear: both;
+    box-sizing: border-box;
 
     .footer-layout {
         padding: 40px 0;
@@ -417,7 +418,7 @@
 .section-title {
     padding-bottom: 35px;
     margin-bottom: 70px;
-    width: 1100px;
+    max-width: 1100px;
     text-align: center;
     border-bottom: 1px solid #e6e6e6;
     font-size: 30px;
