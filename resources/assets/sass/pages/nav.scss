@@ -62,10 +62,20 @@
             }
 
             .left {
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        padding-left: 30px;
+                    }
+                }
                 left: 0;
             }
 
             .right {
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        padding-right: 30px;
+                    }
+                }
                 right: 0;
             }
         }

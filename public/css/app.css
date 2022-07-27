@@ -288,6 +288,11 @@ a.btn {
   color: #fff;
   font-weight: 300;
 }
+@media only screen and (max-width: 992px) {
+  .header .nav-layout .top-nav-area .top-nav-layout .top-nav {
+    padding-right: 30px;
+  }
+}
 .header .nav-layout .top-nav-area .top-nav-layout .top-nav li {
   display: inline-block;
   font-weight: 300;
@@ -306,6 +311,8 @@ a.btn {
   margin: 0 auto;
   max-width: 1250px;
   text-align: center;
+  height: 95px;
+  line-height: 95px;
 }
 .header .nav-layout .global-nav .logo {
   position: absolute;
@@ -316,12 +323,22 @@ a.btn {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+@media only screen and (max-width: 992px) {
+  .header .nav-layout .global-nav .logo {
+    padding-left: 30px;
+  }
+}
 .header .nav-layout .global-nav .logo img {
   width: 200px;
 }
 .header .nav-layout .global-nav .gnb-menu-layout {
   height: 95px;
   line-height: 95px;
+}
+@media only screen and (max-width: 992px) {
+  .header .nav-layout .global-nav .gnb-menu-layout {
+    display: none;
+  }
 }
 .header .nav-layout .global-nav .gnb-menu-layout li {
   display: inline-block;
@@ -343,6 +360,11 @@ a.btn {
   right: 0;
   font-size: 16px;
   color: #506354;
+}
+@media only screen and (max-width: 992px) {
+  .header .nav-layout .global-nav .all-menu {
+    padding-right: 30px;
+  }
 }
 .header .nav-layout .global-nav .all-menu .down-arrow img {
   padding-bottom: 4px;
@@ -553,6 +575,11 @@ a.btn {
   background: #606060;
   clear: both;
 }
+@media only screen and (max-width: 992px) {
+  .footer {
+    padding-left: 30px;
+  }
+}
 .footer .footer-layout {
   padding: 40px 0;
   max-width: 1250px;
@@ -646,8 +673,18 @@ a.btn {
 .visual-area .visual-front .slide-btn .left {
   left: 0;
 }
+@media only screen and (max-width: 992px) {
+  .visual-area .visual-front .slide-btn .left {
+    padding-left: 30px;
+  }
+}
 .visual-area .visual-front .slide-btn .right {
   right: 0;
+}
+@media only screen and (max-width: 992px) {
+  .visual-area .visual-front .slide-btn .right {
+    padding-right: 30px;
+  }
 }
 .visual-area .visual-front .slide-font {
   padding: 200px 0 0 200px;
