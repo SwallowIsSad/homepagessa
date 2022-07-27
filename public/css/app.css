@@ -277,7 +277,7 @@ a.btn {
 }
 .header .nav-layout .top-nav-area .top-nav-layout {
   position: relative;
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   text-align: right;
 }
@@ -304,7 +304,7 @@ a.btn {
 .header .nav-layout .global-nav {
   position: relative;
   margin: 0 auto;
-  width: 1250px;
+  max-width: 1250px;
   text-align: center;
 }
 .header .nav-layout .global-nav .logo {
@@ -555,7 +555,7 @@ a.btn {
 }
 .footer .footer-layout {
   padding: 40px 0;
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 .footer .menu {
@@ -626,7 +626,7 @@ a.btn {
 .visual-area .visual-front {
   position: relative;
   margin: 0 auto;
-  width: 1250px;
+  max-width: 1250px;
   z-index: 2;
 }
 .visual-area .visual-front .slide-btn {

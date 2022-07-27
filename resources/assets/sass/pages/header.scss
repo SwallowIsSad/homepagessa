@@ -17,7 +17,7 @@
             background: $main-color;
             .top-nav-layout {
                 position: relative;
-                width: 1250px;
+                max-width: 1250px;
                 margin: 0 auto;
                 text-align: right;
 
@@ -50,7 +50,7 @@
         .global-nav {
             position: relative;
             margin: 0 auto;
-            width: 1250px;
+            max-width: 1250px;
             text-align: center;
 
             .logo {
@@ -334,7 +334,7 @@
 
     .footer-layout {
         padding: 40px 0;
-        width: 1250px;
+        max-width: 1250px;
         margin: 0 auto;
     }
 

@@ -43,7 +43,7 @@
     .visual-front {
         position: relative;
         margin: 0 auto;
-        width: 1250px;
+        max-width: 1250px;
         z-index: 2;
 
         .slide-btn {
