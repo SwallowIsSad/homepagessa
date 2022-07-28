@@ -439,7 +439,7 @@ a.btn {
 .header .nav-layout .gnb-sub-menu-area .gnb-sub-menu-layout {
   padding: 50px 0;
   margin: 0 auto;
-  width: 1100px;
+  max-width: 1100px;
   text-align: center;
 }
 .header .nav-layout .gnb-sub-menu-area .box {
@@ -466,6 +466,11 @@ a.btn {
 .all-menu-layout {
   width: 100%;
 }
+@media only screen and (max-width: 992px) {
+  .all-menu-layout {
+    display: none;
+  }
+}
 .all-menu-layout ul {
   margin-left: 55px;
   display: inline-block;
@@ -475,6 +480,20 @@ a.btn {
   margin-right: 18px;
 }
 .all-menu-layout li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #606060;
+}
+
+.all-menu-layout-mobile {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .all-menu-layout-mobile {
+    display: block;
+  }
+}
+.all-menu-layout-mobile li {
   margin-bottom: 10px;
   font-size: 14px;
   color: #606060;

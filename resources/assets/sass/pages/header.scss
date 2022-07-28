@@ -200,7 +200,7 @@
             .gnb-sub-menu-layout {
                 padding: 50px 0;
                 margin: 0 auto;
-                width: 1100px;
+                max-width: 1100px;
                 text-align: center;
             }
 
@@ -232,6 +232,11 @@
 
 .all-menu-layout {
     width: 100%;
+    @media only screen and (max-width: $media-width) {
+        & {
+            display: none;
+        }
+    }
 
     ul {
         margin-left: 55px;
@@ -243,6 +248,19 @@
         margin-right: 18px;
     }
 
+    li {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #606060;
+    }
+}
+.all-menu-layout-mobile {
+    display: none;
+    @media only screen and (max-width: $media-width) {
+        & {
+            display: block;
+        }
+    }
     li {
         margin-bottom: 10px;
         font-size: 14px;
