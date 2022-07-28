@@ -1,13 +1,13 @@
 .nopadding-layout {
     position: relative;
     margin: 0 auto;
-    width: 1100px;
+    max-width: 1100px;
 }
 .bs-layout {
     position: relative;
     margin: 0 auto;
     padding: 30px 0;
-    width: 1100px;
+    max-width: 1100px;
 
     .bs-title {
         text-align: center;
@@ -133,7 +133,7 @@
 
 .bs-content {
     margin: 0 auto;
-    width: 1100px;
+    max-width: 1100px;
     .bs-content-box {
         padding-top: 20px;
         padding-bottom: 40px;

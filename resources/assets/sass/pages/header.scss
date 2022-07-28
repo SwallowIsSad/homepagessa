@@ -106,6 +106,10 @@
                     & {
                         padding-right: 30px;
                     }
+
+                    .only-pc {
+                        display: none;
+                    }
                 }
                 position: absolute;
                 top: 50%;

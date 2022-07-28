@@ -68,22 +68,22 @@
                         </nav>
                         <div class="all-menu">
                             <ul>
-                                <li class="m10r">
+                                <li class="m10r only-pc">
                                     <a href="javascript:;">
                                         <img src="{{ URL::asset('img/gnb/h_sns01.png') }}" alt="" style="height:15px;" class="type1">
                                         <img src="{{ URL::asset('img/gnb/sns_f_w.png') }}" alt="" style="height:15px; display:none;" class="type2">
                                     </a>
                                 </li>
-                                <li class="m20r">
+                                <li class="m20r only-pc">
                                     <a href="javascript:;">
                                         <img src="{{ URL::asset('img/gnb/h_sns02.png') }}" alt="" style="height:16px;" class="type1">
                                         <img src="{{ URL::asset('img/gnb/sns_in_w.png') }}" alt="" style="height:16px; display:none;" class="type2">
                                     </a>
                                 </li>
-                                <li class="lang">
+                                <li class="lang only-pc">
                                     <p>구버전 바로가기</p>
                                 </li>
-                                <li class="m30r">
+                                <li class="m30r only-pc">
                                     <a href="javscript:;" class="down-arrow">
                                         <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" class="type1">
                                         <img src="{{ URL::asset('img/gnb/down_w.png') }}" alt="" class="down-arrowwic type2" style="display:none">

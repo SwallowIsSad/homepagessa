@@ -159,6 +159,7 @@
 
         @media only screen and (max-width: $media-width) {
             & {
+                margin: 0 !important;
                 width: 100% !important;
             }
             img {
