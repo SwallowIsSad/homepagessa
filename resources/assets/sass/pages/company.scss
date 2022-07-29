@@ -217,6 +217,14 @@
 
 .pub {
     font-size: 0;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: $media-width) {
+        & {
+            padding: 0 15px;
+        }
+    }
+
     li {
         margin-right: 10px;
         margin-bottom: 10px;
@@ -231,6 +239,12 @@
         img {
             width: 100%;
             display: block;
+        }
+
+        @media only screen and (max-width: $media-width) {
+            & {
+                width: 100%;
+            }
         }
     }
 }

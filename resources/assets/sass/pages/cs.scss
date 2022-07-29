@@ -197,6 +197,11 @@
     }
 }
 .employment-info {
+    @media only screen and (max-width: $media-width) {
+        & {
+            padding: 0 15px;
+        }
+    }
     .label {
         ul {
             font-size: 0;

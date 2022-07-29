@@ -559,6 +559,11 @@ a.btn {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+@media only screen and (max-width: 992px) {
+  .lnb-info {
+    height: 100px;
+  }
+}
 
 .sub-header {
   position: fixed;
@@ -990,6 +995,12 @@ a.btn {
 
 .pub {
   font-size: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 992px) {
+  .pub {
+    padding: 0 15px;
+  }
 }
 .pub li {
   margin-right: 10px;
@@ -1004,6 +1015,11 @@ a.btn {
 .pub li img {
   width: 100%;
   display: block;
+}
+@media only screen and (max-width: 992px) {
+  .pub li {
+    width: 100%;
+  }
 }
 
 .nopadding-layout {
@@ -1347,6 +1363,11 @@ a.btn {
   margin-right: 40px;
 }
 
+@media only screen and (max-width: 992px) {
+  .employment-info {
+    padding: 0 15px;
+  }
+}
 .employment-info .label ul {
   font-size: 0;
 }
@@ -1499,11 +1520,18 @@ a.btn {
 
 .board-layout {
   position: relative;
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 30px 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 992px) {
+  .board-layout {
+    padding: 30px;
+  }
 }
 .board-layout .table {
+  box-sizing: border-box;
   width: 100%;
   font-size: 0;
 }
@@ -1516,20 +1544,50 @@ a.btn {
   text-align: center;
   border-bottom: 1px solid #d9d9d9;
 }
+@media only screen and (max-width: 992px) {
+  .board-layout .table td {
+    font-size: 12px;
+  }
+}
 .board-layout .table .num {
   width: 8%;
+}
+@media only screen and (max-width: 992px) {
+  .board-layout .table .num {
+    width: 12%;
+  }
 }
 .board-layout .table .title {
   width: 67%;
 }
+@media only screen and (max-width: 992px) {
+  .board-layout .table .title {
+    width: 40%;
+  }
+}
 .board-layout .table .file {
   width: 7%;
+}
+@media only screen and (max-width: 992px) {
+  .board-layout .table .file {
+    width: 10%;
+  }
 }
 .board-layout .table .date {
   width: 10%;
 }
+@media only screen and (max-width: 992px) {
+  .board-layout .table .date {
+    width: 23%;
+  }
+}
 .board-layout .table .hit {
   width: 8%;
+}
+@media only screen and (max-width: 992px) {
+  .board-layout .table .hit {
+    width: 15%;
+  }
 }
 .board-layout .table .thead div {
   border-top: 1px solid #a0a0a0;
@@ -1559,7 +1617,7 @@ a.btn {
 }
 .board-layout .search-area .board-count {
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   left: 0;
   color: #606060;
   font-size: 14px;
@@ -1574,18 +1632,19 @@ a.btn {
   padding-bottom: 5px;
   vertical-align: middle;
 }
-.board-layout .pagination {
-  margin-top: 70px;
+
+.pagination {
+  margin-top: 50px;
   text-align: center;
 }
-.board-layout .pagination li {
+.pagination li {
   margin-right: 25px;
   display: inline-block;
   vertical-align: middle;
   font-size: 17px;
   color: #606060;
 }
-.board-layout .pagination .active span {
+.pagination .active span {
   width: 30px;
   height: 30px;
   line-height: 28px;

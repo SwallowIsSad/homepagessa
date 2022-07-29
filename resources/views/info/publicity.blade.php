@@ -9,9 +9,8 @@
 <div class="sub-page-layout">
     <div class="sub-page-header">홍보센터</div>
     <div class="company-layout">
-        <img src="{{ URL::asset('img/banner/infotest2.png') }}" alt="">
+        <img src="{{ URL::asset('img/banner/infotest2.png') }}" alt="" style="max-width:100%">
     </div>
-    <div class="board-layout">
         <div class="pagination">
             <ul>
                 <li><img src="{{ URL::asset('img/board/left-arrow-gray.png') }}" alt=""></li>
@@ -23,7 +22,6 @@
                 <li><img src="{{ URL::asset('img/board/right-arrow.png') }}" alt=""></li>
             </ul>
         </div>
-    </div>
     <div class="company-layout">
         <div class="employment-info">
             <nav class="label m20b">
