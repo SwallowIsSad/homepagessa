@@ -5,7 +5,7 @@
     <div class="section-title">
         인재상
     </div>
-    <img src="{{ URL::asset('img/banner/infotest3.jpeg') }}" alt="">
+    <img src="{{ URL::asset('img/banner/infotest3.jpeg') }}" alt="" style="max-width:100%">
 </div>
 <div class="cs-layout" id="content2">
     <div style="width:1px; height:100px"></div>
