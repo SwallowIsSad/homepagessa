@@ -840,6 +840,123 @@ a.btn {
   display: block;
   width: 100%;
 }
+.history-map .history-content {
+  text-align: center;
+}
+.history-map .history-content .year p {
+  display: inline-block;
+  width: 90px;
+  padding: 8px 0 9px 0;
+  font-size: 22px;
+  line-height: 22px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.history-map .history-content .need-border {
+  position: relative;
+  padding-top: 60px;
+}
+.history-map .history-content .need-border:after {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: "";
+  display: block;
+  width: 1px;
+  height: calc(100% - 40px);
+  background: #ccc;
+  z-index: 0;
+}
+.history-map .history-content .content,
+.history-map .history-content .content2 {
+  position: relative;
+  padding-top: 66px;
+  box-sizing: border-box;
+  width: 50%;
+  font-size: 14px;
+  line-height: 22px;
+  color: #616161;
+}
+.history-map .history-content .content p,
+.history-map .history-content .content2 p {
+  position: absolute;
+  bottom: -24px;
+}
+.history-map .history-content .content .circle,
+.history-map .history-content .content2 .circle {
+  position: absolute;
+  top: 50px;
+  left: -8px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 2;
+}
+.history-map .history-content .content .circle:after,
+.history-map .history-content .content2 .circle:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  background: #ccc;
+  border-radius: 50%;
+  z-index: 0;
+}
+.history-map .history-content .right:after,
+.history-map .history-content .left:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #ccc;
+}
+.history-map .history-content .right {
+  padding-left: 20px;
+  transform: translateX(100%);
+  text-align: left;
+}
+.history-map .history-content .left {
+  text-align: right;
+}
+.history-map .history-content .left .circle {
+  left: auto;
+  right: -9px;
+}
+.history-map .history-content .left p {
+  right: 20px;
+}
+.history-map .history-content .left:after {
+  left: auto;
+  right: -1px;
+}
+.history-map .history-content .content2 {
+  padding-top: 90px;
+}
+.history-map .history-content .content2 .circle {
+  top: 74px;
+}
+.history-map .history-content .blue {
+  color: #0152a4;
+}
+.history-map .history-content .blue:after {
+  background: #0152a4;
+}
+.history-map .history-content .blue .circle {
+  border: 1px solid #0152a4;
+}
+.history-map .history-content .blue .circle:after {
+  background: #0152a4;
+}
 
 .company-banner-content {
   padding: 10px 0;

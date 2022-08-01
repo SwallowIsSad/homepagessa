@@ -109,7 +109,96 @@
     </div>
 </div>
 <div class="history-map m100b">
-    <img src="{{ URL::asset('img/company/history.jpg') }}" alt="">
+    <div class="history-content">
+        <div class="year main history-scroll">
+            <p>2020</p>
+        </div>
+        <div class="content right history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p>2020</p>
+        </div>
+        <div class="content left history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p>2020</p>
+        </div>
+        <div class="content left history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p>2020</p>
+        </div>
+        <div class="content left history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p>2020</p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                3월
+                <br>
+                산림경영인증시스템 (FSC) 인증 획득
+            </p>
+        </div>
+    </div>
+    <!-- <img src="{{ URL::asset('img/company/history.jpg') }}" alt=""> -->
 </div>
 <div class="company-layout">
     <div class="section-title"  id="content4">
@@ -147,3 +236,20 @@
     <div style="width:1px; height:100px"></div>
 </div>
 @include('layout.footer')
+<script>
+    $(function () {
+        $(window).scroll(function() {
+            var scroll = $(document).scrollTop() +500;
+
+            $(".history-scroll").each(function (i, e) {
+                console.log(scroll + 'scroll');
+                console.log($(e).offset().top + 'offset');
+                if(scroll > $(e).offset().top)
+                {
+                    $(e).addClass("blue");
+                }
+            });
+
+        })
+    })
+</script>
