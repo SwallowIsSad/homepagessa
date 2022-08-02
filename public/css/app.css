@@ -850,7 +850,7 @@ a.btn {
   font-size: 22px;
   line-height: 22px;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 20px 0 20px 0;
 }
 .history-map .history-content .need-border {
   position: relative;
@@ -866,6 +866,7 @@ a.btn {
   height: calc(100% - 40px);
   background: #ccc;
   z-index: 0;
+  transition: all 0.5s;
 }
 .history-map .history-content .content,
 .history-map .history-content .content2 {
@@ -894,6 +895,7 @@ a.btn {
   background: #fff;
   border: 1px solid #ccc;
   z-index: 2;
+  transition: all 0.5s;
 }
 .history-map .history-content .content .circle:after,
 .history-map .history-content .content2 .circle:after {
@@ -908,6 +910,7 @@ a.btn {
   background: #ccc;
   border-radius: 50%;
   z-index: 0;
+  transition: all 0.5s;
 }
 .history-map .history-content .right:after,
 .history-map .history-content .left:after {
@@ -919,6 +922,7 @@ a.btn {
   width: 1px;
   height: 100%;
   background: #ccc;
+  transition: all 0.5s;
 }
 .history-map .history-content .right {
   padding-left: 20px;
@@ -947,6 +951,10 @@ a.btn {
 }
 .history-map .history-content .blue {
   color: #0152a4;
+}
+.history-map .history-content .blue .y-con {
+  color: #fff;
+  background: #0152a4;
 }
 .history-map .history-content .blue:after {
   background: #0152a4;

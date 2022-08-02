@@ -111,12 +111,12 @@
 <div class="history-map m100b">
     <div class="history-content">
         <div class="year main history-scroll">
-            <p>2020</p>
+            <p class="y-con">2020</p>
         </div>
         <div class="content right history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                10월
                 <br>
                 산림경영인증시스템 (FSC) 인증 획득
             </p>
@@ -124,77 +124,151 @@
         <div class="content2 right history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                7월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                경영혁시형 중소기업 선정(중소벤처기업부)
             </p>
         </div>
         <div class="year need-border history-scroll">
-            <p>2020</p>
+            <p class="y-con">2017</p>
         </div>
         <div class="content left history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                6월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                산업통상자원부 장관상 수상
+                <br>
+                (제1회 종이의 날, 제지산업발전 기여)
             </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">2013</p>
         </div>
         <div class="content2 right history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                2월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                경영혁신기업 선정 (서울지방중소기업청)
             </p>
         </div>
         <div class="year need-border history-scroll">
-            <p>2020</p>
+            <p class="y-con">2011</p>
         </div>
         <div class="content left history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                10월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                ERP 시스템 구축 완료
             </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">2007</p>
         </div>
         <div class="content2 right history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                1월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                종합물류시스템 구축용 성동구 성수동 부지 매입
             </p>
         </div>
         <div class="year need-border history-scroll">
-            <p>2020</p>
+            <p class="y-con">2006</p>
         </div>
         <div class="content left history-scroll">
             <div class="circle"></div>
             <p>
-                3월
+                11월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
-            </p>
-        </div>
-        <div class="content2 right history-scroll">
-            <div class="circle"></div>
-            <p>
-                3월
-                <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                경영혁신형 중소기업 선정 (서울지방중소업청)
             </p>
         </div>
         <div class="year need-border history-scroll">
-            <p>2020</p>
+            <p class="y-con">2003</p>
         </div>
         <div class="content2 right history-scroll">
             <div class="circle"></div>
             <p>
                 3월
                 <br>
-                산림경영인증시스템 (FSC) 인증 획득
+                조세의 날 모범납세자 표창 (국세청장상 수상)
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">2002</p>
+        </div>
+        <div class="content2 left history-scroll">
+            <div class="circle"></div>
+            <p>
+                2월
+                <br>
+                중구 오장동 사옥 증축완공 및 본사 사업장 이전
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">1999</p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                12월
+                <br>
+                파주 물류센터 개설
+            </p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                11월
+                <br>
+                자본금 증자 (10억)
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">1998</p>
+        </div>
+        <div class="content2 left history-scroll">
+            <div class="circle"></div>
+            <p>
+                10월
+                <br>
+                종합 지류 유통법인으로 통합 (인현동으로 본사 이전)
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">1995</p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                10월
+                <br>
+                신승지류유통(주) 설립
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">1989</p>
+        </div>
+        <div class="content2 left history-scroll">
+            <div class="circle"></div>
+            <p>
+                4월
+                <br>
+                지류유통법인 제흥지업(주)창업
+            </p>
+        </div>
+        <div class="year need-border history-scroll">
+            <p class="y-con">1980</p>
+        </div>
+        <div class="content2 right history-scroll">
+            <div class="circle"></div>
+            <p>
+                1월
+                <br>
+                지류유통회사 제흥상사 창업 (전순관 회장)
             </p>
         </div>
     </div>
@@ -239,14 +313,16 @@
 <script>
     $(function () {
         $(window).scroll(function() {
-            var scroll = $(document).scrollTop() +500;
+            var scroll = $(document).scrollTop() + 450;
 
             $(".history-scroll").each(function (i, e) {
-                console.log(scroll + 'scroll');
-                console.log($(e).offset().top + 'offset');
                 if(scroll > $(e).offset().top)
                 {
                     $(e).addClass("blue");
+                }
+                else
+                {
+                    $(e).removeClass("blue");
                 }
             });
 

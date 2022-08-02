@@ -58,7 +58,7 @@
                 font-size: 22px;
                 line-height: 22px;
                 border: 1px solid #ccc;
-                border-radius: 20px;
+                border-radius: 20px 0 20px 0;
             }
         }
 
@@ -76,6 +76,7 @@
                 height: calc(100% - 40px);
                 background: #ccc;
                 z-index: 0;
+                transition: all 0.5s;
             }
         }
 
@@ -105,6 +106,7 @@
                 background: #fff;
                 border: 1px solid #ccc;
                 z-index: 2;
+                transition: all 0.5s;
 
                 &:after {
                     position: absolute;
@@ -118,6 +120,7 @@
                     background: #ccc;
                     border-radius: 50%;
                     z-index: 0;
+                    transition: all 0.5s;
                 }
             }
         }
@@ -133,6 +136,7 @@
                 width: 1px;
                 height: 100%;
                 background: #ccc;
+                transition: all 0.5s;
             }
         }
 
@@ -170,6 +174,11 @@
 
         .blue {
             color: #0152a4;
+
+            .y-con {
+                color: #fff;
+                background: #0152a4;
+            }
 
             &:after {
                 background: #0152a4;
