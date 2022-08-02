@@ -60,9 +60,18 @@
 
                 $(document).on("click", ".show-all",function (e) {
                     e.preventDefault();
-                    $('.gnb-sub-menu-area').show()
-                    $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
-                    $('.gnb-sub-menu-layout .gnb-sub-menu').eq(5).show()
+                    if($('.gnb-sub-menu-layout .gnb-sub-menu').is(':visible'))
+                    {
+                        $('.gnb-sub-menu-area').hide()
+                        $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
+                    }
+                    else
+                    {
+                        $('.gnb-sub-menu-area').show()
+                        $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
+                        $('.gnb-sub-menu-layout .gnb-sub-menu').eq(5).show()
+                    }
+
                 })
 
                 $(document).on("click", ".close-sub-menu",function (e) {

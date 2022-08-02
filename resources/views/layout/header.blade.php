@@ -81,16 +81,16 @@
                                     </a>
                                 </li>
                                 <li class="lang only-pc">
-                                    <p>구버전 바로가기</p>
+                                    <p>영업정보 서비스</p>
                                 </li>
                                 <li class="m30r only-pc">
-                                    <a href="javscript:;" class="down-arrow">
+                                    <a href="javascript:;" class="down-arrow">
                                         <img src="{{ URL::asset('img/gnb/down-arrow.png') }}" alt="" class="type1">
                                         <img src="{{ URL::asset('img/gnb/down_w.png') }}" alt="" class="down-arrowwic type2" style="display:none">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javscript:;" class="show-all">
+                                    <a href="javascript:;" class="show-all">
                                         <img src="{{ URL::asset('img/gnb/all-menu.png') }}" alt="" class="all-menuc type1">
                                         <img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" class="all-menuwc type2" style="display:none">
                                     </a>
