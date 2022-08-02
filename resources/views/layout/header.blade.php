@@ -34,7 +34,8 @@
                     <div class="global-nav">
                         <div class="logo">
                             <a href="/">
-                                <img src="{{ URL::asset('img/main/logo.png') }}" alt="">
+                                <img src="{{ URL::asset('img/main/logo.png') }}" alt="" class="pc">
+                                <img src="{{ URL::asset('img/main/mobile_logo.png') }}" alt="" class="mobile">
                             </a>
                         </div>
                         <nav class="gnb-menu-layout">

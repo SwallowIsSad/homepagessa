@@ -62,19 +62,32 @@
             line-height: 95px;
 
             .logo {
-                @media only screen and (max-width: $media-width) {
-                    & {
-                        padding-left: 30px;
-                    }
-                }
-
                 position: absolute;
                 left: 0;
                 top: 53%;
                 @include translateY(-50%);
 
-                img {
-                    width: 200px;
+                .pc {
+                    height: 20px;
+                }
+
+                .mobile {
+                    display: none;
+                    height: 25px;
+                }
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        padding-left: 20px;
+                    }
+
+                    .mobile {
+                        display: block;
+                    }
+
+                    .pc {
+                        display: none;
+                    }
                 }
             }
 

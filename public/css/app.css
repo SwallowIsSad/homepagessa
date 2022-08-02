@@ -323,13 +323,23 @@ a.btn {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.header .nav-layout .global-nav .logo .pc {
+  height: 20px;
+}
+.header .nav-layout .global-nav .logo .mobile {
+  display: none;
+  height: 25px;
+}
 @media only screen and (max-width: 992px) {
   .header .nav-layout .global-nav .logo {
-    padding-left: 30px;
+    padding-left: 20px;
   }
-}
-.header .nav-layout .global-nav .logo img {
-  width: 200px;
+  .header .nav-layout .global-nav .logo .mobile {
+    display: block;
+  }
+  .header .nav-layout .global-nav .logo .pc {
+    display: none;
+  }
 }
 .header .nav-layout .global-nav .gnb-menu-layout {
   height: 95px;
