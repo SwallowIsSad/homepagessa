@@ -459,11 +459,13 @@
 
 .top {
     position: fixed;
-    right: 30px;
-    bottom: 50px;
+    right: 100px;
+    bottom: 220px;
 
     @media only screen and (max-width: $media-width) {
         & {
+            right: 30px;
+            bottom: 50px;
         }
     }
 }
