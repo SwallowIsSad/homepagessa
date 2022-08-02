@@ -669,10 +669,9 @@ a.btn {
 
 .top {
   position: fixed;
-  right: 100px;
-  bottom: 220px;
+  right: 30px;
+  bottom: 50px;
 }
-
 .visual-area {
   position: relative;
   width: 100%;
