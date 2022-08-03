@@ -23,33 +23,33 @@
         </div>
         <script>
             $(function () {
-                var lnb = $(".header").offset().top;
-                $(window).scroll(function() {
-                    if(!$(".gnb-sub-menu-area").is(':visible'))
-                    {
-                        scrollChk(window)
-                    }
-                })
+                // var lnb = $(".header").offset().top;
+                // $(window).scroll(function() {
+                //     if(!$(".gnb-sub-menu-area").is(':visible'))
+                //     {
+                //         scrollChk(window)
+                //     }
+                // })
 
-                function scrollChk(top)
-                {
-                    var top = $(this).scrollTop();
-                    if(top != 0) {
-                        $(".header").addClass("lnb-fix");
-                        $(".type1").hide();
-                        $(".type2").show();
-                    } else {
-                        $(".header").removeClass("lnb-fix");
-                        $(".type1").show();
-                        $(".type2").hide();
-                    }
-                }
+                // function scrollChk(top)
+                // {
+                //     var top = $(this).scrollTop();
+                //     if(top != 0) {
+                //         $(".header").addClass("lnb-fix");
+                //         $(".type1").hide();
+                //         $(".type2").show();
+                //     } else {
+                //         $(".header").removeClass("lnb-fix");
+                //         $(".type1").show();
+                //         $(".type2").hide();
+                //     }
+                // }
                 
-                $('.gnb-menu').hover(function () {
-                    $('.header').removeClass('lnb-fix');
-                    $(".type1").show();
-                    $(".type2").hide();
-                })
+                // $('.gnb-menu').hover(function () {
+                //     $('.header').removeClass('lnb-fix');
+                //     $(".type1").show();
+                //     $(".type2").hide();
+                // })
 
                 $('.gnb-menu').hover(function () {
                     var $self = $(this)

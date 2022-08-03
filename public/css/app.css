@@ -585,14 +585,7 @@ a.btn {
 }
 
 .lnb-fix {
-  background: #506354;
   border-bottom: 1px solid #506354;
-}
-.lnb-fix .gnb-menu-layout a {
-  color: #fff;
-}
-.lnb-fix .lang p {
-  color: #fff;
 }
 
 /*
