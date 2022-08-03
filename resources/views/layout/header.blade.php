@@ -92,7 +92,7 @@
                                 </li>
                                 <li>
                                     <a href="javascript:;" class="show-all">
-                                        <img src="{{ URL::asset('img/gnb/all-menu.png') }}" alt="" class="all-menuc type1">
+                                        <img src="{{ URL::asset('img/gnb/all-menu.png?2') }}" alt="" class="all-menuc type1">
                                         <img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" class="all-menuwc type2" style="display:none">
                                     </a>
                                 </li>
