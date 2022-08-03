@@ -101,7 +101,7 @@
     </div>
     <div class="cooperative m100b">
         <img src="{{ URL::asset('img/company/ceo.jpg') }}" alt="">
-        <img src="{{ URL::asset('img/company/ceotext.png') }}" alt="" class="text-img">
+        <img src="{{ URL::asset('img/company/ceotext.jpeg') }}" alt="" class="text-img">
     </div>
     <div class="section-title"  id="content3">
         <div style="width:1px; height:100px"></div>
