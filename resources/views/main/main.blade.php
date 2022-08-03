@@ -109,7 +109,7 @@
                     $(".visual-area").css("height", $(".slide-mobile").height() + "px").delay(200);
                     $(".visual-back").css("height", $(".slide-mobile").height() + "px");
                 }
-                }, 100)
+                }, 150)
             }   
             
         }
