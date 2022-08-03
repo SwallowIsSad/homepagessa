@@ -746,7 +746,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .visual-area .visual-front .slide-font {
-    padding: 10px;
+    padding: 140px 20px 0 20px;
   }
 }
 .visual-area .visual-front .slide-font .title {
@@ -757,14 +757,20 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .visual-area .visual-front .slide-font .title {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 50px;
+    line-height: 55px;
   }
 }
 .visual-area .visual-front .slide-font .desc {
   padding-top: 20px;
   font-size: 24px;
   color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  .visual-area .visual-front .slide-font .desc {
+    padding-top: 30px;
+    font-size: 14px;
+  }
 }
 .visual-area .visual-front .slide-index {
   position: absolute;
@@ -800,12 +806,19 @@ a.btn {
   width: 100%;
   height: 750px;
 }
+@media only screen and (max-width: 992px) {
+  .visual-area .visual-back li img {
+    display: block;
+    height: 100%;
+  }
+}
 
 .visual-area .visual-back .sy-controls {
   display: none !important;
 }
 .visual-area .visual-back .sy-pager {
   position: absolute;
+  display: none;
   bottom: 110px;
   z-index: 300;
 }

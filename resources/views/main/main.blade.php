@@ -28,16 +28,20 @@
 </div>
 <div class="visual-area">
     <div class="visual-back">
-        <ul id="slide">
-            <li><img src="{{ URL::asset('img/main/slide1.jpg') }}" alt="" /></li>
-            <li><img src="{{ URL::asset('img/main/slide5.jpg') }}" alt="" /></li>
-            <li><img src="{{ URL::asset('img/main/slide2.jpg') }}" alt="" /></li>
-            <li><img src="{{ URL::asset('img/main/slide3.jpg') }}" alt="" /></li>
-            <li><img src="{{ URL::asset('img/main/slide4.jpg') }}" alt="" /></li>
+        <ul class="slide-mobile">
+            <li class="mobile"><img src="{{ URL::asset('img/main/mslide1.jpg') }}" alt="" /></li>
+            <li class="mobile"><img src="{{ URL::asset('img/main/mslide2.jpg') }}" alt="" /></li>
+            <li class="mobile"><img src="{{ URL::asset('img/main/mslide4.jpg') }}" alt="" /></li>
+        </ul>
+        <ul class="slide-pc">
+            <li class="pc"><img src="{{ URL::asset('img/main/slide1.jpg') }}" alt="" /></li>
+            <li class="pc"><img src="{{ URL::asset('img/main/slide5.jpg') }}" alt="" /></li>
+            <li class="pc"><img src="{{ URL::asset('img/main/slide3.jpg') }}" alt="" /></li>
+            <li class="pc"><img src="{{ URL::asset('img/main/slide4.jpg') }}" alt="" /></li>
         </ul>
     </div>
     <div class="visual-front">
-        <div class="slide-btn">
+        <!-- <div class="slide-btn">
             <a href="javascript:;" class="left">
                 <img src="{{ URL::asset('img/main/left-arrow.png') }}" alt="">
             </a>
@@ -49,10 +53,12 @@
             <ul>
                 <li class="stop"><a href="javascript:;"><img src="{{ URL::asset('img/main/pasue.png') }}" alt=""></a></li>
             </ul>
-        </div>
+        </div> -->
         <div class="slide-font">
             <p class="title">
-                대한민국 종이유통 NO.1
+                대한민국
+                <br>
+                종이유통 NO.1
                 <br>
                 신승지류유통
             </p>
@@ -87,8 +93,45 @@
                 
         //     }
         // });
+
+        function chkVisual()
+        {
+            if($(window).width() > 992)
+            {
+                $(".visual-back").find('.slide-pc').css('visibility', 'visible');
+                $(".visual-back").find('.slide-mobile').css('visibility', 'hidden');
+            }
+            else {
+                $(".visual-back").find('.slide-pc').css('visibility', 'hidden');
+                $(".visual-back").find('.slide-mobile').css('visibility', 'visible');
+            }   
+            setTimeout(function () {
+                if($(".slide-mobile").is(':visible')){
+                $(".visual-area").css("height", $(".slide-mobile").height() + "px").delay(200);
+                $(".visual-back").css("height", $(".slide-mobile").height() + "px");
+            }
+            }, 100)
+            
+        }
+
+        chkVisual();
+
+        $(window).resize(function() {
+            chkVisual();
+        });
+
         
-        var slide = $("#slide").slippry({
+        var slide = $(".slide-pc").slippry({
+            transition: 'fade',
+            useCSS: true,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            autoHover: false
+        });
+        
+        var slide2 = $(".slide-mobile").slippry({
             transition: 'fade',
             useCSS: true,
             speed: 1000,
@@ -98,17 +141,17 @@
             autoHover: false
         });
 
-        $('.left').click(function () {
-            slide.goToPrevSlide();
-            return false;
-        });
-        $('.right').click(function () {
-            slide.goToNextSlide();
-            return false;
-        });
-        $('.stop').click(function () {
-            slide.stopAuto();
-        });
+        // $('.left').click(function () {
+        //     slide.goToPrevSlide();
+        //     return false;
+        // });
+        // $('.right').click(function () {
+        //     slide.goToNextSlide();
+        //     return false;
+        // });
+        // $('.stop').click(function () {
+        //     slide.stopAuto();
+        // });
     })
 </script>
 <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
