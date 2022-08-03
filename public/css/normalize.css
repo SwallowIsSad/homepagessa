@@ -10,6 +10,7 @@ html {
     font-family: "Noto Sans KR", "Noto Sans Korean", "Nanum Gothic", sans-serif !important;
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    height: 100%;
 }
 
 /**
@@ -17,8 +18,14 @@ html {
  */
 
 body {
+    position: relative;
     margin: 0;
     padding: 0;
+}
+
+.page {
+    position: relative;
+    height: 100%;
 }
 
 /* HTML5 display definitions

@@ -56,6 +56,7 @@
                     $('.gnb-sub-menu-area').show()
                     $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
                     $('.gnb-sub-menu-layout .gnb-sub-menu').eq($self.data('num')).show()
+                    $(".menu-up").show();
                 })
 
                 $(document).on("click", ".show-all",function (e) {
@@ -74,11 +75,11 @@
 
                 })
 
-                $(document).on("click", ".close-sub-menu",function (e) {
+                $(".menu-up").hover(function (e) {
                     e.preventDefault();
-                    $('.gnb-sub-menu-area').hide()
+                    $('.gnb-sub-menu-area').slideUp(200)
                     $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
-                    scrollChk($(document).scrollTop())
+                    $(".menu-up").hide();
                 })
 
                 $(document).on("click", ".top", function (e) {

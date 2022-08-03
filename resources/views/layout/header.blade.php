@@ -412,8 +412,8 @@
                             </div>
                             <!-- all menu end -->
                         </div>
-                        <div class="close-sub-menu">닫기<img src="{{ URL::asset('img/gnb/top-w-arrow.png')}}" alt=""></div>
                     </div>
                 </div>
             </header>
+            <div class="menu-up"></div>
             <!-- header -->

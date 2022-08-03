@@ -1,19 +1,6 @@
 @include('layout.header')
 <script src="{{ URL::asset('js/slippry.min.js') }}"></script>
 <link rel="stylesheet" href="{{ URL::asset('css/slippry.css') }}">
-<style>
-    html{
-        height: 100%;
-    }
-
-    body{
-        height: 100%;
-    }
-
-    .page{
-        height: 100%;
-    }
-</style>
 <div class="visual-area2">
     <!-- <div id="fullpage">
 		<div class='quick'><ul></ul></div>
