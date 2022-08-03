@@ -67,6 +67,11 @@
                 top: 53%;
                 @include translateY(-50%);
 
+                a {
+                    display: block;
+                    line-height: 20px;
+                }
+
                 .pc {
                     height: 20px;
                 }

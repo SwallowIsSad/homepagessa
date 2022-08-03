@@ -323,6 +323,10 @@ a.btn {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.header .nav-layout .global-nav .logo a {
+  display: block;
+  line-height: 20px;
+}
 .header .nav-layout .global-nav .logo .pc {
   height: 20px;
 }
