@@ -626,7 +626,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .footer {
-    padding-left: 30px;
+    padding: 0 30px;
   }
 }
 .footer .footer-layout {
@@ -662,12 +662,28 @@ a.btn {
 .footer .menu li:last-child:after {
   background: none;
 }
+@media only screen and (max-width: 992px) {
+  .footer .menu {
+    text-align: center;
+  }
+}
 .footer address {
   padding: 20px 0;
   font-style: normal;
   color: #bbbbbb;
   line-height: 19px;
   font-size: 13px;
+}
+.footer address div {
+  display: block;
+}
+.footer address p {
+  display: inline-block;
+}
+@media only screen and (max-width: 992px) {
+  .footer address .on-p {
+    display: none;
+  }
 }
 .footer p {
   font-size: 13px;

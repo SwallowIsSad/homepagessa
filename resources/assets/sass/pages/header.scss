@@ -417,7 +417,7 @@
 .footer {
     @media only screen and (max-width: $media-width) {
         & {
-            padding-left: 30px;
+            padding: 0 30px;
         }
     }
     width: 100%;
@@ -461,6 +461,11 @@
                 background: none;
             }
         }
+        @media only screen and (max-width: $media-width) {
+            & {
+                text-align: center;
+            }
+        }
     }
 
     address {
@@ -469,6 +474,20 @@
         color: #bbbbbb;
         line-height: 19px;
         font-size: 13px;
+
+        div {
+            display: block;
+        }
+
+        p {
+            display: inline-block;
+        }
+
+        @media only screen and (max-width: $media-width) {
+            .on-p {
+                display: none;
+            }
+        }
     }
 
     p {
