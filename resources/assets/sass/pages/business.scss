@@ -141,6 +141,13 @@
         text-align: center;
         font-size: 0;
         border-bottom: 1px solid #e6e6e6;
+        box-sizing: border-box;
+
+        @media only screen and (max-width: $media-width) {
+            & {
+                padding: 0 15px;
+            }
+        }
 
         &:last-child {
             border: none;
@@ -148,16 +155,42 @@
 
         .image-layout {
             width: 40%;
+            box-sizing: border-box;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    padding-right: 15px;
+                    width: 30%;
+                }
+            }
+
+            img {
+                max-width: 100%;
+            }
         }
 
         .text-layout {
             width: 60%;
+            box-sizing: border-box;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    margin-bottom: 20px;
+                    width: 70%;
+                }
+            }
         }
 
         .image-layout,
         .text-layout {
             display: inline-block;
             vertical-align: top;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    vertical-align: middle;
+                }
+            }
         }
 
         .text-layout {
@@ -173,17 +206,35 @@
             .title {
                 font-size: 30px;
                 font-weight: 500;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        display: none;
+                    }
+                }
             }
             .desc {
                 line-height: 24px;
                 font-size: 14px;
                 color: #606060;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        letter-spacing: -1px;
+                    }
+                }
             }
             .hr {
                 margin: 15px 0;
                 width: 25px;
                 height: 2px;
                 background: #929292;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        display: none;
+                    }
+                }
             }
         }
     }

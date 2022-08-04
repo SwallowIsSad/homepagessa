@@ -359,8 +359,8 @@
     font-size: 0;
     @media only screen and (max-width: $media-width) {
         li {
-            margin-right: 0;
-            width: 100%;
+            margin-right: 0 !important;
+            width: 100% !important;
         }
     }
     li {

@@ -520,6 +520,12 @@
     font-size: 30px;
     letter-spacing: -1px;
 
+    @media only screen and (max-width: $media-width) {
+        & {
+            margin-bottom: 10px;
+        }
+    }
+
     span {
         font-size: 25px;
         color: #606060;

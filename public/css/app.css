@@ -712,6 +712,11 @@ a.btn {
   font-size: 30px;
   letter-spacing: -1px;
 }
+@media only screen and (max-width: 992px) {
+  .section-title {
+    margin-bottom: 10px;
+  }
+}
 .section-title span {
   font-size: 25px;
   color: #606060;
@@ -1181,8 +1186,8 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .company-list li {
-    margin-right: 0;
-    width: 100%;
+    margin-right: 0 !important;
+    width: 100% !important;
   }
 }
 .company-list li {
@@ -1449,20 +1454,49 @@ a.btn {
   text-align: center;
   font-size: 0;
   border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box {
+    padding: 0 15px;
+  }
 }
 .bs-content .bs-content-box:last-child {
   border: none;
 }
 .bs-content .bs-content-box .image-layout {
   width: 40%;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .image-layout {
+    padding-right: 15px;
+    width: 30%;
+  }
+}
+.bs-content .bs-content-box .image-layout img {
+  max-width: 100%;
 }
 .bs-content .bs-content-box .text-layout {
   width: 60%;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .text-layout {
+    margin-bottom: 20px;
+    width: 70%;
+  }
 }
 .bs-content .bs-content-box .image-layout,
 .bs-content .bs-content-box .text-layout {
   display: inline-block;
   vertical-align: top;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .image-layout,
+.bs-content .bs-content-box .text-layout {
+    vertical-align: middle;
+  }
 }
 .bs-content .bs-content-box .text-layout .puple {
   color: #7e308e;
@@ -1477,16 +1511,31 @@ a.btn {
   font-size: 30px;
   font-weight: 500;
 }
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .text-layout .title {
+    display: none;
+  }
+}
 .bs-content .bs-content-box .text-layout .desc {
   line-height: 24px;
   font-size: 14px;
   color: #606060;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .text-layout .desc {
+    letter-spacing: -1px;
+  }
 }
 .bs-content .bs-content-box .text-layout .hr {
   margin: 15px 0;
   width: 25px;
   height: 2px;
   background: #929292;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .text-layout .hr {
+    display: none;
+  }
 }
 
 .cs-layout {
