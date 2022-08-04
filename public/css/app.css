@@ -1179,6 +1179,12 @@ a.btn {
 .company-list {
   font-size: 0;
 }
+@media only screen and (max-width: 992px) {
+  .company-list li {
+    margin-right: 0;
+    width: 100%;
+  }
+}
 .company-list li {
   margin-right: 40px;
   display: inline-block;

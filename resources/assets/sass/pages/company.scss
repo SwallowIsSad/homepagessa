@@ -357,6 +357,12 @@
 }
 .company-list {
     font-size: 0;
+    @media only screen and (max-width: $media-width) {
+        li {
+            margin-right: 0;
+            width: 100%;
+        }
+    }
     li {
         margin-right: 40px;
         display: inline-block;
