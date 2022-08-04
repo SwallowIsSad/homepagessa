@@ -352,12 +352,27 @@
         line-height: 55px;
         font-size: 30px;
         letter-spacing: -1px;
+
+        @media only screen and (max-width: $media-width) {
+            & {
+                width: 100%;
+                font-size: 15px;
+                line-height: 25px;
+                top: 70%;
+            }
+        }
     }
 
     img {
         display: block;
         width: 100%;
         height: 400px;
+
+        @media only screen and (max-width: $media-width) {
+            & {
+                height: 150px;
+            }
+        }
     }
 }
 

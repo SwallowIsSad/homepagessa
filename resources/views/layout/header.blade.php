@@ -115,7 +115,7 @@
                                         </div>
                                         <div class="text">
                                             <p class="title">기업이념</p>
-                                            <p class="desc">신승지류유통은 기업이념을 소개합니다.</p>
+                                            <p class="desc">신승지류유통의 기업이념을 소개합니다.</p>
                                         </div>
                                     </a>
                                 </div>

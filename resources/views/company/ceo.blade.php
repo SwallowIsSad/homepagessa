@@ -3,7 +3,7 @@
 <div class="company-layout" id="content1">
     <div style="width:1px; height:100px"></div>
     <div class="section-title">
-        경영이념
+        기업이념
     </div>
     <div class="cooperative">
         <div class="figcaption m90b">
@@ -100,8 +100,48 @@
         CEO 인사
     </div>
     <div class="cooperative m100b">
-        <img src="{{ URL::asset('img/company/ceo.jpg') }}" alt="">
-        <img src="{{ URL::asset('img/company/ceotext.jpeg') }}" alt="" class="text-img">
+        <div class="mobile-title">
+            "친절하다 · 세련됐다 · 근사하다 · 디테일하다." 
+            <br>
+            신승은 다시 새로운 기업으로 도약하겠습니다.
+        </div>
+        <div class="image-area">
+            <img src="{{ URL::asset('img/company/ceo.jpg') }}" alt="" class="ceo-img">
+        </div>
+        <div class="text-area">
+            <p class="title">
+                "친절하다 · 세련됐다 · 근사하다 · 디테일하다." 
+                <br>
+                신승은 다시 새로운 기업으로 도약하겠습니다.
+            </p>
+            <span class="line"></span>
+            <div class="content">
+                저희 회사는 국내 1위 지류유통 전문회사로써 고객 여러분에게 다양한 고품질의 상품을 보다 원활하게 공급하고,
+                <br>
+                더욱 향상된 서비스로 보답하고자 혼신의 노력을 다하고 있습니다.
+                <br>
+                <br>
+                국내 지류유통시장의 선도기업으로써 충실한 역할을 함은 물론, 국내 최고의 유통망과 서비스를 개발, 고객 여러분의 가치 증대와 발전을 함께하는 성실한 동반자가 되겠습니다.
+                또한, 인쇄용지, 산업용지, 특수용지 등 지류 전 분야에 걸쳐 고객 여러분의 다양한 요구에 부응하고 신속하고 정확한 납기를 바탕으로 고객제일주의 실현을 선도적으로 수행해 나갈 것 입니다.
+                
+                항상 신승지류유통의 성장과 발전에 성원해 주신 고객 여러분의 소중한 마음을 깊이 새겨 끊임없이 고객의 가치를 증대시키는데 노력하겠습니다.앞으로도 “고객 여러분과 함께 발전한다.” 라는 경영이념을 최우선과제로 삼아 지나온 길보다 다가올 내일을 준비하여 보다 더 성실한 자세로 다가갈 것을 약속 드리며, 항상 변함 없는 격려와 성원을 부탁 드립니다.
+                <br>
+                <br>
+                감사합니다.
+                <br>
+                <br>
+                <br>
+                <p class="pc">
+                    대표이사
+                </p>
+                <p class="mobile">
+                    대표이사  윤  준  영
+                </p>
+            </div>
+            <p class="sign-area">
+                <img src="{{ URL::asset('img/company/sign.png') }}" alt="">
+            </p>
+        </div>
     </div>
     <div class="section-title"  id="content3">
         <div style="width:1px; height:100px"></div>
