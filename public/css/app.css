@@ -1349,6 +1349,11 @@ a.btn {
   font-size: 0;
   background: #e6e6e6;
 }
+@media only screen and (max-width: 992px) {
+  .product-layout {
+    display: none;
+  }
+}
 .product-layout .text-area {
   position: relative;
   display: inline-block;
@@ -1443,6 +1448,71 @@ a.btn {
   height: 100%;
 }
 
+.product-layout-mobile {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .product-layout-mobile {
+    display: block;
+  }
+}
+.product-layout-mobile .text {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  color: #606060;
+}
+.product-layout-mobile .text span {
+  font-weight: 500;
+}
+.product-layout-mobile .list li {
+  position: relative;
+  border-bottom: 1px solid #fff;
+}
+.product-layout-mobile .list .first,
+.product-layout-mobile .list .layout {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.product-layout-mobile .list .first {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+}
+.product-layout-mobile .list .layout {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+.product-layout-mobile .list .second {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.product-layout-mobile .list .second .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.product-layout-mobile .list .second .desc {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.product-layout-mobile .list img {
+  display: block;
+  width: 100%;
+}
+
 .bs-content {
   margin: 0 auto;
   max-width: 1100px;
@@ -1496,6 +1566,36 @@ a.btn {
   .bs-content .bs-content-box .image-layout,
 .bs-content .bs-content-box .text-layout {
     vertical-align: middle;
+  }
+}
+.bs-content .bs-content-box .text-layout .puple,
+.bs-content .bs-content-box .image-layout .puple {
+  color: #7e308e;
+}
+.bs-content .bs-content-box .text-layout .blue,
+.bs-content .bs-content-box .image-layout .blue {
+  color: #003e98;
+}
+.bs-content .bs-content-box .text-layout .green,
+.bs-content .bs-content-box .image-layout .green {
+  color: #009944;
+}
+.bs-content .bs-content-box .text-layout .title,
+.bs-content .bs-content-box .image-layout .title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.bs-content .bs-content-box .image-layout .title {
+  font-size: 15px;
+}
+@media only screen and (max-width: 992px) {
+  .bs-content .bs-content-box .image-layout .title {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .bs-content .bs-content-box .image-layout .title {
+    display: none;
   }
 }
 .bs-content .bs-content-box .text-layout .puple {

@@ -32,6 +32,7 @@
                 <div class="bs-content-box">
                     <div class="image-layout">
                         <img src="{{ URL::asset('img/bu/place2-1.jpg') }}" alt="" class="">
+                        <p class="title blue">Partnership</p>
                     </div>
                     <div class="text-layout" style="text-align:left">
                         <p class="title blue">Partnership</p>
@@ -52,6 +53,7 @@
                 <div class="bs-content-box">
                     <div class="image-layout">
                         <img src="{{ URL::asset('img/bu/place2-3.jpg') }}" alt="" class="">
+                        <p class="title blue">Growth</p>
                     </div>
                     <div class="text-layout" style="text-align:left">
                         <p class="title blue">Growth</p>
@@ -80,6 +82,77 @@
         <div class="section-title">
             제품소개
         </div>
+    </div>
+    <div class="product-layout-mobile">
+        <div class="text">
+            저희 신승지류유통은 고객의 요구에
+            <br>
+            <span>가장 적합한 제품을 공급해 드립니다.</span>
+        </div>
+        <nav class="list">
+            <ul>
+                <li>
+                    <p class="first">
+                        인쇄용지
+                    </p>
+                    <div class="layout">
+                        <div class="second">
+                            <p class="title">인쇄용지</p>
+                            <p class="desc">
+                                미색지/백상지, 아트지/스노우지, MFC
+                                <br>
+                                러프글로스, 카리스코트, 캠퍼스
+                            </p>
+                        </div>
+                    </div>
+                    <img src="{{ URL::asset('img/bu/mobile-business-back1.jpeg') }}" alt="">
+                </li>
+                <li>
+                    <p class="first">
+                        산업용지
+                    </p>
+                    <div class="layout">
+                        <div class="second">
+                            <p class="title">산업용지</p>
+                            <p class="desc">
+                                SC, IV, All Pulp, CCP, 합지
+                            </p>
+                        </div>
+                    </div>
+                    <img src="{{ URL::asset('img/bu/mobile-business-back2.jpeg') }}" alt="">
+                </li>
+                <li>
+                    <p class="first">
+                        특수지
+                    </p>
+                    <div class="layout">
+                        <div class="second">
+                            <p class="title">특수지</p>
+                            <p class="desc">
+                                각종 팬시지 (매직시리즈, 밍크지, 레자크)
+                                <br>
+                                기능지, 가공지, 간지, 이형지
+                            </p>
+                        </div>
+                    </div>
+                    <img src="{{ URL::asset('img/bu/mobile-business-back3.jpeg') }}" alt="">
+                </li>
+                <li>
+                    <p class="first">
+                        기타수입지
+                    </p>
+                    <div class="layout">
+                        <div class="second">
+                            <p class="title">기타수입지</p>
+                            <p class="desc">
+                                도화용지, 포장용지, 봉투용지, 수입지
+                            </p>
+                        </div>
+                    </div>
+                    <img src="{{ URL::asset('img/bu/mobile-business-back4.jpeg') }}" alt="">
+                </li>
+            </ul>
+        </nav>
     </div>
     <div class="product-layout">
         <div class="text-area">
@@ -314,6 +387,18 @@
             $self.find(".first").show();
             $self.find(".layout").hide();
         })
+
+        $(".product-layout-mobile li").hover(function (e) {
+            e.preventDefault();
+            var $self = $(this);
+            $self.find(".first").hide();
+            $self.find(".layout").show();
+        }, function () {
+            var $self = $(this);
+            $self.find(".first").show();
+            $self.find(".layout").hide();
+        })
+        
     }) 
 </script>
 @include('layout.footer')
