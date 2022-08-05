@@ -62,6 +62,13 @@
             height: 95px;
             line-height: 95px;
 
+            @media only screen and (max-width: $media-width) {
+                & {
+                    height: 70px;
+                    line-height: 70px;
+                }
+            }
+
             .logo {
                 position: absolute;
                 left: 0;
@@ -436,7 +443,7 @@
         }
     }
     width: 100%;
-    background: #606060;
+    background: #151515;
     clear: both;
     box-sizing: border-box;
 
@@ -467,7 +474,7 @@
                 display: block;
                 width: 2px;
                 height: 15px;
-                top: 0;
+                top: 3px;
                 right: 0;
                 background: #7b7b7b;
             }
@@ -498,9 +505,19 @@
             display: inline-block;
         }
 
+        .on-m {
+            display: none;
+        }
+
         @media only screen and (max-width: $media-width) {
             .on-p {
                 display: none;
+            }
+        }
+
+        @media only screen and (max-width: $media-width) {
+            .on-m {
+                display: block;
             }
         }
     }

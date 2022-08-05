@@ -106,8 +106,8 @@
                 $(".visual-back").find('.slide-mobile').show();
                 setTimeout(function () {
                     if($(".slide-mobile").is(':visible')){
-                    $(".visual-area").css("height", $(".slide-mobile").height() + "px").delay(200);
-                    $(".visual-back").css("height", $(".slide-mobile").height() + "px");
+                    $(".visual-area").css("height", $(window).height() - 105 - $(".footer").height() + "px");
+                    $(".visual-back").css("height", $(window).height() - 105 - $(".footer").height() + "px");
                 }
                 }, 150)
             }   
