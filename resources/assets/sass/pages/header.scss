@@ -7,6 +7,12 @@
     background: rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid #506354;
 }
+.main-header {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 .header {
     position: relative;
     background: #fff;
@@ -442,6 +448,7 @@
             padding: 0 30px;
         }
     }
+    position: relative;
     width: 100%;
     background: #151515;
     clear: both;

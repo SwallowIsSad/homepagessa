@@ -267,6 +267,13 @@ a.btn {
   border-bottom: 1px solid #506354;
 }
 
+.main-header {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .header {
   position: relative;
   background: #fff;
@@ -638,6 +645,7 @@ a.btn {
 }
 
 .footer {
+  position: relative;
   width: 100%;
   background: #151515;
   clear: both;
@@ -805,8 +813,8 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .visual-area .visual-front .slide-font .title {
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 40px;
+    line-height: 45px;
   }
 }
 .visual-area .visual-front .slide-font .desc {
@@ -817,7 +825,7 @@ a.btn {
 @media only screen and (max-width: 992px) {
   .visual-area .visual-front .slide-font .desc {
     padding-top: 30px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .visual-area .visual-front .slide-index {
