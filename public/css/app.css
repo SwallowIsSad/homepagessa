@@ -802,7 +802,11 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .visual-area .visual-front .slide-font {
-    padding: 140px 20px 0 20px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    transform: translateY(80%);
+    left: 20px;
   }
 }
 .visual-area .visual-front .slide-font .title {
