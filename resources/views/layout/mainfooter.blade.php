@@ -65,11 +65,13 @@
                     e.preventDefault();
                     if($('.gnb-sub-menu-layout .gnb-sub-menu').is(':visible'))
                     {
+                        $(".show-all").removeClass("tra");
                         $('.gnb-sub-menu-area').hide()
                         $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
                     }
                     else
                     {
+                        $(".show-all").addClass("tra");
                         $('.gnb-sub-menu-area').show()
                         $('.gnb-sub-menu-layout .gnb-sub-menu').hide()
                         $('.gnb-sub-menu-layout .gnb-sub-menu').eq(5).show()

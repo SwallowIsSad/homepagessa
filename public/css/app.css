@@ -446,6 +446,9 @@ a.btn {
   width: 11px;
   height: 6px;
 }
+.header .nav-layout .global-nav .all-menu .tra {
+  transform: rotate(90deg);
+}
 .header .nav-layout .gnb-sub-menu-area {
   position: absolute;
   display: none;
