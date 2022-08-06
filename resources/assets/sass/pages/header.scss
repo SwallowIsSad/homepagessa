@@ -38,7 +38,12 @@
                     height: 35px;
                     line-height: 35px;
                     color: #fff;
-                    font-weight: 300;
+                    @media only screen and (max-width: $media-width) {
+                        & {
+                            height: 30px;
+                            line-height: 30px;
+                        }
+                    }
 
                     li {
                         display: inline-block;
@@ -70,8 +75,8 @@
 
             @media only screen and (max-width: $media-width) {
                 & {
-                    height: 70px;
-                    line-height: 70px;
+                    height: 55px;
+                    line-height: 55px;
                 }
             }
 
@@ -450,14 +455,20 @@
     }
     position: relative;
     width: 100%;
+    // background: #606060;
     background: #151515;
     clear: both;
     box-sizing: border-box;
+    border-top: 1px solid #fff;
 
     .footer-layout {
-        padding: 40px 0;
+        padding: 20px 0;
         max-width: 1250px;
         margin: 0 auto;
+
+        .copy {
+            font-size: 11px;
+        }
     }
 
     .menu {
@@ -498,7 +509,7 @@
     }
 
     address {
-        padding: 20px 0;
+        padding: 0 0 20px 0;
         font-style: normal;
         color: #bbbbbb;
         line-height: 19px;

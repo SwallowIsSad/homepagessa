@@ -106,7 +106,7 @@
                 $(".visual-back").find('.slide-mobile').show();
                 setTimeout(function () {
                     if($(".slide-mobile").is(':visible')){
-                    $(".visual-area").css("height", $(window).height()  - $(".footer").height() + "px");
+                $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"50px"});
                     $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
                 }
                 }, 150)
