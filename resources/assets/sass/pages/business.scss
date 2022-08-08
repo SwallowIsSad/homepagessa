@@ -19,6 +19,34 @@
             color: #606060;
         }
     }
+
+    @media only screen and (max-width: $media-width) {
+        .figcaption {
+            box-sizing: border-box;
+            margin-bottom: 180px !important;
+
+            &:last-child {
+                margin-bottom: 100px !important;
+            }
+
+            .test-box {
+                margin: 0 20px !important;
+                padding: 20px !important;
+                width: auto !important;
+                box-sizing: border-box;
+                top: 100px !important;
+
+                .title {
+                    font-size: 19px;
+                    font-weight: bold;
+                }
+
+                .desc {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
 }
 
 .product-layout {

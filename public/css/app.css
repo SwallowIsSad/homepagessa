@@ -1402,6 +1402,29 @@ a.btn {
   font-size: 24px;
   color: #606060;
 }
+@media only screen and (max-width: 992px) {
+  .bs-layout .figcaption {
+    box-sizing: border-box;
+    margin-bottom: 180px !important;
+  }
+  .bs-layout .figcaption:last-child {
+    margin-bottom: 100px !important;
+  }
+  .bs-layout .figcaption .test-box {
+    margin: 0 20px !important;
+    padding: 20px !important;
+    width: auto !important;
+    box-sizing: border-box;
+    top: 100px !important;
+  }
+  .bs-layout .figcaption .test-box .title {
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .bs-layout .figcaption .test-box .desc {
+    font-size: 15px;
+  }
+}
 
 .product-layout {
   width: 100%;
