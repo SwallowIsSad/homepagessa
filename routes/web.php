@@ -7,6 +7,7 @@ use App\Http\Controllers\InfoController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NoticeController;
 use App\Http\Controllers\EmploymentController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,9 +61,9 @@ Route::prefix('cs')->group(function () {
     Route::get('/suggest', [CsController::class, 'suggest']);
     Route::get('/map', [CsController::class, 'map']);
 });
-/*
-인재채용
- 채용정보   이력서 가볍게 근무처,
- 지원서제출  이력서 첨부가능, 개인 비밀번호
- 인재상
-*/ 
+
+// 고객센터
+Route::prefix('test')->group(function () {
+    Route::get('/', [TestController::class, 'test']);
+    Route::get('/test', [TestController::class, 'test2']);
+});
