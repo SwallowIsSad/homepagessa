@@ -459,6 +459,11 @@ a.btn {
   font-size: 0;
   z-index: 5;
 }
+@media only screen and (max-width: 992px) {
+  .header .nav-layout .gnb-sub-menu-area {
+    height: 100vh;
+  }
+}
 .header .nav-layout .gnb-sub-menu-area .close-sub-menu {
   font-size: 14px;
   text-align: center;
@@ -477,6 +482,11 @@ a.btn {
   margin: 0 auto;
   max-width: 1100px;
   text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  .header .nav-layout .gnb-sub-menu-area .gnb-sub-menu-layout {
+    padding: 20px 0;
+  }
 }
 .header .nav-layout .gnb-sub-menu-area .box {
   display: inline-block;
@@ -523,16 +533,30 @@ a.btn {
 
 .all-menu-layout-mobile {
   display: none;
+  padding: 0 15px;
+  text-align: left;
 }
 @media only screen and (max-width: 992px) {
   .all-menu-layout-mobile {
     display: block;
   }
 }
-.all-menu-layout-mobile li {
+.all-menu-layout-mobile ul li {
+  display: none;
   margin-bottom: 10px;
   font-size: 14px;
   color: #606060;
+}
+.all-menu-layout-mobile ul .title {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+.all-menu-layout-mobile .active li {
+  display: block;
+}
+.all-menu-layout-mobile .active .title {
+  color: #004993;
 }
 
 /*
