@@ -351,7 +351,7 @@
                             <!-- all menu -->
                             <div class="gnb-sub-menu gnb6">
                                 <nav class="all-menu-layout-mobile">
-                                    <ul class="all-mobile-box active">
+                                    <ul class="all-mobile-box">
                                         <li class="title"><a href="javascript:;">회사소개</a></li>
                                         <li><a href="{{ url('company') }}#content1">기업이념</a></li>
                                         <li><a href="{{ url('company') }}#content2">CEO인사</a></li>
