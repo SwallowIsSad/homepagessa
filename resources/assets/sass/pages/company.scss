@@ -32,6 +32,7 @@
             position: relative;
             @media only screen and (max-width: $media-width) {
                 & {
+                    text-align: left;
                     width: 100%;
                     height: 300px;
                     overflow: hidden;

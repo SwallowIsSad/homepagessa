@@ -40,9 +40,9 @@ $(function () {
     $(window).scroll(function () {
         var window = $(this).scrollTop();
         if (window > 500) {
-            $(".top").show();
+            $(".top-btn").show();
         } else {
-            $(".top").hide();
+            $(".top-btn").hide();
         }
     });
 

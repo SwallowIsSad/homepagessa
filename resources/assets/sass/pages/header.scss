@@ -601,15 +601,30 @@
     }
 }
 
-.top {
+.top-btn {
     position: fixed;
-    right: 100px;
-    bottom: 220px;
+    right: 40px;
+    bottom: 100px;
+    width: 55px;
+    height: 55px;
+    background: #333;
+    opacity: 0.5;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 0.5s;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    img {
+        display: block;
+    }
 
     @media only screen and (max-width: $media-width) {
         & {
-            right: 30px;
-            bottom: 50px;
+            right: 20px;
+            bottom: 80px;
         }
     }
 }

@@ -12,7 +12,7 @@
     <body>
         <!-- header -->
         <?php if(isset($header) && $header === 'test'):?>
-            <header class="header main-header"> 
+            <header class="header main-header">
             <!-- header-fix -->
         <?php else:?>
             <header class="header sub-header">

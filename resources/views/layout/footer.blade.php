@@ -1,4 +1,6 @@
-            <img src="{{ URL::asset('img/top.png') }}" alt="" class="top" style="display:none">
+            <div class="top-btn" style="display:none">
+                <img src="{{ URL::asset('img/top.png') }}" alt="" class="top">
+            </div>
             <footer class="footer">
                 <div class="footer-layout">
                     <!-- <div class="menu">

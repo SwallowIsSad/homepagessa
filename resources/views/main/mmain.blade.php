@@ -6,7 +6,7 @@
 <style>
     .swiper-container {
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         overflow: hidden;
     }
     .swiper-slide {
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="swiper-slide">
-            <div>
+            <div style="width:100%">
                 @include('info.list')
             </div>
         </div>
@@ -117,8 +117,10 @@
                 $(".visual-back").find('.slide-mobile').show();
                 setTimeout(function () {
                     if($(".slide-mobile").is(':visible')){
-                $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"50px"});
-                    $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
+                    // $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"75px"});
+                    // $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
+                    $(".visual-area").css({"height" : "100%"});
+                    $(".visual-back").css("height", "100%");
                 }
                 }, 150)
             }
