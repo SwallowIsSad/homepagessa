@@ -1,6 +1,7 @@
 @include('layout.header')
 <script src="{{ URL::asset('js/slippry.min.js') }}"></script>
 <link rel="stylesheet" href="{{ URL::asset('css/slippry.css') }}">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <div class="visual-area">
     <div class="visual-back">
         <ul class="slide-mobile">

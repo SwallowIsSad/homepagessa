@@ -20,6 +20,5 @@
                      <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
                 </div>
             </footer>
-        </div>
     </body>
 </html>
