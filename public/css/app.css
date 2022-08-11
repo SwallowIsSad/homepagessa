@@ -326,6 +326,7 @@ a.btn {
   text-align: center;
   height: 95px;
   line-height: 95px;
+  border-bottom: 1px solid #ccc;
 }
 @media only screen and (max-width: 992px) {
   .header .nav-layout .global-nav {
@@ -454,7 +455,6 @@ a.btn {
   display: none;
   width: 100%;
   background: #fff;
-  border-top: 1px solid #506354;
   border-bottom: 1px solid #506354;
   font-size: 0;
   z-index: 5;
@@ -1058,7 +1058,8 @@ a.btn {
   }
 }
 .company-layout .cooperative .text-area .content .mobile {
-  text-align: left;
+  padding-right: 143px;
+  text-align: right;
   font-size: 20px;
   display: none;
 }
@@ -1070,11 +1071,11 @@ a.btn {
 .company-layout .cooperative .text-area .sign-area {
   position: absolute;
   right: 20px;
-  bottom: 0;
+  bottom: 0px;
 }
 @media only screen and (max-width: 992px) {
   .company-layout .cooperative .text-area .sign-area {
-    bottom: 20px;
+    bottom: 30px;
   }
 }
 .company-layout .history {

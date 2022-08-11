@@ -81,5 +81,4 @@
         });
     })
 </script>
-@include('company.ceo')
 @include('layout.mainfooter')

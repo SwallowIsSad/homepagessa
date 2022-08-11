@@ -72,6 +72,7 @@
 
             height: 95px;
             line-height: 95px;
+            border-bottom: 1px solid #ccc;
 
             @media only screen and (max-width: $media-width) {
                 & {
@@ -219,7 +220,6 @@
             display: none;
             width: 100%;
             background: #fff;
-            border-top: 1px solid $main-color;
             border-bottom: 1px solid $main-color;
             font-size: 0;
             z-index: 5;
