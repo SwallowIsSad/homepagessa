@@ -23,8 +23,8 @@
                     <div class="top-nav-layout">
                         <nav class="top-nav">
                             <ul>
-                                <li><a href="http://211.54.23.129">영업정보서비스</a></li>
-                                <li><a href="http://211.54.23.129:8077">고객지원서비스</a></li>
+                                <li><a href="http://211.54.23.129" target="blank">영업정보서비스</a></li>
+                                <li><a href="http://211.54.23.129:8077" target="blank">고객지원서비스</a></li>
                                 <!-- <li><a href="javascript:;">구버전 바로가기</a></li> -->
                             </ul>
                         </nav>
@@ -104,18 +104,13 @@
                         <!-- gnb1 -->
                         <div class="gnb-sub-menu gnb1">
                             <div class="box m40r">
-                                <div class="img">
-                                    <img src="{{ URL::asset('img/gnb/gnb1.jpg') }}" alt="" />
-                                </div>
-                            </div>
-                            <div class="box m40r">
                                 <a href="{{ url('company') }}#content1" class="m30t">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb1-1.jpg') }}" alt="" />
                                     </div>
                                     <div class="text">
                                         <p class="title">기업이념</p>
-                                        <p class="desc">신승지류유통의 기업이념을 소개합니다.</p>
+                                        <p class="desc">신승지류유통의 기업이념을 <br> 소개합니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -127,7 +122,7 @@
                                     <div class="text">
                                         <p class="title">CEO인사</p>
                                         <p class="desc">
-                                        고객 여러분의 가치 증대와 발전을 함께하는 성실한 동반자가 되겠습니다.
+                                            고객 여러분의 가치 증대와 발전을 함게하는 <br> 성실한 동반자가 되겠습니다.
                                         </p>
                                     </div>
                                 </a>
@@ -139,7 +134,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">회사연혁</p>
-                                        <p class="desc">한 눈에 알아보는 신승지류유통의 과거와 현재입니다.</p>
+                                        <p class="desc">한 눈에 알아보는 신승지류유통의 <br> 과거와 현재입니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -150,7 +145,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">관계업체</p>
-                                        <p class="desc">신승지류유통과 함께하는 관련업체입니다.</p>
+                                        <p class="desc">신승지류유통과 함께하는 <br> 관련업체 입니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -165,7 +160,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">사업개요</p>
-                                        <p class="desc">최상의 상품과 편리한 유통망을 제공합니다.</p>
+                                        <p class="desc">고객 여러분께 최상의 상품과 <br> 편리한 유통망을 제공합니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -176,7 +171,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">제품소개</p>
-                                        <p class="desc">신승지류유통의 공급 제품을 만나보세요.</p>
+                                        <p class="desc">신승지류유통의 공급 및 취급 상품을 <br> 만나보세요.</p>
                                     </div>
                                 </a>
                             </div>
@@ -187,35 +182,25 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">사업장소개</p>
-                                        <p class="desc">최첨단 설비와 전문 인력을 통한 경영시스템</p>
+                                        <p class="desc">최첨단 설비와 전문 인력을 통한 <br> 경영시스템을 소개합니다.</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="box m40r">
+                            <div class="box">
                                 <a href="{{ url('business') }}#content4">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb2-4.jpg') }}" alt="" />
                                     </div>
                                     <div class="text">
                                         <p class="title">협력업체</p>
-                                        <p class="desc">고객과 함께하는 신승의 협력업체입니다.</p>
+                                        <p class="desc">고객과 함께하는 신승지류유통의 <br> 협력업체입니다.</p>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="box">
-                                <div class="img">
-                                    <img src="{{ URL::asset('img/gnb/gnb2.jpg') }}" alt="" />
-                                </div>
                             </div>
                         </div>
                         <!-- gnb2 -->
                         <!-- gnb3 -->
                         <div class="gnb-sub-menu gnb3">
-                            <div class="box m40r">
-                                <div class="img">
-                                    <img src="{{ URL::asset('img/gnb/gnb1.jpg') }}" alt="" />
-                                </div>
-                            </div>
                             <div class="box m40r">
                                 <a href="{{ url('info/notice') }}">
                                     <div class="img">
@@ -237,13 +222,13 @@
                                     <div class="text">
                                         <p class="title">정보공시</p>
                                         <p class="desc">
-                                            정확하고 명확한 정보를 제공합니다.
+                                            신승의 정확하고 명확한 정보를 제공합니다.
                                         </p>
                                     </div>
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="http://211.54.23.129">
+                                <a href="http://211.54.23.129" target="blank">
                                     <div class="img m40r">
                                         <img src="{{ URL::asset('img/gnb/gnb3-3.jpg') }}" alt="" />
                                     </div>
@@ -263,7 +248,7 @@
                                     <div class="text">
                                         <p class="title">홍보센터</p>
                                         <p class="desc">
-                                            가장 빠르게 신승지류유통의 새로운 소식을 만나보세요.
+                                            가장 빠르게 신승의 새로운 소식을 만나보세요.
                                         </p>
                                     </div>
                                 <a>
@@ -282,7 +267,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">인재상</p>
-                                        <p class="desc">신승인이 갖추어야 할 핵심가치를 알려드립니다.</p>
+                                        <p class="desc">
+                                            신승인이 갖추어야 할 핵심가치를 <br> 알려드립니다
+                                        </p>
                                     </div>
                                 </a>
                             </div>
@@ -293,7 +280,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">채용정보</p>
-                                        <p class="desc">신승지류유통과 함께 꿈과 미래를 펼쳐 나갈 인재를 찾습니다.</p>
+                                        <p class="desc">
+                                            신승지류유통과 함게 꿈과 미래를 <br> 펼쳐 나갈 인재를 찾습니다.
+                                        </p>
                                     </div>
                                 </a>
                             </div>
@@ -304,7 +293,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">지원서제출</p>
-                                        <p class="desc">여러분들을 열림마음으로 기다리고 있습니다.</p>
+                                        <p class="desc">
+                                            저희 신승지류유통은 여러분들을 <br> 열린 마음으로 기다리고 있습니다.
+                                        </p>
                                     </div>
                                 </a>
                             </div>
@@ -330,7 +321,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">제안하기</p>
-                                        <p class="desc">고객님의 소중한 의견을 제안해주세요.</p>
+                                        <p class="desc">고객님의 소중한 의견을 제안해 주세요.</p>
                                     </div>
                                 </a>
                             </div>
@@ -341,7 +332,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">오시는길</p>
-                                        <p class="desc">신승지류유통의 본사/물류센터 오시는 길</p>
+                                        <p class="desc">본사와 물류센터 위치를 알려드립니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -368,7 +359,7 @@
                                     <li class="title"><a href="javascript:;">신승정보</a></li>
                                     <li><a href="{{ url('info/notice') }}">공지사항</a></li>
                                     <li><a href="{{ url('info/info') }}">정보공시</a></li>
-                                    <li><a href="http://211.54.23.129">주문시스템</a></li>
+                                    <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
                                     <li><a href="{{ url('info/publicity') }}">홍보센터</a></li>
                                 </ul>
                                 <ul class="all-mobile-box">
@@ -400,7 +391,7 @@
                                 <ul>
                                     <li><a href="{{ url('info/notice') }}">공지사항</a></li>
                                     <li><a href="{{ url('info/info') }}">정보공시</a></li>
-                                    <li><a href="http://211.54.23.129">주문시스템</a></li>
+                                    <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
                                     <li><a href="{{ url('info/publicity') }}">홍보센터</a></li>
                                 </ul>
                                 <ul>

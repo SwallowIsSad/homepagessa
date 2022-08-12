@@ -8,10 +8,14 @@
     border-bottom: 1px solid #506354;
 }
 .main-header {
-    position: fixed !important;
     width: 100%;
     top: 0;
     left: 0;
+    @media only screen and (max-width: $media-width) {
+        & {
+            position: fixed !important;
+        }
+    }
 }
 .header {
     position: relative;
@@ -263,7 +267,7 @@
 
                 .title {
                     margin-top: 20px;
-                    width: 180px;
+                    width: 245px;
                     font-size: 18px;
                     line-height: 18px;
                     color: #004993;
@@ -272,10 +276,11 @@
 
                 .desc {
                     margin-top: 5px;
-                    width: 180px;
+                    width: 245px;
                     font-size: 14px;
                     line-height: 20px;
                     color: #555;
+                    letter-spacing: -1px;
                 }
             }
         }

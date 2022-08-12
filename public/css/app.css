@@ -268,10 +268,14 @@ a.btn {
 }
 
 .main-header {
-  position: fixed !important;
   width: 100%;
   top: 0;
   left: 0;
+}
+@media only screen and (max-width: 992px) {
+  .main-header {
+    position: fixed !important;
+  }
 }
 
 .header {
@@ -495,7 +499,7 @@ a.btn {
 }
 .header .nav-layout .gnb-sub-menu-area .box .title {
   margin-top: 20px;
-  width: 180px;
+  width: 245px;
   font-size: 18px;
   line-height: 18px;
   color: #004993;
@@ -503,10 +507,11 @@ a.btn {
 }
 .header .nav-layout .gnb-sub-menu-area .box .desc {
   margin-top: 5px;
-  width: 180px;
+  width: 245px;
   font-size: 14px;
   line-height: 20px;
   color: #555;
+  letter-spacing: -1px;
 }
 
 .all-menu-layout {
