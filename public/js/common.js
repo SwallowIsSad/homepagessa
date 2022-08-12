@@ -52,15 +52,6 @@ $(function () {
         $(".show-all img").removeClass("tra");
     });
 
-    // 모바일 메뉴 액션 처리
-    $(document).on("click", ".all-mobile-box", function () {
-        var self = $(this);
-        if (!self.hasClass("active")) {
-            $(".all-mobile-box").removeClass("active");
-            self.addClass("active");
-        }
-    });
-
     $(function () {
         $(window).scroll(function () {
             var scroll = $(document).scrollTop() + 450;

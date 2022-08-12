@@ -314,32 +314,29 @@
     display: none;
     padding: 0 15px;
     text-align: left;
+    width: 100vw;
     @media only screen and (max-width: $media-width) {
         & {
             display: block;
         }
     }
 
+    .all-mobile-box {
+        width: 33%;
+        margin-bottom: 20px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
     ul {
         li {
-            display: none;
             margin-bottom: 10px;
             font-size: 14px;
             color: #606060;
         }
         .title {
-            display: block;
-            font-size: 30px;
+            font-size: 20px;
             font-weight: bold;
-        }
-    }
-
-    .active {
-        li {
-            display: block;
-        }
-        .title {
-            color: #004993;
         }
     }
 }

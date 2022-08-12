@@ -539,28 +539,27 @@ a.btn {
   display: none;
   padding: 0 15px;
   text-align: left;
+  width: 100vw;
 }
 @media only screen and (max-width: 992px) {
   .all-menu-layout-mobile {
     display: block;
   }
 }
+.all-menu-layout-mobile .all-mobile-box {
+  width: 33%;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
 .all-menu-layout-mobile ul li {
-  display: none;
   margin-bottom: 10px;
   font-size: 14px;
   color: #606060;
 }
 .all-menu-layout-mobile ul .title {
-  display: block;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
-}
-.all-menu-layout-mobile .active li {
-  display: block;
-}
-.all-menu-layout-mobile .active .title {
-  color: #004993;
 }
 
 /*
