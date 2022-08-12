@@ -97,26 +97,76 @@
         <div class="swiper-slide">
             <div>
                 @include('company.ceo')
+                <footer class="footer">
+                    <div class="footer-layout">
+                        <address>
+                        <p class="on-p">주소 : 04559</p>서울특별시 중구 마른내로 116 (오장동, 신승빌딩) 5층 <p class="on-p">｜ 대표자 : 윤준영·전서연·전순관 ｜ 법인명 : 신승지류유통㈜ </p> <div>
+                            사업자등록번호 : 107-81-52415  <p class="on-p">｜ 업종 : 가구·목재·펄프·종이 ｜ 업태 : 제조, 도매, 서비스</p>
+                            <p class="on-m">TEL : 02-2270-4900 ㅣ FAX : 02-2270-4944</p>
+                        </address>
+                        <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
+                    </div>
+                </footer>
             </div>
         </div>
         <div class="swiper-slide">
             <div>
                 @include('business.index')
+                <footer class="footer">
+                    <div class="footer-layout">
+                        <address>
+                        <p class="on-p">주소 : 04559</p>서울특별시 중구 마른내로 116 (오장동, 신승빌딩) 5층 <p class="on-p">｜ 대표자 : 윤준영·전서연·전순관 ｜ 법인명 : 신승지류유통㈜ </p> <div>
+                            사업자등록번호 : 107-81-52415  <p class="on-p">｜ 업종 : 가구·목재·펄프·종이 ｜ 업태 : 제조, 도매, 서비스</p>
+                            <p class="on-m">TEL : 02-2270-4900 ㅣ FAX : 02-2270-4944</p>
+                        </address>
+                        <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
+                    </div>
+                </footer>
             </div>
         </div>
         <div class="swiper-slide">
             <div style="width:100%">
                 @include('info.list')
+                <footer class="footer">
+                    <div class="footer-layout">
+                        <address>
+                        <p class="on-p">주소 : 04559</p>서울특별시 중구 마른내로 116 (오장동, 신승빌딩) 5층 <p class="on-p">｜ 대표자 : 윤준영·전서연·전순관 ｜ 법인명 : 신승지류유통㈜ </p> <div>
+                            사업자등록번호 : 107-81-52415  <p class="on-p">｜ 업종 : 가구·목재·펄프·종이 ｜ 업태 : 제조, 도매, 서비스</p>
+                            <p class="on-m">TEL : 02-2270-4900 ㅣ FAX : 02-2270-4944</p>
+                        </address>
+                        <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
+                    </div>
+                </footer>
             </div>
         </div>
         <div class="swiper-slide">
             <div>
                 @include('employment.info')
+                <footer class="footer">
+                    <div class="footer-layout">
+                        <address>
+                        <p class="on-p">주소 : 04559</p>서울특별시 중구 마른내로 116 (오장동, 신승빌딩) 5층 <p class="on-p">｜ 대표자 : 윤준영·전서연·전순관 ｜ 법인명 : 신승지류유통㈜ </p> <div>
+                            사업자등록번호 : 107-81-52415  <p class="on-p">｜ 업종 : 가구·목재·펄프·종이 ｜ 업태 : 제조, 도매, 서비스</p>
+                            <p class="on-m">TEL : 02-2270-4900 ㅣ FAX : 02-2270-4944</p>
+                        </address>
+                        <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
+                    </div>
+                </footer>
             </div>
         </div>
         <div class="swiper-slide">
             <div>
                 @include('cs.inquire')
+                <footer class="footer">
+                    <div class="footer-layout">
+                        <address>
+                        <p class="on-p">주소 : 04559</p>서울특별시 중구 마른내로 116 (오장동, 신승빌딩) 5층 <p class="on-p">｜ 대표자 : 윤준영·전서연·전순관 ｜ 법인명 : 신승지류유통㈜ </p> <div>
+                            사업자등록번호 : 107-81-52415  <p class="on-p">｜ 업종 : 가구·목재·펄프·종이 ｜ 업태 : 제조, 도매, 서비스</p>
+                            <p class="on-m">TEL : 02-2270-4900 ㅣ FAX : 02-2270-4944</p>
+                        </address>
+                        <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>

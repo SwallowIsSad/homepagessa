@@ -1,5 +1,5 @@
             <div class="top-btn" style="display:none">
-                <img src="{{ URL::asset('img/top.png') }}" alt="" class="top">
+                <img src="{{ URL::asset('img/top.png') }}" alt="" class="top" style="display:none">
             </div>
             <footer class="footer">
                 <div class="footer-layout">

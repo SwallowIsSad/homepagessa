@@ -355,6 +355,3 @@
     </nav>
     <div style="width:1px; height:100px"></div>
 </div>
-<?php if(!isset($header)):?>
-    @include('layout.footer')
-<?php endif;?>
