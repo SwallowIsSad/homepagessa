@@ -1105,6 +1105,13 @@ a.btn {
   max-width: 1250px;
   margin: 0 auto;
 }
+@media only screen and (max-width: 992px) {
+  .history-map {
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: left;
+  }
+}
 .history-map img {
   display: block;
   width: 100%;
@@ -1112,7 +1119,13 @@ a.btn {
 .history-map .history-content {
   text-align: center;
 }
+@media only screen and (max-width: 992px) {
+  .history-map .history-content {
+    text-align: left;
+  }
+}
 .history-map .history-content .year p {
+  text-align: center;
   display: inline-block;
   width: 90px;
   padding: 8px 0 9px 0;
@@ -1120,6 +1133,11 @@ a.btn {
   line-height: 22px;
   border: 1px solid #ccc;
   border-radius: 20px 0 20px 0;
+}
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .y-con {
+    text-align: center;
+  }
 }
 .history-map .history-content .need-border {
   position: relative;
@@ -1137,6 +1155,12 @@ a.btn {
   z-index: 0;
   transition: all 0.5s;
 }
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .need-border:after {
+    left: 0%;
+    height: 100%;
+  }
+}
 .history-map .history-content .content,
 .history-map .history-content .content2 {
   position: relative;
@@ -1146,6 +1170,12 @@ a.btn {
   font-size: 14px;
   line-height: 22px;
   color: #616161;
+}
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .content,
+.history-map .history-content .content2 {
+    width: 100%;
+  }
 }
 .history-map .history-content .content p,
 .history-map .history-content .content2 p {
@@ -1198,19 +1228,47 @@ a.btn {
   transform: translateX(100%);
   text-align: left;
 }
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .right {
+    transform: translateX(1px);
+  }
+}
 .history-map .history-content .left {
   text-align: right;
+}
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .left {
+    text-align: left;
+  }
 }
 .history-map .history-content .left .circle {
   left: auto;
   right: -9px;
 }
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .left .circle {
+    left: -8px;
+    right: auto;
+  }
+}
 .history-map .history-content .left p {
   right: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .left p {
+    left: 20px;
+    right: auto;
+  }
 }
 .history-map .history-content .left:after {
   left: auto;
   right: -1px;
+}
+@media only screen and (max-width: 992px) {
+  .history-map .history-content .left:after {
+    left: 0;
+    right: auto;
+  }
 }
 .history-map .history-content .content2 {
   padding-top: 90px;

@@ -169,6 +169,14 @@
     max-width: 1250px;
     margin: 0 auto;
 
+    @media only screen and (max-width: $media-width) {
+        & {
+            box-sizing: border-box;
+            padding: 0 15px;
+            text-align: left;
+        }
+    }
+
     img {
         display: block;
         width: 100%;
@@ -176,8 +184,14 @@
 
     .history-content {
         text-align: center;
+        @media only screen and (max-width: $media-width) {
+            & {
+                text-align: left;
+            }
+        }
         .year {
             p {
+                text-align: center;
                 display: inline-block;
                 width: 90px;
                 padding: 8px 0 9px 0;
@@ -185,6 +199,12 @@
                 line-height: 22px;
                 border: 1px solid #ccc;
                 border-radius: 20px 0 20px 0;
+            }
+        }
+
+        @media only screen and (max-width: $media-width) {
+            .y-con {
+                text-align: center;
             }
         }
 
@@ -203,6 +223,12 @@
                 background: #ccc;
                 z-index: 0;
                 transition: all 0.5s;
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        left: 0%;
+                        height: 100%;
+                    }
+                }
             }
         }
 
@@ -215,6 +241,12 @@
             font-size: 14px;
             line-height: 22px;
             color: #616161;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    width: 100%;
+                }
+            }
 
             p {
                 position: absolute;
@@ -270,23 +302,53 @@
             padding-left: 20px;
             transform: translateX(100%);
             text-align: left;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    transform: translateX(1px);
+                }
+            }
         }
 
         .left {
             text-align: right;
+            @media only screen and (max-width: $media-width) {
+                & {
+                    text-align: left;
+                }
+            }
 
             .circle {
                 left: auto;
                 right: -9px;
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        left: -8px;
+                        right: auto;
+                    }
+                }
             }
 
             p {
                 right: 20px;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        left: 20px;
+                        right: auto;
+                    }
+                }
             }
 
             &:after {
                 left: auto;
                 right: -1px;
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        left: 0;
+                        right: auto;
+                    }
+                }
             }
         }
 
