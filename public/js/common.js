@@ -46,6 +46,12 @@ $(function () {
         }
     });
 
+    // 메뉴 클릭시 닫기
+    $(document).on("click", ".gnb-sub-menu-area a", function () {
+        $(".gnb-sub-menu-area").hide();
+        $(".show-all img").removeClass("tra");
+    });
+
     // 모바일 메뉴 액션 처리
     $(document).on("click", ".all-mobile-box", function () {
         var self = $(this);

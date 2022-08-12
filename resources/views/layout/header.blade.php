@@ -342,34 +342,34 @@
                         <div class="gnb-sub-menu gnb6">
                             <nav class="all-menu-layout-mobile">
                                 <ul class="all-mobile-box">
-                                    <li class="title"><a href="javascript:;">회사소개</a></li>
+                                    <li class="title">회사소개</li>
                                     <li><a href="{{ url('company') }}#content1">기업이념</a></li>
                                     <li><a href="{{ url('company') }}#content2">CEO인사</a></li>
                                     <li><a href="{{ url('company') }}#content3">회사연혁</a></li>
                                     <li><a href="{{ url('company') }}#content4">관계업체</a></li>
                                 </ul>
                                 <ul class="all-mobile-box">
-                                    <li class="title"><a href="javascript:;">사업소개</a></li>
+                                    <li class="title">사업소개</li>
                                     <li><a href="{{ url('business') }}#content1">사업개요</a></li>
                                     <li><a href="{{ url('business') }}#content2">제품소개</a></li>
                                     <li><a href="{{ url('business') }}#content3">사업장소개</a></li>
                                     <li><a href="{{ url('business') }}#content4">협력업체</a></li>
                                 </ul>
                                 <ul class="all-mobile-box">
-                                    <li class="title"><a href="javascript:;">신승정보</a></li>
+                                    <li class="title">신승정보</li>
                                     <li><a href="{{ url('info/notice') }}">공지사항</a></li>
                                     <li><a href="{{ url('info/info') }}">정보공시</a></li>
                                     <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
                                     <li><a href="{{ url('info/publicity') }}">홍보센터</a></li>
                                 </ul>
                                 <ul class="all-mobile-box">
-                                    <li class="title"><a href="javascript:;">인재채용</a></li>
+                                    <li class="title">인재채용</li>
                                     <li><a href="{{ url('employment/recruit') }}#content2">채용정보</a></li>
                                     <li><a href="{{ url('employment/recruit') }}#content3">지원서제출</a></li>
                                     <li><a href="{{ url('employment/recruit') }}#content1">인재상</a></li>
                                 </ul>
                                 <ul class="all-mobile-box">
-                                    <li class="title"><a href="javascript:;">고객센터</a></li>
+                                    <li class="title">고객센터</li>
                                     <li><a href="{{ url('cs/inquire') }}">문의하기</a></li>
                                     <li><a href="{{ url('cs/suggest') }}">제안하기</a></li>
                                     <li><a href="{{ url('cs/map') }}">오시는길</a></li>
