@@ -13,6 +13,7 @@
 
     .in-footer-slide{
         position: relative;
+        width: 100%;
         height:calc(100% - 135px);
     }
     .swiper-slide {
