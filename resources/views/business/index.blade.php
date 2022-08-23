@@ -96,9 +96,6 @@
         <nav class="list">
             <ul>
                 <li>
-                    <p class="first">
-                        인쇄용지
-                    </p>
                     <div class="layout">
                         <div class="second">
                             <p class="title">인쇄용지</p>
@@ -112,9 +109,6 @@
                     <img src="{{ URL::asset('img/bu/mobile-business-back1.jpeg') }}" alt="">
                 </li>
                 <li>
-                    <p class="first">
-                        산업용지
-                    </p>
                     <div class="layout">
                         <div class="second">
                             <p class="title">산업용지</p>
@@ -126,9 +120,6 @@
                     <img src="{{ URL::asset('img/bu/mobile-business-back2.jpeg') }}" alt="">
                 </li>
                 <li>
-                    <p class="first">
-                        특수지
-                    </p>
                     <div class="layout">
                         <div class="second">
                             <p class="title">특수지</p>
@@ -142,9 +133,6 @@
                     <img src="{{ URL::asset('img/bu/mobile-business-back3.jpeg') }}" alt="">
                 </li>
                 <li>
-                    <p class="first">
-                        기타수입지
-                    </p>
                     <div class="layout">
                         <div class="second">
                             <p class="title">기타수입지</p>

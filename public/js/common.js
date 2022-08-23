@@ -89,19 +89,5 @@ $(function () {
                 $self.find(".layout").hide();
             }
         );
-
-        $(".product-layout-mobile li").hover(
-            function (e) {
-                e.preventDefault();
-                var $self = $(this);
-                $self.find(".first").hide();
-                $self.find(".layout").show();
-            },
-            function () {
-                var $self = $(this);
-                $self.find(".first").show();
-                $self.find(".layout").hide();
-            }
-        );
     });
 });
