@@ -306,8 +306,8 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .header .nav-layout .top-nav-area .top-nav-layout .top-nav {
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
   }
 }
 .header .nav-layout .top-nav-area .top-nav-layout .top-nav li {

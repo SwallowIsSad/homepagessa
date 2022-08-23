@@ -173,4 +173,4 @@
         }) 
     })
 </script
->@include('layout.mainfooter')
+>@include('layout.footer')
