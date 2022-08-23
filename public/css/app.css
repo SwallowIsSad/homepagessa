@@ -1361,6 +1361,9 @@ a.btn {
     margin-right: 0 !important;
     width: 100% !important;
   }
+  .company-list li img {
+    width: 220px;
+  }
 }
 .company-list li {
   margin-right: 40px;
