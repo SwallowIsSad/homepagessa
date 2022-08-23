@@ -408,6 +408,8 @@
                         </div>
                         <!-- all menu end -->
                     </div>
+                    <!-- 모바일용 배경 -->
+                    <div class="mobile-back"></div>
                 </div>
             </div>
         </header>
