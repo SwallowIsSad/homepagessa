@@ -90,4 +90,10 @@ $(function () {
             }
         );
     });
+    $(".product-layout-mobile li").hover(function (e) {
+        e.preventDefault();
+        var $self = $(this);
+        $self.find(".first").hide();
+        $self.find(".layout").show();
+    });
 });
