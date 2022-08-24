@@ -88,6 +88,12 @@
             margin-top: 10px;
             padding-left: 40px;
         }
+
+        @media only screen and (max-width: $media-width) {
+            & {
+                display: none;
+            }
+        }
     }
 
     .type2 {
