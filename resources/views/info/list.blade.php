@@ -1,8 +1,8 @@
 
-<div class="sub-page-layout">
-    <div class="sub-page-header">정보공시</div>
-</div>
 <div class="board-layout">
+    <div class="section-title">
+        정보공시
+    </div>
     <div class="search-area">
         <div class="board-count">전체 2건</div>
         <form action="">

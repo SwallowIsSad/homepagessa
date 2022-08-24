@@ -1,5 +1,7 @@
 @include('layout.header')
-@include('layout.lnb')
+<?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
+    @include('layout.lnb')
+<?php endif;?>
 <div class="cs-layout" id="content1">
     <div style="width:1px; height:100px"></div>
     <div class="section-title">
@@ -71,11 +73,11 @@
         </nav>
     </div>
 </div>
-<div class="sub-page-layout" id="content3">
+<div class="inquire-layout" id="content3">
     <div style="width:1px; height:100px"></div>
-    <div class="sub-page-header">지원서제출</div>
-</div>
-<div class="inquire-layout">
+    <div class="section-title">
+        지원서제출
+    </div>
     <div class="inquire-form">
         <form action="#">
             <div class="personal-info m50b">
@@ -202,7 +204,7 @@
             </div>
             <div class="btn-area area-center">
                 <a href="javascript:;" class="btn btn-white">취소하기</a>
-                <a href="javascript:;" class="btn btn-blue">문의하기</a>
+                <a href="javascript:;" class="btn btn-blue">지원하기</a>
             </div>
         </form>
     </div>

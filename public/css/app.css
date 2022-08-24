@@ -1432,6 +1432,7 @@ a.btn {
 .figcaption .test-box {
   padding: 40px;
   position: absolute;
+  width: 440px;
   bottom: 0;
   background: #fff;
   box-sizing: border-box;
@@ -1440,6 +1441,7 @@ a.btn {
   .figcaption .test-box {
     margin: 0 !important;
     width: 100% !important;
+    max-width: 440px;
   }
 }
 .figcaption .test-box .title {
@@ -1921,6 +1923,8 @@ a.btn {
 
 .inquire-form {
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
 }
 .inquire-form .check-text {
   line-height: 25px;

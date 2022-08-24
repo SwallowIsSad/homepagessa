@@ -96,6 +96,8 @@
 }
 .inquire-form {
     width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
 
     .check-text {
         line-height: 25px;

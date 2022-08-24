@@ -1,7 +1,7 @@
 <?php if(!isset($header)):?>
     @include('layout.header')
+    @include('layout.lnb')
 <?php endif;?>
-@include('layout.lnb')
 <style>
     .employment-info .label ul .active{
         color:#0152a4;
@@ -9,6 +9,7 @@
     }
 </style>
 <div class="cs-layout">
+    <div style="width:1px; height:100px"></div>
     <div class="section-title">
         채용정보
     </div>
