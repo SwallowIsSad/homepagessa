@@ -172,5 +172,5 @@
             // effect: 'fade',
         }) 
     })
-</script
->@include('layout.footer')
+</script>
+@include('layout.footer')
