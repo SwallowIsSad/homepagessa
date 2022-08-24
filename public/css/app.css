@@ -2184,7 +2184,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .board-layout {
-    padding: 30px;
+    padding: 15px;
   }
 }
 .board-layout .table {
@@ -2260,7 +2260,7 @@ a.btn {
 .board-layout .table .content {
   transition: all 0.5s;
   display: none;
-  padding: 10px 20px 10px 90px;
+  padding: 10px 20px 10px 40px;
   text-align: left;
   background: #ececec;
   line-height: 20px;

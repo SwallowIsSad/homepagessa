@@ -5,13 +5,13 @@
         공지사항
     </div>
     <div class="search-area">
-        <div class="board-count">전체 4건</div>
+        <div class="board-count">전체 3건</div>
         <form action="">
             <input type="text" placeholder="검색어를 입력해주세요" />
             <img src="{{ URL::asset('img/board/search.png') }}" alt="">
         </form>
     </div>
-    <div class="table">
+    <div class="table notice">
         <div class="thead">
             <div class="num td">NO</div>
             <div class="title td">제목</div>
@@ -21,45 +21,33 @@
         </div>
         <div class="tbody">
             <div class="tr">
-                <div class="num td">4</div>
+                <div class="num td">3</div>
                 <div class="title td">전자어음안내4</div>
                 <div class="file td"></div>
-                <div class="date td">2022.07.05</div>
-                <div class="hit td">6</div>
+                <div class="date td">2022.08.23</div>
+                <div class="hit td">23</div>
                 <div class="content">
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
+                    전자어음 첨부파일 확인 바랍니다.
                 </div>
             </div>
             <div class="tr">
-                <div class="num td">4</div>
-                <div class="title td">전자어음안내4</div>
+                <div class="num td">2</div>
+                <div class="title td">신승 여름 휴가 안내</div>
                 <div class="file td"></div>
-                <div class="date td">2022.07.05</div>
-                <div class="hit td">6</div>
+                <div class="date td">2022.07.08</div>
+                <div class="hit td">61</div>
                 <div class="content">
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
+                    8월 개인별로 휴가 신청 내주시면 됩니다.
                 </div>
             </div>
             <div class="tr">
-                <div class="num td">4</div>
-                <div class="title td">전자어음안내4</div>
+                <div class="num td">1</div>
+                <div class="title td">공지사항입니다.</div>
                 <div class="file td"></div>
                 <div class="date td">2022.07.05</div>
-                <div class="hit td">6</div>
+                <div class="hit td">26</div>
                 <div class="content">
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
+                    회사 홈페이지가 새롭게 리뉴얼 되었습니다.
                 </div>
             </div>
         </div>
@@ -76,16 +64,19 @@
         </ul>
     </div>
 </div>
+@include('info.list')
+@include('info.publicity')
 <script>
     $(function () {
-        $(".tr").click(function (e) {
+        $(".notice .tr").click(function (e) {
             e.preventDefault();
             var $self = $(this);
             if($self.find(".content").is(':visible'))
             {
-                $self.find(".content").slideUp(200, 'linear');
+                $(".notice .content").hide();
+                $self.find(".content").show();
             } else {
-                $self.find(".content").slideDown(200, 'linear');
+                $self.find(".content").hide();
             }
         });
     })

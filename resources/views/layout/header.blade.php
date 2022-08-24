@@ -215,7 +215,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('info/info') }}">
+                                <a href="{{ url('info/notice') }}">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb3-2.jpg') }}" alt="" />
                                     </div>
@@ -241,7 +241,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('info/publicity') }}">
+                                <a href="{{ url('info/notice') }}">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb3-4.jpg') }}" alt="" />
                                     </div>
@@ -358,9 +358,9 @@
                                 <ul class="all-mobile-box">
                                     <li class="title">신승정보</li>
                                     <li><a href="{{ url('info/notice') }}">공지사항</a></li>
-                                    <li><a href="{{ url('info/info') }}">정보공시</a></li>
+                                    <li><a href="{{ url('info/notice') }}">정보공시</a></li>
                                     <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
-                                    <li><a href="{{ url('info/publicity') }}">홍보센터</a></li>
+                                    <li><a href="{{ url('info/notice') }}">홍보센터</a></li>
                                 </ul>
                                 <ul class="all-mobile-box">
                                     <li class="title">인재채용</li>
@@ -390,9 +390,9 @@
                                 </ul>
                                 <ul>
                                     <li><a href="{{ url('info/notice') }}">공지사항</a></li>
-                                    <li><a href="{{ url('info/info') }}">정보공시</a></li>
+                                    <li><a href="{{ url('info/notice') }}">정보공시</a></li>
                                     <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
-                                    <li><a href="{{ url('info/publicity') }}">홍보센터</a></li>
+                                    <li><a href="{{ url('info/notice') }}">홍보센터</a></li>
                                 </ul>
                                 <ul>
                                     <li><a href="{{ url('employment/recruit') }}#content2">채용정보</a></li>

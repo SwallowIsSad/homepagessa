@@ -90,7 +90,7 @@
         </div>
         <div class="swiper-slide">
             <div style="width:100%">
-                @include('info.list')
+                @include('notice.list')
             </div>
         </div>
         <div class="swiper-slide">

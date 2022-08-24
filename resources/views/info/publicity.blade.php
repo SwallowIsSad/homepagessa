@@ -1,5 +1,4 @@
-@include('layout.header')
-@include('layout.infolnb')
+
 <style>
     .employment-info .label ul .active{
         color:#0152a4;
@@ -67,4 +66,3 @@
         </nav>
     </div>
 </div>
-@include('layout.footer')

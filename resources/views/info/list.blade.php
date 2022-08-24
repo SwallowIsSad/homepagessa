@@ -1,19 +1,16 @@
-<?php if(!isset($header)):?>
-    @include('layout.header')
-<?php endif;?>
-@include('layout.boardlnb')
+
 <div class="sub-page-layout">
     <div class="sub-page-header">정보공시</div>
 </div>
 <div class="board-layout">
     <div class="search-area">
-        <div class="board-count">전체 4건</div>
+        <div class="board-count">전체 2건</div>
         <form action="">
             <input type="text" placeholder="검색어를 입력해주세요" />
             <img src="{{ URL::asset('img/board/search.png') }}" alt="">
         </form>
     </div>
-    <div class="table">
+    <div class="info table">
         <div class="thead">
             <div class="num td">NO</div>
             <div class="title td">제목</div>
@@ -23,45 +20,23 @@
         </div>
         <div class="tbody">
             <div class="tr">
-                <div class="num td">4</div>
-                <div class="title td">전자어음안내4</div>
+                <div class="num td">2</div>
+                <div class="title td">반기보고서 (2022.06)</div>
                 <div class="file td"></div>
-                <div class="date td">2022.07.05</div>
-                <div class="hit td">6</div>
+                <div class="date td">2022.06.26</div>
+                <div class="hit td">223</div>
                 <div class="content">
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
+                    해당 내용은 첨부파일로 자세한 확인이 가능합니다.
                 </div>
             </div>
             <div class="tr">
-                <div class="num td">4</div>
-                <div class="title td">전자어음안내4</div>
+                <div class="num td">1</div>
+                <div class="title td">분기보고서 (2022.03)</div>
                 <div class="file td"></div>
-                <div class="date td">2022.07.05</div>
-                <div class="hit td">6</div>
+                <div class="date td">2022.03.31</div>
+                <div class="hit td">622</div>
                 <div class="content">
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                </div>
-            </div>
-            <div class="tr">
-                <div class="num td">4</div>
-                <div class="title td">전자어음안내4</div>
-                <div class="file td"></div>
-                <div class="date td">2022.07.05</div>
-                <div class="hit td">6</div>
-                <div class="content">
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
-                    <br>
-                    공지사항 내용
+                    해당 내용은 첨부파일로 자세한 확인이 가능합니다.
                 </div>
             </div>
         </div>
@@ -80,18 +55,16 @@
 </div>
 <script>
     $(function () {
-        $(".tr").click(function (e) {
+        $(".info .tr").click(function (e) {
             e.preventDefault();
             var $self = $(this);
             if($self.find(".content").is(':visible'))
             {
-                $self.find(".content").hide();
-            } else {
+                $(".info .content").hide();
                 $self.find(".content").show();
+            } else {
+                $self.find(".content").hide();
             }
         });
     })
 </script>
-<?php if(!isset($header)):?>
-    @include('layout.footer')
-<?php endif;?>
