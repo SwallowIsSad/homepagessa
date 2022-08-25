@@ -15,7 +15,7 @@
         text-align: center;
         font-size: 18px;
         background: #fff;
-        overflow-y: hidden;
+        overflow-y: scroll;
 
         /* Center slide text vertically */
         display: -webkit-box;
@@ -119,8 +119,10 @@
                 $(".visual-back").find('.slide-mobile').show();
                 setTimeout(function () {
                     if($(".slide-mobile").is(':visible')){
-                    $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"87px"});
-                    $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
+                    // $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"87px"});
+                    // $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
+                    $(".visual-area").css({"height" : $(".slide-mobile").height() + "px", "top":"87px"});
+                    $(".visual-back").css("height", $(".slide-mobile").height() + "px");
                     
                 }
                 }, 150)
