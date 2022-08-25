@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="pagination">
+    <!-- <div class="pagination">
         <ul>
             <li><img src="{{ URL::asset('img/board/left-arrow-gray.png') }}" alt=""></li>
             <li><span>1</span></li>
@@ -67,7 +67,7 @@
             <li><span>5</span></li>
             <li><img src="{{ URL::asset('img/board/right-arrow.png') }}" alt=""></li>
         </ul>
-    </div>
+    </div> -->
 </div>
 @include('info.list')
 @include('info.publicity')
@@ -76,7 +76,7 @@
         $(".notice .tr").click(function (e) {
             e.preventDefault();
             var $self = $(this);
-            if($self.find(".content").is(':visible'))
+            if(!$self.find(".content").is(':visible'))
             {
                 $(".notice .content").hide();
                 $self.find(".content").show();

@@ -6,6 +6,7 @@
     }
 </style>
 <div class="sub-page-layout">
+    <div style="width:1px; height:100px;"></div>
     <div class="sub-page-header">홍보센터</div>
     <div class="company-layout">
         <img src="{{ URL::asset('img/banner/infotest2.png') }}" alt="" style="max-width:100%">
