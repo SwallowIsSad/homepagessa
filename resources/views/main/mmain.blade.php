@@ -7,8 +7,8 @@
     .swiper-container {
         width: 100%;
         overflow: hidden;
-        /* height: calc(100vh - 222px); */
-        height: 80vh;
+        height: calc(100vh - 130px);
+        /* height: 80vh; */
     }
 
     .swiper-slide {
@@ -119,7 +119,7 @@
                 $(".visual-back").find('.slide-mobile').show();
                 setTimeout(function () {
                     if($(".slide-mobile").is(':visible')){
-                    $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"75px"});
+                    $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"87px"});
                     $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
                     
                 }
