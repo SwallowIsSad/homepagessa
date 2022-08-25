@@ -15,7 +15,7 @@
         text-align: center;
         font-size: 18px;
         background: #fff;
-        overflow-y: scroll;
+        overflow-y: hidden;
 
         /* Center slide text vertically */
         display: -webkit-box;
