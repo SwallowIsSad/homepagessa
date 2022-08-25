@@ -1031,7 +1031,7 @@ a.btn {
   padding: 20px 20px 10px 40px;
   top: 40px;
   right: 0;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
   background: #fff;
 }
@@ -1439,9 +1439,11 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .figcaption .test-box {
-    margin: 0 !important;
-    width: 100% !important;
-    max-width: 440px;
+    margin: 0 20px !important;
+    width: auto !important;
+    padding: 40px 20px !important;
+    top: 100px !important;
+    text-align: left;
   }
 }
 .figcaption .test-box .title {
@@ -1467,7 +1469,7 @@ a.btn {
 .figcaption .test-box .desc {
   letter-spacing: 1px;
   color: #868686;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .pub {
@@ -1534,6 +1536,7 @@ a.btn {
     width: auto !important;
     box-sizing: border-box;
     top: 100px !important;
+    text-align: left;
   }
   .bs-layout .figcaption .test-box .title {
     font-size: 19px;
@@ -1818,7 +1821,7 @@ a.btn {
 }
 .bs-content .bs-content-box .text-layout .desc {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   color: #606060;
 }
 @media only screen and (max-width: 992px) {
