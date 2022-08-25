@@ -90,10 +90,15 @@ $(function () {
             }
         );
     });
-    $(".product-layout-mobile li").hover(function (e) {
+    $(".product-layout-mobile li").click(function (e) {
         e.preventDefault();
-        var $self = $(this);
-        $self.find(".first").hide();
-        $self.find(".layout").show();
+        var self = $(this);
+        if (self.find(".first").is(":visible")) {
+            self.find(".first").hide();
+            self.find(".layout").show();
+        } else {
+            self.find(".first").show();
+            self.find(".layout").hide();
+        }
     });
 });
