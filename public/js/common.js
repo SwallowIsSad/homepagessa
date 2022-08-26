@@ -18,6 +18,7 @@ $(function () {
         } else {
             $(".show-all img").addClass("tra");
             $(".gnb-sub-menu-area").show();
+            $(".menu-up").show();
             $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
             $(".gnb-sub-menu-layout .gnb-sub-menu").eq(5).show();
             if ($(window).width() < 992) {
