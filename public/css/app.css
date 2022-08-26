@@ -1935,26 +1935,47 @@ a.btn {
   padding: 0 15px;
 }
 .inquire-form .check-text {
-  line-height: 25px;
+  position: relative;
+  margin-top: 20px;
+  text-align: left;
+}
+.inquire-form .check-text .text {
+  line-height: 19px;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-size: 15px;
 }
 .inquire-form .check {
   display: inline-block;
-  margin-right: 5px;
-  width: 25px;
-  height: 25px;
-  background: #f7f7f7;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
 }
 .inquire-form .check img {
-  margin-top: 7px;
+  display: block;
+  width: 20px;
 }
 .inquire-form .personal-info .info {
   margin-bottom: 15px;
   font-size: 15px;
   font-weight: bold;
   color: #333;
+}
+.inquire-form .personal-info .pi-content {
+  width: 100%;
+}
+.inquire-form .personal-info .pi-content .pi-title {
+  padding: 15px 20px;
+  position: relative;
+  width: 100%;
+  background: #e6e6e6;
+  box-sizing: border-box;
+  text-align: left;
+}
+.inquire-form .personal-info .pi-content .pi-title img {
+  position: absolute;
+  width: 15px;
+  top: 45%;
+  transform: rotate(180deg);
+  right: 20px;
 }
 .inquire-form .personal-info .pi-text {
   padding: 20px;
@@ -2007,14 +2028,6 @@ a.btn {
   display: inline-block;
   margin-left: 2px;
   color: #ff0000;
-}
-.inquire-form .inquire-input .left,
-.inquire-form .inquire-input .right {
-  width: calc(50% - 20px);
-  display: inline-block;
-}
-.inquire-form .inquire-input .left {
-  margin-right: 40px;
 }
 
 .employment-info {
@@ -2171,11 +2184,6 @@ a.btn {
 .personal-info .info span {
   color: #ff0000;
   margin-left: 4px;
-}
-
-.inquire-form .personal-info .pi-text {
-  height: 200px;
-  overflow: scroll;
 }
 
 .inquire-form .inquire-input .inquire select {

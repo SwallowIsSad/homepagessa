@@ -106,21 +106,25 @@
     padding: 0 15px;
 
     .check-text {
-        line-height: 25px;
+        position: relative;
+        margin-top: 20px;
+        text-align: left;
+
+        .text {
+            line-height: 19px;
+            position: absolute;
+            top: 0px;
+            left: 30px;
+            font-size: 15px;
+        }
     }
 
     .check {
         display: inline-block;
-        margin-right: 5px;
-        width: 25px;
-        height: 25px;
-        background: #f7f7f7;
-        text-align: center;
-        vertical-align: middle;
-        border-radius: 50%;
 
         img {
-            margin-top: 7px;
+            display: block;
+            width: 20px;
         }
     }
 
@@ -131,7 +135,26 @@
             font-weight: bold;
             color: #333;
         }
+        .pi-content {
+            width: 100%;
 
+            .pi-title {
+                padding: 15px 20px;
+                position: relative;
+                width: 100%;
+                background: #e6e6e6;
+                box-sizing: border-box;
+                text-align: left;
+
+                img {
+                    position: absolute;
+                    width: 15px;
+                    top: 45%;
+                    transform: rotate(180deg);
+                    right: 20px;
+                }
+            }
+        }
         .pi-text {
             padding: 20px;
             font-size: 14px;
@@ -191,16 +214,6 @@
                 margin-left: 2px;
                 color: #ff0000;
             }
-        }
-
-        .left,
-        .right {
-            width: calc(50% - 20px);
-            display: inline-block;
-        }
-
-        .left {
-            margin-right: 40px;
         }
     }
 }
@@ -374,10 +387,6 @@
 .personal-info .info span {
     color: #ff0000;
     margin-left: 4px;
-}
-.inquire-form .personal-info .pi-text {
-    height: 200px;
-    overflow: scroll;
 }
 .inquire-form .inquire-input .inquire select {
     margin: 5px 0;

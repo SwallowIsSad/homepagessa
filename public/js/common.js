@@ -101,4 +101,29 @@ $(function () {
             self.find(".layout").hide();
         }
     });
+
+    // 문의 제안 체크박스 이벤트
+    $(document).on("click", ".check-text", function (e) {
+        e.preventDefault();
+        var self = $(this);
+        if (self.find(".on").is(":visible")) {
+            self.find(".on").hide();
+            self.find(".off").show();
+        } else {
+            self.find(".on").show();
+            self.find(".off").hide();
+        }
+    });
+
+    $(document).on("click", ".pi-content", function (e) {
+        e.preventDefault();
+        var self = $(this);
+        if (self.find(".pi-text").is(":visible")) {
+            self.find(".pi-text").hide();
+            self.find(".pi-title img").css("transform", "rotate(180deg)");
+        } else {
+            self.find(".pi-text").show();
+            self.find(".pi-title img").css("transform", "rotate(360deg)");
+        }
+    });
 });
