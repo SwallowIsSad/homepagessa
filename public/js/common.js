@@ -20,6 +20,10 @@ $(function () {
             $(".gnb-sub-menu-area").show();
             $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
             $(".gnb-sub-menu-layout .gnb-sub-menu").eq(5).show();
+            if ($(window).width() < 992) {
+                $(".mobile-back").show();
+            }
+            $(".all-menu-layout-mobile").css("right", "-1px");
         }
     });
 
@@ -29,6 +33,14 @@ $(function () {
         $(".gnb-sub-menu-area").slideUp(200);
         $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
         $(".menu-up").hide();
+    });
+
+    $(document).on("click", ".mobile-back", function (e) {
+        e.preventDefault();
+        $(".all-menu-layout-mobile").css("right", "-100%");
+        $(".gnb-sub-menu-layout .gnb-sub-menu").hide(200);
+        $(".show-all img").removeClass("tra");
+        $(".mobile-back").hide();
     });
 
     // 탑으로
@@ -124,6 +136,17 @@ $(function () {
         } else {
             self.find(".pi-text").show();
             self.find(".pi-title img").css("transform", "rotate(360deg)");
+        }
+    });
+
+    $(document).on("click", ".all-mobile-box", function () {
+        var self = $(this);
+        if (self.find("a").is(":visible")) {
+            console.log(1);
+            self.removeClass("active");
+        } else {
+            $(".all-mobile-box").removeClass("active");
+            self.addClass("active");
         }
     });
 });
