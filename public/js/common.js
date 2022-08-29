@@ -42,6 +42,7 @@ $(function () {
         $(".gnb-sub-menu-layout .gnb-sub-menu").hide(200);
         $(".show-all img").removeClass("tra");
         $(".mobile-back").hide();
+        $(".gnb-sub-menu-area").hide();
         $(".menu-up").hide();
     });
 
