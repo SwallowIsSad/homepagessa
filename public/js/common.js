@@ -42,6 +42,7 @@ $(function () {
         $(".gnb-sub-menu-layout .gnb-sub-menu").hide(200);
         $(".show-all img").removeClass("tra");
         $(".mobile-back").hide();
+        $(".menu-up").hide();
     });
 
     // 탑으로
