@@ -21,7 +21,6 @@
             <header class="header sub-header">
         <?php endif?>
             <div class="nav-layout">
-                <?php if(isset($header) && $header === 'test'):?>
                 <div class="top-nav-area">
                     <div class="top-nav-layout">
                         <nav class="top-nav">
@@ -33,7 +32,6 @@
                         </nav>
                     </div>
                 </div>
-                <?php endif?>
                 <div class="global-nav">
                     <div class="logo">
                         <a href="/">
