@@ -7,7 +7,7 @@
     .swiper-container {
         width: 100%;
         overflow: hidden;
-        height: calc(100vh - 130px);
+        height: calc(100vh - 135px);
         /* height: 80vh; */
     }
 

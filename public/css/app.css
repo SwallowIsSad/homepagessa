@@ -540,7 +540,7 @@ a.btn {
 .all-menu-layout-mobile {
   display: none;
   position: fixed;
-  top: 0;
+  top: 30px;
   right: -100%;
   background: #fff;
   text-align: left;
