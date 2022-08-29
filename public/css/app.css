@@ -1211,11 +1211,11 @@ a.btn {
 .history-map .history-content .need-border:after {
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 1px;
   content: "";
   display: block;
   width: 1px;
-  height: calc(100% - 40px);
+  height: calc(100% - 41px);
   background: #ccc;
   z-index: 0;
   transition: all 0.5s;
@@ -1280,7 +1280,7 @@ a.btn {
 .history-map .history-content .left:after {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 1px;
   content: "";
   display: block;
   width: 1px;
@@ -1295,7 +1295,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .history-map .history-content .right {
-    transform: translateX(1px);
+    transform: translateX(0px);
   }
 }
 .history-map .history-content .left {
@@ -1308,7 +1308,7 @@ a.btn {
 }
 .history-map .history-content .left .circle {
   left: auto;
-  right: -9px;
+  right: -10px;
 }
 @media only screen and (max-width: 992px) {
   .history-map .history-content .left .circle {
