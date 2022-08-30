@@ -4,6 +4,9 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <style>
+    .swiper-wrapper{
+        transition: all .5s;
+    }
     .swiper-container {
         width: 100%;
         overflow: hidden;
@@ -95,11 +98,11 @@
         </div>
         <div class="swiper-slide">
             <div>
-                @include('employment.info')
+                @include('employment.recruit')
             </div>
         </div>
         <div class="swiper-slide">
-            <div>
+            <div style="width:100%">
                 @include('cs.inquire')
             </div>
         </div>

@@ -580,19 +580,23 @@ a.btn {
 }
 .all-menu-layout-mobile ul li {
   display: none;
-  padding-left: 15px;
   font-size: 14px;
   color: #606060;
-  height: 35px;
-  line-height: 35px;
   font-size: 15px;
   transition: all 0.1s;
+}
+.all-menu-layout-mobile ul li a {
+  padding-left: 15px;
+  display: block;
+  height: 35px;
+  line-height: 35px;
 }
 .all-menu-layout-mobile ul .title {
   position: relative;
   display: block;
   padding-left: 10px;
   height: 35px;
+  line-height: 35px;
 }
 .all-menu-layout-mobile ul .title img {
   position: absolute;
