@@ -540,14 +540,14 @@ a.btn {
 .all-menu-layout-mobile {
   display: none;
   position: fixed;
-  top: 30px;
+  top: 0px;
   right: -100%;
   background: #fff;
   text-align: left;
   width: 65vw;
   height: 100vh;
   transition: all 0.5s;
-  z-index: 3;
+  z-index: 6;
 }
 @media only screen and (max-width: 992px) {
   .all-menu-layout-mobile {
@@ -556,20 +556,31 @@ a.btn {
 }
 .all-menu-layout-mobile .menu-header {
   position: relative;
+  width: 100%;
+  text-align: right;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+}
+.all-menu-layout-mobile .menu-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 25px 15px;
   background: #202020;
+  box-sizing: border-box;
 }
-.all-menu-layout-mobile .menu-header .tel {
+.all-menu-layout-mobile .menu-footer .tel {
   font-size: 15px;
   color: #fff;
   letter-spacing: -1px;
 }
-.all-menu-layout-mobile .menu-header .date {
+.all-menu-layout-mobile .menu-footer .date {
   font-size: 13px;
   color: #fff;
   letter-spacing: -1px;
 }
-.all-menu-layout-mobile .menu-header img {
+.all-menu-layout-mobile .menu-footer img {
   position: absolute;
   top: 35%;
   right: 15px;
@@ -580,9 +591,8 @@ a.btn {
 }
 .all-menu-layout-mobile ul li {
   display: none;
-  font-size: 14px;
   color: #606060;
-  font-size: 15px;
+  font-size: 16px;
   transition: all 0.1s;
 }
 .all-menu-layout-mobile ul li a {
@@ -870,11 +880,17 @@ a.btn {
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   display: none;
-  z-index: 2;
+  z-index: 4;
+  display: none;
+}
+
+.boxbox {
+  width: 1px;
+  height: 100px;
 }
 @media only screen and (max-width: 992px) {
-  .mobile-back {
-    display: block;
+  .boxbox {
+    height: 50px;
   }
 }
 
@@ -1475,6 +1491,7 @@ a.btn {
   .figcaption .image-box {
     margin: 0 !important;
     width: 100% !important;
+    height: 260px !important;
   }
   .figcaption .image-box img {
     width: 100%;
@@ -1502,6 +1519,7 @@ a.btn {
     padding: 40px 20px !important;
     top: 100px !important;
     text-align: left;
+    height: 200px;
   }
 }
 .figcaption .test-box .title {

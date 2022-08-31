@@ -101,7 +101,7 @@
     </div>
     <div class="company-layout">
         <div class="section-title" id="content2">
-        <div style="width:1px; height:100px"></div>
+        <div class="boxbox"></div>
             CEO 인사
         </div>
         <div class="cooperative m100b">
@@ -153,7 +153,7 @@
             </div>
         </div>
         <div class="section-title"  id="content3">
-            <div style="width:1px; height:100px"></div>
+            <div class="boxbox"></div>
             연혁
         </div>
     </div>
@@ -325,7 +325,7 @@
     </div>
     <div class="company-layout">
         <div class="section-title"  id="content4">
-            <div style="width:1px; height:100px"></div>
+            <div class="boxbox"></div>
             관계업체
         </div>
         <nav class="company-list2">
@@ -356,7 +356,7 @@
                 </li>
             </ul>    
         </nav>
-        <div style="width:1px; height:100px"></div>
+        <div class="boxbox"></div>
 </div>
 </div>
 <?php if(!isset($header)):?>

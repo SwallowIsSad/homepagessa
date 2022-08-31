@@ -315,14 +315,14 @@
 .all-menu-layout-mobile {
     display: none;
     position: fixed;
-    top: 30px;
+    top: 0px;
     right: -100%;
     background: #fff;
     text-align: left;
     width: 65vw;
     height: 100vh;
     transition: all 0.5s;
-    z-index: 3;
+    z-index: 6;
     @media only screen and (max-width: $media-width) {
         & {
             display: block;
@@ -331,8 +331,20 @@
 
     .menu-header {
         position: relative;
+        width: 100%;
+        text-align: right;
+        padding: 15px 15px;
+        box-sizing: border-box;
+        letter-spacing: 2px;
+    }
+
+    .menu-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         padding: 25px 15px;
         background: #202020;
+        box-sizing: border-box;
 
         .tel {
             font-size: 15px;
@@ -361,9 +373,8 @@
     ul {
         li {
             display: none;
-            font-size: 14px;
             color: #606060;
-            font-size: 15px;
+            font-size: 16px;
             transition: all 0.1s;
 
             a {
@@ -703,11 +714,17 @@
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     display: none;
-    z-index: 2;
+    z-index: 4;
+    display: none;
+}
+
+.boxbox {
+    width: 1px;
+    height: 100px;
 
     @media only screen and (max-width: $media-width) {
         & {
-            display: block;
+            height: 50px;
         }
     }
 }

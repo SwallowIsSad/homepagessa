@@ -71,7 +71,7 @@
         </div>
     </div>
     <div class="nopadding-layout" id="content2">
-        <div style="width:1px; height:100px"></div>
+        <div class="boxbox"></div>
         <div class="section-title">
             제품소개
         </div>
@@ -250,7 +250,7 @@
         </div>
     </div>
     <div class="bs-layout" id="content3">
-        <div style="width:1px; height:100px"></div>
+        <div class="boxbox"></div>
         <div class="section-title">사업장소개</div>
         <div class="figcaption m100b">
             <div class="image-box" style="width:730px; height: 310px; margin:0 0 0 auto;">
@@ -308,7 +308,7 @@
         </div>
     </div>
     <div class="bs-layout" id="content4">
-        <div style="width:1px; height:80px"></div>
+        <div class="boxbox"></div>
         <div class="section-title">협력업체</div>
         <nav class="company-list">
             <ul>
