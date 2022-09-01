@@ -540,12 +540,12 @@ a.btn {
 .all-menu-layout-mobile {
   display: none;
   position: fixed;
-  top: 0px;
+  top: 31px;
   right: -100%;
   background: #fff;
   text-align: left;
   width: 65vw;
-  height: 100vh;
+  height: calc(100% - 31px);
   transition: all 0.5s;
   z-index: 6;
 }
@@ -561,6 +561,10 @@ a.btn {
   padding: 15px 15px;
   box-sizing: border-box;
   letter-spacing: 2px;
+  background: #202020;
+}
+.all-menu-layout-mobile .menu-header img {
+  width: 15px;
 }
 .all-menu-layout-mobile .menu-footer {
   position: absolute;

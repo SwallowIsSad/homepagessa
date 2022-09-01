@@ -341,6 +341,67 @@
                         <!-- gnb5 -->
                         <!-- all menu -->
                         <div class="gnb-sub-menu gnb6">
+                            <div class="mobile-back"></div>
+                            <nav class="all-menu-layout-mobile">
+                                <div class="menu-header">
+                                    <p class="close"><img src="{{ URL::asset('img/icon/close.png') }}" alt="" /></p>
+                                </div>
+                                <div class="menu-layout">
+                                    <ul class="all-mobile-box">
+                                        <li class="title">
+                                            회사소개
+                                            <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
+                                        </li>
+                                        <li><a href="javascript:;" data-num="1">기업이념</a></li>
+                                        <li><a href="javascript:;" data-num="1">CEO인사</a></li>
+                                        <li><a href="javascript:;" data-num="1">회사연혁</a></li>
+                                        <li><a href="javascript:;" data-num="1">관계업체</a></li>
+                                    </ul>
+                                    <ul class="all-mobile-box">
+                                        <li class="title">
+                                            사업소개
+                                            <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
+                                        </li>
+                                        <li><a href="javascript:;" data-num="2">사업개요</a></li>
+                                        <li><a href="javascript:;" data-num="2">제품소개</a></li>
+                                        <li><a href="javascript:;" data-num="2">사업장소개</a></li>
+                                        <li><a href="javascript:;" data-num="2">협력업체</a></li>
+                                    </ul>
+                                    <ul class="all-mobile-box">
+                                        <li class="title">
+                                            신승정보
+                                            <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
+                                        </li>
+                                        <li><a href="javascript:;" data-num="3">공지사항</a></li>
+                                        <li><a href="javascript:;" data-num="3">정보공시</a></li>
+                                        <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
+                                        <li><a href="javascript:;" data-num="3">홍보센터</a></li>
+                                    </ul>
+                                    <ul class="all-mobile-box">
+                                        <li class="title">
+                                            인재채용
+                                            <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
+                                        </li>
+                                        <li><a href="javascript:;" data-num="4">채용정보</a></li>
+                                        <li><a href="javascript:;" data-num="4">지원서제출</a></li>
+                                        <li><a href="javascript:;" data-num="4">인재상</a></li>
+                                    </ul>
+                                    <ul class="all-mobile-box">
+                                        <li class="title">
+                                            고객센터
+                                            <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
+                                        </li>
+                                        <li><a href="javascript:;" data-num="5">문의하기</a></li>
+                                        <li><a href="javascript:;" data-num="5">제안하기</a></li>
+                                        <li><a href="javascript:;" data-num="5">오시는길</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-footer">
+                                    <p class="tel">2270 - 4900</p>
+                                    <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
+                                    <img src="{{ URL::asset('img/cs/menu-icon.png') }}" alt="">
+                                </div>
+                            </nav>
                             <nav class="all-menu-layout">
                                 <ul>
                                     <li class="title"><a href="{{ url('company') }}#content1">기업이념</a></li>
@@ -377,67 +438,5 @@
                 </div>
             </div>
         </header>
-        <nav class="all-menu-layout-mobile">
-            <div class="menu-header">
-                <p class="close">X</p>
-            </div>
-            <div class="menu-layout">
-                <ul class="all-mobile-box">
-                    <li class="title">
-                        회사소개
-                        <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
-                    </li>
-                    <li><a href="javascript:;" data-num="1">기업이념</a></li>
-                    <li><a href="javascript:;" data-num="1">CEO인사</a></li>
-                    <li><a href="javascript:;" data-num="1">회사연혁</a></li>
-                    <li><a href="javascript:;" data-num="1">관계업체</a></li>
-                </ul>
-                <ul class="all-mobile-box">
-                    <li class="title">
-                        사업소개
-                        <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
-                    </li>
-                    <li><a href="javascript:;" data-num="2">사업개요</a></li>
-                    <li><a href="javascript:;" data-num="2">제품소개</a></li>
-                    <li><a href="javascript:;" data-num="2">사업장소개</a></li>
-                    <li><a href="javascript:;" data-num="2">협력업체</a></li>
-                </ul>
-                <ul class="all-mobile-box">
-                    <li class="title">
-                        신승정보
-                        <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
-                    </li>
-                    <li><a href="javascript:;" data-num="3">공지사항</a></li>
-                    <li><a href="javascript:;" data-num="3">정보공시</a></li>
-                    <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
-                    <li><a href="javascript:;" data-num="3">홍보센터</a></li>
-                </ul>
-                <ul class="all-mobile-box">
-                    <li class="title">
-                        인재채용
-                        <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
-                    </li>
-                    <li><a href="javascript:;" data-num="4">채용정보</a></li>
-                    <li><a href="javascript:;" data-num="4">지원서제출</a></li>
-                    <li><a href="javascript:;" data-num="4">인재상</a></li>
-                </ul>
-                <ul class="all-mobile-box">
-                    <li class="title">
-                        고객센터
-                        <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
-                    </li>
-                    <li><a href="javascript:;" data-num="5">문의하기</a></li>
-                    <li><a href="javascript:;" data-num="5">제안하기</a></li>
-                    <li><a href="javascript:;" data-num="5">오시는길</a></li>
-                </ul>
-            </div>
-            <div class="menu-footer">
-                <p class="tel">2270 - 4900</p>
-                <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
-                <img src="{{ URL::asset('img/cs/menu-icon.png') }}" alt="">
-            </div>
-        </nav>
         <div class="menu-up"></div>
-        <!-- 모바일용 배경 -->
-        <div class="mobile-back"></div>
         <!-- header -->

@@ -315,12 +315,12 @@
 .all-menu-layout-mobile {
     display: none;
     position: fixed;
-    top: 0px;
+    top: 31px;
     right: -100%;
     background: #fff;
     text-align: left;
     width: 65vw;
-    height: 100vh;
+    height: calc(100% - 31px);
     transition: all 0.5s;
     z-index: 6;
     @media only screen and (max-width: $media-width) {
@@ -336,6 +336,11 @@
         padding: 15px 15px;
         box-sizing: border-box;
         letter-spacing: 2px;
+        background: #202020;
+
+        img {
+            width: 15px;
+        }
     }
 
     .menu-footer {
