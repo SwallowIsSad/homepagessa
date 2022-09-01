@@ -10,8 +10,8 @@
     .swiper-container {
         width: 100%;
         overflow: hidden;
-        height: calc(100vh - 135px);
-        /* height: 80vh; */
+        /* height: calc(100vh - 135px); */
+        height: 80vh;
     }
 
     .swiper-slide {
@@ -124,8 +124,8 @@
                     if($(".slide-mobile").is(':visible')){
                     // $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"87px"});
                     // $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
-                    $(".visual-area").css({"height" : $(".slide-mobile").height() - 60 + "px", "top":"87px"});
-                    $(".visual-back").css("height", $(".slide-mobile").height() - 60 + "px");
+                    $(".visual-area").css({"height" : $(".slide-mobile").height() + "px", "top":"87px"});
+                    $(".visual-back").css("height", $(".slide-mobile").height() + "px");
                     
                 }
                 }, 150)
