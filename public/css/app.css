@@ -1562,7 +1562,7 @@ a.btn {
   background: #929292;
 }
 .figcaption .test-box .desc {
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   color: #868686;
   font-size: 15px;
 }
