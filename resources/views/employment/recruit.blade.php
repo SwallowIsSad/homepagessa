@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="inquire-input">
-                <!-- <div class="inquire full">
+                <div class="inquire full">
                     <p class="title need">지원분야<span>*</span></p>
                     <div class="input-layout">
                         <select name="" id="">
@@ -163,7 +163,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="inquire left">
+                <!-- <div class="inquire left">
                     <p class="title need">이름<span>*</span></p>
                     <div class="input-layout">
                         <input type="text" placeholder="이름을 입력해주세요.">
