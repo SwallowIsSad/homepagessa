@@ -1597,12 +1597,16 @@ a.btn {
   }
 }
 
-#company-content1 .section-title {
-  margin-bottom: 0 !important;
+@media only screen and (max-width: 992px) {
+  #company-content1 .section-title {
+    margin-bottom: 0 !important;
+  }
 }
 
-#bus-content3 .section-title {
-  margin-bottom: 0 !important;
+@media only screen and (max-width: 992px) {
+  #bus-content3 .section-title {
+    margin-bottom: 0 !important;
+  }
 }
 
 .nopadding-layout {
