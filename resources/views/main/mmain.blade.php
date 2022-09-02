@@ -124,7 +124,7 @@
                     if($(".slide-mobile").is(':visible')){
                     // $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"87px"});
                     // $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
-                    $(".visual-area").css({"height" : $(".slide-mobile").height() + "px", "top":"87px"});
+                    $(".visual-area").css({"height" : $(".slide-mobile").height() + "px", "top":"85px"});
                     $(".visual-back").css("height", $(".slide-mobile").height() + "px");
                     
                 }

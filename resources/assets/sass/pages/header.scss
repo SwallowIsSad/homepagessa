@@ -146,7 +146,7 @@
             .all-menu {
                 @media only screen and (max-width: $media-width) {
                     & {
-                        padding-right: 30px;
+                        padding-right: 20px;
                     }
 
                     .only-pc {
@@ -342,7 +342,7 @@
 
         .close {
             position: absolute;
-            right: 30px;
+            right: 20px;
             top: 50%;
             height: 15px;
             transform: translateY(-50%);
