@@ -2177,6 +2177,9 @@ a.btn {
 .employment-info .label ul li:last-child:after {
   display: none;
 }
+.employment-info .info-box {
+  text-align: left;
+}
 .employment-info .info-box ul {
   font-size: 0;
 }

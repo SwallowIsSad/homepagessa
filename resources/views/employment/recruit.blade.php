@@ -34,7 +34,7 @@
                         </p>
                         <p class="date">2022-07-01~2022-07-31</p>
                         <p class="button">
-                            D-20
+                            마감
                         </p>
                     </div>
                 </li>
@@ -45,7 +45,7 @@
                         </p>
                         <p class="date">2022-07-01~2022-07-31</p>
                         <p class="button">
-                            D-20
+                            마감
                         </p>
                     </div>
                 </li>
@@ -56,7 +56,7 @@
                         </p>
                         <p class="date">2022-07-01~2022-07-31</p>
                         <p class="button">
-                            D-20
+                            마감
                         </p>
                     </div>
                 </li>
@@ -67,7 +67,7 @@
                         </p>
                         <p class="date">2022-07-01~2022-07-31</p>
                         <p class="button">
-                            D-20
+                            마감
                         </p>
                     </div>
                 </li>
