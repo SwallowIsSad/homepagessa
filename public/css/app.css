@@ -2141,6 +2141,9 @@ a.btn {
   margin-left: 2px;
   color: #ff0000;
 }
+.inquire-form .inquire-input .full {
+  margin: 20px 0;
+}
 
 .employment-info {
   box-sizing: border-box;
