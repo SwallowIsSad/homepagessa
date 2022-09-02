@@ -152,7 +152,7 @@
                     <span class="text">민감정보 수집 및 이용에 동의합니다.</span>
                 </div>
             </div>
-            <div class="inquire-input">
+            <!-- <div class="inquire-input">
                 <div class="inquire full">
                     <p class="title need">지원분야<span>*</span></p>
                     <div class="input-layout">
@@ -203,7 +203,7 @@
                     <p class="title need">자기소개서<span>*</span></p>
                     <textarea name="" id=""></textarea>
                 </div>
-            </div>
+            </div> -->
             <div class="btn-area area-center">
                 <a href="javascript:;" class="btn btn-white">취소하기</a>
                 <a href="javascript:;" class="btn btn-blue">지원하기</a>
