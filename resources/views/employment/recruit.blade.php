@@ -82,6 +82,58 @@
     </div>
     <div class="inquire-form">
         <form action="#">
+            <div class="inquire-input">
+                <div class="inquire full">
+                    <p class="title need">지원분야<span>*</span></p>
+                    <div class="input-layout">
+                        <select name="" id="">
+                            <option value="">
+                                영업/관리 신입사원모집 (상시)
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="inquire left">
+                    <p class="title need">이름<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="이름을 입력해주세요.">
+                    </div>
+                </div>
+                <div class="inquire right">
+                    <p class="title need">이메일<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="메일 주소를 입력해주세요">
+                    </div>
+                </div>
+                <div class="inquire left">
+                    <p class="title need">연락처<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
+                    </div>
+                </div>
+                <div class="inquire right">
+                    <p class="title need">사진첨부<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
+                    </div>
+                </div>
+                <div class="inquire left">
+                    <p class="title need">비상연락처<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
+                    </div>
+                </div>
+                <div class="inquire right">
+                    <p class="title need">이력서 첨부<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
+                    </div>
+                </div>
+                <div class="inquire full">
+                    <p class="title need">자기소개서<span>*</span></p>
+                    <textarea name="" id=""></textarea>
+                </div>
+            </div>
             <div class="personal-info m50b">
                 <p class="info">개인정보 수집·활용 동의서</p>
                 <div class="pi-content">
@@ -152,60 +204,7 @@
                     <span class="text">민감정보 수집 및 이용에 동의합니다.</span>
                 </div>
             </div>
-            <div class="inquire-input">
-                <div class="inquire full">
-                    <p class="title need">지원분야<span>*</span></p>
-                    <div class="input-layout">
-                        <select name="" id="">
-                            <option value="">
-                                영업/관리 신입사원모집 (상시)
-                            </option>
-                        </select>
-                    </div>
-                </div>
-                <div class="inquire left">
-                    <p class="title need">이름<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="이름을 입력해주세요.">
-                    </div>
-                </div>
-                <div class="inquire right">
-                    <p class="title need">이메일<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="메일 주소를 입력해주세요">
-                    </div>
-                </div>
-                <div class="inquire left">
-                    <p class="title need">연락처<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
-                    </div>
-                </div>
-                <div class="inquire right">
-                    <p class="title need">사진첨부<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
-                    </div>
-                </div>
-                <div class="inquire left">
-                    <p class="title need">비상연락처<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
-                    </div>
-                </div>
-                <div class="inquire right">
-                    <p class="title need">이력서 첨부<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
-                    </div>
-                </div>
-                <div class="inquire full">
-                    <p class="title need">자기소개서<span>*</span></p>
-                    <textarea name="" id=""></textarea>
-                </div>
-            </div>
             <div class="btn-area area-center">
-                <a href="javascript:;" class="btn btn-white">취소하기</a>
                 <a href="javascript:;" class="btn btn-blue">지원하기</a>
             </div>
         </form>
