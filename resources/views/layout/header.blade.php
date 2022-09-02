@@ -344,7 +344,7 @@
                             <div class="mobile-back"></div>
                             <nav class="all-menu-layout-mobile">
                                 <div class="menu-header">
-                                    <p class="close"><img src="{{ URL::asset('img/icon/close.png') }}" alt="" /></p>
+                                    <p class="close"><img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" /></p>
                                 </div>
                                 <div class="menu-layout">
                                     <ul class="all-mobile-box">
@@ -399,7 +399,7 @@
                                 <div class="menu-footer">
                                     <p class="tel">2270 - 4900</p>
                                     <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
-                                    <img src="{{ URL::asset('img/cs/menu-icon.png') }}" alt="">
+                                    <a href="tel:02-2270-4900"><img src="{{ URL::asset('img/cs/menu-icon.png') }}" alt=""></a>
                                 </div>
                             </nav>
                             <nav class="all-menu-layout">

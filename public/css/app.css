@@ -284,7 +284,6 @@ a.btn {
   z-index: 4;
 }
 .header .nav-layout .top-nav-area {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   background: #506354;
 }
 .header .nav-layout .top-nav-area .top-nav-layout {
@@ -540,7 +539,7 @@ a.btn {
 .all-menu-layout-mobile {
   display: none;
   position: fixed;
-  top: 31px;
+  top: 30px;
   right: -100%;
   background: #fff;
   text-align: left;
@@ -558,30 +557,42 @@ a.btn {
   position: relative;
   width: 100%;
   text-align: right;
-  padding: 15px 15px;
+  padding: 0px 15px;
+  height: 56px;
+  line-height: 56px;
   box-sizing: border-box;
   letter-spacing: 2px;
   background: #202020;
 }
+.all-menu-layout-mobile .menu-header .close {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  height: 15px;
+  transform: translateY(-50%);
+}
 .all-menu-layout-mobile .menu-header img {
-  width: 15px;
+  width: 19px;
+  display: block;
+  transform: rotate(90deg);
 }
 .all-menu-layout-mobile .menu-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 25px 15px;
-  background: #202020;
+  padding: 18px 15px;
+  background: #fff;
   box-sizing: border-box;
+  border-top: 1px solid #ccc;
 }
 .all-menu-layout-mobile .menu-footer .tel {
   font-size: 15px;
-  color: #fff;
+  color: #202020;
   letter-spacing: -1px;
 }
 .all-menu-layout-mobile .menu-footer .date {
   font-size: 13px;
-  color: #fff;
+  color: #202020;
   letter-spacing: -1px;
 }
 .all-menu-layout-mobile .menu-footer img {
@@ -594,29 +605,30 @@ a.btn {
   width: 100%;
 }
 .all-menu-layout-mobile ul li {
+  padding: 5px 0;
   display: none;
   color: #606060;
   font-size: 16px;
   transition: all 0.1s;
 }
 .all-menu-layout-mobile ul li a {
-  padding-left: 15px;
+  padding-left: 20px;
   display: block;
-  height: 35px;
-  line-height: 35px;
+  height: 30px;
+  line-height: 30px;
 }
 .all-menu-layout-mobile ul .title {
   position: relative;
   display: block;
   padding-left: 10px;
-  height: 35px;
-  line-height: 35px;
+  height: 40px;
+  line-height: 40px;
 }
 .all-menu-layout-mobile ul .title img {
   position: absolute;
   width: 12px;
   top: 42%;
-  right: 10px;
+  right: 20px;
   transform: rotate(180deg);
 }
 .all-menu-layout-mobile .active {

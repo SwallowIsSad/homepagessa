@@ -142,8 +142,12 @@ $(function () {
 
     $(document).on("click", ".all-mobile-box", function () {
         var self = $(this);
-        $(".all-mobile-box").removeClass("active");
-        self.addClass("active");
+        if (self.find("a").is(":visible")) {
+            $(".all-mobile-box").removeClass("active");
+        } else {
+            $(".all-mobile-box").removeClass("active");
+            self.addClass("active");
+        }
     });
 
     $(document).on("click", ".all-mobile-box a, .close", function (e) {
