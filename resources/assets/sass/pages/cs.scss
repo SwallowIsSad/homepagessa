@@ -263,10 +263,12 @@
                 display: inline-block;
                 vertical-align: top;
                 background: #f7f7f7;
+                box-sizing: border-box;
 
                 @media only screen and (max-width: $media-width) {
                     & {
                         width: 100%;
+                        margin-right: 0;
                     }
                 }
 

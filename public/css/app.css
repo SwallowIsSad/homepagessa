@@ -2164,10 +2164,12 @@ a.btn {
   display: inline-block;
   vertical-align: top;
   background: #f7f7f7;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 992px) {
   .employment-info .info-box ul li {
     width: 100%;
+    margin-right: 0;
   }
 }
 .employment-info .info-box ul li .title {
