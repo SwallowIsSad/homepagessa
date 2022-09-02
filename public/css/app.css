@@ -604,6 +604,9 @@ a.btn {
 .all-menu-layout-mobile .all-mobile-box {
   width: 100%;
 }
+.all-menu-layout-mobile ul li:last-child {
+  padding-bottom: 10px !important;
+}
 .all-menu-layout-mobile ul li {
   padding: 5px 0;
   display: none;

@@ -389,6 +389,10 @@
     }
 
     ul {
+        li:last-child {
+            padding-bottom: 10px !important;
+        }
+
         li {
             padding: 5px 0;
             display: none;
