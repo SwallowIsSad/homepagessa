@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="inquire-input">
-                <div class="inquire full">
+                <!-- <div class="inquire full">
                     <p class="title need">지원분야<span>*</span></p>
                     <div class="input-layout">
                         <select name="" id="">
@@ -198,7 +198,7 @@
                     <div class="input-layout">
                         <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
                     </div>
-                </div>
+                </div> -->
                 <div class="inquire full">
                     <p class="title need">자기소개서<span>*</span></p>
                     <textarea name="" id=""></textarea>
