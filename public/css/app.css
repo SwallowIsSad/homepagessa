@@ -2079,6 +2079,7 @@ a.btn {
 .inquire-form .inquire-input {
   margin-top: 50px;
   font-size: 0;
+  width: 100%;
 }
 .inquire-form .inquire-input .inquire {
   margin-bottom: 20px;
