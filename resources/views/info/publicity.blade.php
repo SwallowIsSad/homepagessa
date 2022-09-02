@@ -5,7 +5,7 @@
         font-weight: bold;
     }
 </style>
-<div class="sub-page-layout">
+<div class="sub-page-layout" id="#info-content3">
     <div style="width:1px; height:100px;"></div>
     <div class="sub-page-header">홍보센터</div>
     <div class="company-layout">

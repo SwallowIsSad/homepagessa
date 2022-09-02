@@ -1,5 +1,5 @@
 
-<div class="board-layout">
+<div class="board-layout" id="#info-content2">
     <div style="width:1px; height:100px;"></div>
     <div class="section-title">
         정보공시

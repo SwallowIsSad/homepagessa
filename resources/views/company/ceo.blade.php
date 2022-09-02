@@ -5,7 +5,7 @@
     @include('layout.lnb')
 <?php endif;?>
 <div class="swiper-company">
-    <div class="company-layout" id="content1">
+    <div class="company-layout" id="company-content1">
         <div style="width:1px; height:100px"></div>
         <div class="section-title">
             기업이념
@@ -59,7 +59,7 @@
             <ul>
                 <li>
                     <div class="background">
-                            <img src="{{ URL::asset('img/company/banner2.png') }}" alt="">
+                        <img src="{{ URL::asset('img/company/banner2.png') }}" alt="">
                     </div>
                         <p class="title m20t">변화와 혁신</p>
                         <div class="line"></div>
@@ -73,34 +73,34 @@
                 </li>
                 <li class="m100r m100l">
                     <div class="background">
-                            <img src="{{ URL::asset('img/company/banner1.png') }}" alt="">
+                        <img src="{{ URL::asset('img/company/banner1.png') }}" alt="">
                     </div>
-                        <p class="title m20t">자율과 창의</p>
-                        <div class="line"></div>
-                        <p class="desc">
-                            자율을 바탕으로 창의력 넘치는 기업문화 
-                            <br>
-                            구축으로 백년대계를 준비합니다.
-                        </p>
+                    <p class="title m20t">자율과 창의</p>
+                    <div class="line"></div>
+                    <p class="desc">
+                        자율을 바탕으로 창의력 넘치는 기업문화 
+                        <br>
+                        구축으로 백년대계를 준비합니다.
+                    </p>
                 </li>
                 <li>
                     <div class="background">
-                            <img src="{{ URL::asset('img/company/banner3.png') }}" alt="">
+                        <img src="{{ URL::asset('img/company/banner3.png') }}" alt="">
                     </div>
-                        <p class="title m20t">고객과 함께 발전</p>
-                        <div class="line"></div>
-                        <p class="desc">
-                            항상 고객의 발전이 신승지류유통의 발전이라는
-                            <br>
-                            믿음으로 고객만족에 최선을 다합니다.
-                        </p>
+                    <p class="title m20t">고객과 함께 발전</p>
+                    <div class="line"></div>
+                    <p class="desc">
+                        항상 고객의 발전이 신승지류유통의 발전이라는
+                        <br>
+                        믿음으로 고객만족에 최선을 다합니다.
+                    </p>
                 </li>
             </ul>
         </nav> 
         </div>
     </div>
-    <div class="company-layout">
-        <div class="section-title" id="content2">
+    <div class="company-layout"  id="company-content2">
+        <div class="section-title">
         <div class="boxbox"></div>
             CEO 인사
         </div>
@@ -152,9 +152,11 @@
                 </p>
             </div>
         </div>
-        <div class="section-title"  id="content3">
-            <div class="boxbox"></div>
-            연혁
+        <div id="company-content3" style="padding-top:50px">
+            <div class="section-title">
+                <div class="boxbox"></div>
+                연혁
+            </div>
         </div>
     </div>
     <div class="history-map m100b">
@@ -323,8 +325,8 @@
         </div>
         <!-- <img src="{{ URL::asset('img/company/history.jpg') }}" alt=""> -->
     </div>
-    <div class="company-layout">
-        <div class="section-title"  id="content4">
+    <div class="company-layout" id="company-content4">
+        <div class="section-title">
             <div class="boxbox"></div>
             관계업체
         </div>

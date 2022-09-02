@@ -105,7 +105,7 @@
                         <!-- gnb1 -->
                         <div class="gnb-sub-menu gnb1">
                             <div class="box m40r">
-                                <a href="{{ url('company') }}#content1" class="m30t">
+                                <a href="{{ url('company') }}#company-content1" class="m30t">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb1-1.jpg') }}" alt="" />
                                     </div>
@@ -116,7 +116,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('company') }}#content2">
+                                <a href="{{ url('company') }}#company-content2">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb1-2.jpg') }}" alt="" />
                                     </div>
@@ -129,7 +129,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('company') }}#content3">
+                                <a href="{{ url('company') }}#company-content3">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb1-3.jpg') }}" alt="" />
                                     </div>
@@ -140,7 +140,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('company') }}#content4">
+                                <a href="{{ url('company') }}#company-content4">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb1-4.jpg') }}" alt="" />
                                     </div>
@@ -155,7 +155,7 @@
                         <!-- gnb2 -->
                         <div class="gnb-sub-menu gnb2">
                             <div class="box m40r">
-                                <a href="{{ url('business') }}#content1">
+                                <a href="{{ url('business') }}#bus-content1">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb2-1.jpg') }}" alt="" />
                                     </div>
@@ -166,7 +166,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('business') }}#content2">
+                                <a href="{{ url('business') }}#bus-content2">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb2-2.jpg') }}" alt="" />
                                     </div>
@@ -177,7 +177,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('business') }}#content3">
+                                <a href="{{ url('business') }}#bus-content3">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb2-3.jpg') }}" alt="" />
                                     </div>
@@ -188,7 +188,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('business') }}#content4">
+                                <a href="{{ url('business') }}#bus-content4">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb2-4.jpg') }}" alt="" />
                                     </div>
@@ -203,7 +203,7 @@
                         <!-- gnb3 -->
                         <div class="gnb-sub-menu gnb3">
                             <div class="box m40r">
-                                <a href="{{ url('info/notice') }}">
+                                <a href="{{ url('info/notice') }}#info-content1">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb3-1.jpg') }}" alt="" />
                                     </div>
@@ -216,7 +216,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('info/notice') }}">
+                                <a href="{{ url('info/notice') }}#info-content2">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb3-2.jpg') }}" alt="" />
                                     </div>
@@ -242,7 +242,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('info/notice') }}">
+                                <a href="{{ url('info/notice') }}#info-content3">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb3-4.jpg') }}" alt="" />
                                     </div>
@@ -352,30 +352,30 @@
                                             회사소개
                                             <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
                                         </li>
-                                        <li><a href="javascript:;" data-num="1">기업이념</a></li>
-                                        <li><a href="javascript:;" data-num="1">CEO인사</a></li>
-                                        <li><a href="javascript:;" data-num="1">회사연혁</a></li>
-                                        <li><a href="javascript:;" data-num="1">관계업체</a></li>
+                                        <li><a href="javascript:;" data-num="1" data-top="company-content1">기업이념</a></li>
+                                        <li><a href="javascript:;" data-num="1" data-top="company-content2">CEO인사</a></li>
+                                        <li><a href="javascript:;" data-num="1" data-top="company-content3">회사연혁</a></li>
+                                        <li><a href="javascript:;" data-num="1" data-top="company-content4">관계업체</a></li>
                                     </ul>
                                     <ul class="all-mobile-box">
                                         <li class="title">
                                             사업소개
                                             <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
                                         </li>
-                                        <li><a href="javascript:;" data-num="2">사업개요</a></li>
-                                        <li><a href="javascript:;" data-num="2">제품소개</a></li>
-                                        <li><a href="javascript:;" data-num="2">사업장소개</a></li>
-                                        <li><a href="javascript:;" data-num="2">협력업체</a></li>
+                                        <li><a href="javascript:;" data-num="2" data-top="bus-content1">사업개요</a></li>
+                                        <li><a href="javascript:;" data-num="2" data-top="bus-content2">제품소개</a></li>
+                                        <li><a href="javascript:;" data-num="2" data-top="bus-content3">사업장소개</a></li>
+                                        <li><a href="javascript:;" data-num="2" data-top="bus-content4">협력업체</a></li>
                                     </ul>
                                     <ul class="all-mobile-box">
                                         <li class="title">
                                             신승정보
                                             <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
                                         </li>
-                                        <li><a href="javascript:;" data-num="3">공지사항</a></li>
-                                        <li><a href="javascript:;" data-num="3">정보공시</a></li>
+                                        <li><a href="javascript:;" data-num="3" data-top="info-content1">공지사항</a></li>
+                                        <li><a href="javascript:;" data-num="3" data-top="info-content2">정보공시</a></li>
                                         <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
-                                        <li><a href="javascript:;" data-num="3">홍보센터</a></li>
+                                        <li><a href="javascript:;" data-num="3" data-top="info-content3">홍보센터</a></li>
                                     </ul>
                                     <ul class="all-mobile-box">
                                         <li class="title">

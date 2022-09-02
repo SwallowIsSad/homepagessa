@@ -6,7 +6,7 @@
 <?php endif;?>
 <div class="sub-page-layout">
     <div>
-        <div class="bs-layout" id="content1">
+        <div class="bs-layout" id="bus-content1">
             <div style="width:1px; height:100px"></div>
             <div class="section-title">
                 사업개요
@@ -70,7 +70,7 @@
 -->
         </div>
     </div>
-    <div class="nopadding-layout" id="content2">
+    <div class="nopadding-layout" id="bus-content2">
         <div class="boxbox"></div>
         <div class="section-title">
             제품소개
@@ -249,7 +249,7 @@
             </div>
         </div>
     </div>
-    <div class="bs-layout" id="content3">
+    <div class="bs-layout" id="bus-content3">
         <div class="boxbox"></div>
         <div class="section-title">사업장소개</div>
         <div class="figcaption m100b">
@@ -307,7 +307,7 @@
             </div>
         </div>
     </div>
-    <div class="bs-layout" id="content4">
+    <div class="bs-layout" id="bus-content4">
         <div class="boxbox"></div>
         <div class="section-title">협력업체</div>
         <nav class="company-list">
