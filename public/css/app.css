@@ -2076,6 +2076,7 @@ a.btn {
   background: #e6e6e6;
   box-sizing: border-box;
   text-align: left;
+  font-size: 15px;
 }
 .inquire-form .personal-info .pi-content .pi-title img {
   position: absolute;
@@ -2099,7 +2100,7 @@ a.btn {
 }
 .inquire-form .inquire-input .inquire {
   width: 100%;
-  margin-bottom: 20px;
+  margin: 10px 0;
   border-bottom: 1px solid #e6e6e6;
 }
 .inquire-form .inquire-input .inquire .title,

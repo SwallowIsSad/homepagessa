@@ -146,6 +146,7 @@
                 background: #e6e6e6;
                 box-sizing: border-box;
                 text-align: left;
+                font-size: 15px;
 
                 img {
                     position: absolute;
@@ -172,7 +173,7 @@
         text-align: left;
         .inquire {
             width: 100%;
-            margin-bottom: 20px;
+            margin: 10px 0;
             border-bottom: 1px solid #e6e6e6;
             .title,
             .input-layout {
