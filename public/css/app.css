@@ -300,7 +300,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .header .nav-layout .top-nav-area .top-nav-layout .top-nav {
-    padding-right: 30px;
+    padding-right: 16px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -1429,7 +1429,7 @@ a.btn {
   width: 120px;
 }
 .company-banner ul li .title {
-  font-size: 30px;
+  font-size: 20px;
   color: #222;
 }
 .company-banner ul li .line {
@@ -1534,8 +1534,8 @@ a.btn {
 @media only screen and (max-width: 992px) {
   .figcaption .test-box {
     margin: 0 20px !important;
-    width: auto !important;
-    padding: 40px 20px !important;
+    width: 75% !important;
+    padding: 30px 20px !important;
     top: 100px !important;
     text-align: left;
     height: 200px;
@@ -1563,6 +1563,7 @@ a.btn {
 }
 .figcaption .test-box .desc {
   letter-spacing: -1px;
+  line-height: 24px;
   color: #868686;
   font-size: 15px;
 }
