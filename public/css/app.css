@@ -2334,7 +2334,7 @@ a.btn {
   vertical-align: middle;
   height: 50px;
   line-height: 50px;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   border-bottom: 1px solid #d9d9d9;
 }
@@ -2414,13 +2414,14 @@ a.btn {
   bottom: 25px;
   left: 0;
   color: #606060;
-  font-size: 14px;
+  font-size: 15px;
 }
 .board-layout .search-area input {
   padding-left: 5px;
   width: 200px;
   height: 30px;
   border: none;
+  font-size: 15px;
 }
 .board-layout .search-area img {
   padding-bottom: 5px;
