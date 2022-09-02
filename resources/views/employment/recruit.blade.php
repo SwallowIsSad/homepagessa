@@ -169,7 +169,7 @@
                         <input type="text" placeholder="이름을 입력해주세요.">
                     </div>
                 </div>
-                <!-- <div class="inquire right">
+                <div class="inquire right">
                     <p class="title need">이메일<span>*</span></p>
                     <div class="input-layout">
                         <input type="text" placeholder="메일 주소를 입력해주세요">
@@ -198,7 +198,7 @@
                     <div class="input-layout">
                         <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
                     </div>
-                </div> -->
+                </div>
                 <div class="inquire full">
                     <p class="title need">자기소개서<span>*</span></p>
                     <textarea name="" id=""></textarea>
