@@ -1270,7 +1270,7 @@ a.btn {
 .history-map .history-content .content,
 .history-map .history-content .content2 {
   position: relative;
-  padding-top: 66px;
+  padding-top: 67px;
   box-sizing: border-box;
   width: 50%;
   font-size: 14px;
@@ -1321,7 +1321,7 @@ a.btn {
 .history-map .history-content .left:after {
   position: absolute;
   left: 0;
-  top: 1px;
+  top: 0px;
   content: "";
   display: block;
   width: 1px;
@@ -1377,7 +1377,7 @@ a.btn {
   }
 }
 .history-map .history-content .content2 {
-  padding-top: 90px;
+  padding-top: 91px;
 }
 .history-map .history-content .content2 .circle {
   top: 74px;
