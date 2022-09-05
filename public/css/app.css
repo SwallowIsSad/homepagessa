@@ -486,11 +486,13 @@ a.btn {
   margin: 0 auto;
   width: 1100px;
   text-align: center;
+  height: 200px;
 }
 @media only screen and (max-width: 992px) {
   .header .nav-layout .gnb-sub-menu-area .gnb-sub-menu-layout {
     padding: 0;
     background: #fff;
+    height: auto;
   }
 }
 .header .nav-layout .gnb-sub-menu-area .box {

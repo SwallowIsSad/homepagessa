@@ -253,11 +253,13 @@
                 margin: 0 auto;
                 width: 1100px;
                 text-align: center;
+                height: 200px;
 
                 @media only screen and (max-width: $media-width) {
                     & {
                         padding: 0;
                         background: #fff;
+                        height: auto;
                     }
                 }
             }
