@@ -333,27 +333,27 @@
         <nav class="company-list2">
             <ul>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo10.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo10.jpg') }}" alt="">
                     <p>(주)갑우문화사</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo11.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo11.jpg') }}" alt="">
                     <p>(주)갑우패키지</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo12.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo12.jpg') }}" alt="">
                     <p>(주)더원프린팅</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo13.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo13.jpg') }}" alt="">
                     <p>(주)비피엔피</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo14.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo14.jpg') }}" alt="">
                     <p>지비로터리(주)</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo15.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo15.jpg') }}" alt="">
                     <p>(주)프린트뱅크</p>
                 </li>
             </ul>    

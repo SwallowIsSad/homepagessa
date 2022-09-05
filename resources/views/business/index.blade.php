@@ -314,39 +314,39 @@
         <nav class="company-list">
             <ul>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo1.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo1.jpg') }}" alt="">
                     <p>깨끗한나라</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo2.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo2.jpg') }}" alt="">
                     <p>대한제지</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo3.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo3.jpg') }}" alt="">
                     <p>무림페이퍼</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo4.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo4.jpg') }}" alt="">
                     <p>삼화제지</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo5.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo5.jpg') }}" alt="">
                     <p>전주페이퍼</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo6.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo6.jpg') }}" alt="">
                     <p>한국제지</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo7.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo7.jpg') }}" alt="">
                     <p>한솔제지</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo8.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo8.jpg') }}" alt="">
                     <p>한창제지</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo9.png') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo9.jpg') }}" alt="">
                     <p>홍원제지</p>
                 </li>
             </ul>    
