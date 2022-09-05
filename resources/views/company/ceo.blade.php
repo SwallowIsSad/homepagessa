@@ -8,9 +8,9 @@
     <div class="company-layout" id="company-content1">
         <div style="width:1px; height:100px"></div>
         <div class="section-title">
-            <span class="icon">···</span>
+            <span class="icon">◆</span>
             기업이념
-            <span class="icon">···</span>
+            <span class="icon">◆</span>
         </div>
         <div class="cooperative">
             <div class="figcaption m90b">
