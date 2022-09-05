@@ -397,7 +397,7 @@
                                     </ul>
                                 </div>
                                 <div class="menu-footer">
-                                    <p class="tel">2270 - 4900</p>
+                                    <p class="tel">02-2270 - 4900</p>
                                     <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
                                     <a href="tel:02-2270-4900"><img src="{{ URL::asset('img/cs/menu-icon.png') }}?2" alt=""></a>
                                 </div>
