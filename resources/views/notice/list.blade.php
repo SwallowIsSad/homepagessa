@@ -5,7 +5,7 @@
     @include('layout.noticelnb')
 <?php endif;?>
 
-<div style="width:1px; height:100px"></div>
+<div style="width:1px; height:100px; padding-top:30px;"></div>
 <div class="section-title" id="info-content1">
     공지사항
 </div>
