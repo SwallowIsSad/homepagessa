@@ -8,7 +8,9 @@
     <div class="company-layout" id="company-content1">
         <div style="width:1px; height:100px"></div>
         <div class="section-title">
+            <span class="icon">···</span>
             기업이념
+            <span class="icon">···</span>
         </div>
         <div class="cooperative">
             <div class="figcaption m90b">
@@ -102,7 +104,9 @@
     <div class="company-layout"  id="company-content2">
         <div class="section-title">
         <div class="boxbox"></div>
+            <span class="icon">·</span>
             CEO 인사
+            <span class="icon">·</span>
         </div>
         <div class="cooperative m100b">
             <div class="mobile-title">
@@ -155,7 +159,9 @@
         <div id="company-content3" style="padding-top:50px">
             <div class="section-title">
                 <div class="boxbox"></div>
+                <span class="icon">·</span>
                 연혁
+                <span class="icon">·</span>
             </div>
         </div>
     </div>
@@ -328,7 +334,9 @@
     <div class="company-layout" id="company-content4">
         <div class="section-title">
             <div class="boxbox"></div>
+            <span class="icon">·</span>
             관계업체
+            <span class="icon">·</span>
         </div>
         <nav class="company-list2">
             <ul>

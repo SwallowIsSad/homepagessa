@@ -43,7 +43,9 @@
                 }
 
                 .desc {
-                    font-size: 15px;
+                    font-size: 16px;
+                    line-height: 1.56;
+                    letter-spacing: -0.5px;
                 }
             }
         }
@@ -174,8 +176,9 @@
     .text {
         padding: 20px 0;
         text-align: center;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 17px;
+        line-height: 1.56;
+        letter-spacing: -0.5px;
         color: #606060;
         span {
             font-weight: 500;
@@ -348,13 +351,13 @@
                 }
             }
             .desc {
-                line-height: 24px;
-                font-size: 15px;
+                line-height: 1.56;
+                font-size: 16px;
                 color: #606060;
 
                 @media only screen and (max-width: $media-width) {
                     & {
-                        letter-spacing: -1px;
+                        letter-spacing: -0.5px;
                     }
                 }
             }

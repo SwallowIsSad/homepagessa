@@ -9,7 +9,9 @@
         <div class="bs-layout" id="bus-content1">
             <div style="width:1px; height:100px"></div>
             <div class="section-title">
+                <span class="icon">·</span>
                 사업개요
+                <span class="icon">·</span>
             </div>
             <div class="bs-content">
                 <div class="bs-content-box m20t">
@@ -73,7 +75,9 @@
     <div class="nopadding-layout" id="bus-content2">
         <div class="boxbox"></div>
         <div class="section-title">
+            <span class="icon">·</span>
             제품소개
+            <span class="icon">·</span>
         </div>
     </div>
     <div class="product-layout-mobile">
@@ -251,7 +255,11 @@
     </div>
     <div class="bs-layout" id="bus-content3">
         <div class="boxbox"></div>
-        <div class="section-title">사업장소개</div>
+        <div class="section-title">
+            <span class="icon">·</span>
+            사업장소개
+            <span class="icon">·</span>
+        </div>
         <div class="figcaption m100b">
             <div class="image-box" style="width:730px; height: 310px; margin:0 0 0 auto;">
                 <img src="{{ URL::asset('img/bu/intro1.jpg') }}" alt="">
@@ -310,7 +318,11 @@
     </div>
     <div class="bs-layout" id="bus-content4">
         <div class="boxbox"></div>
-        <div class="section-title">협력업체</div>
+        <div class="section-title">
+            <span class="icon">·</span>
+            협력업체
+            <span class="icon">·</span>
+        </div>
         <nav class="company-list">
             <ul>
                 <li>

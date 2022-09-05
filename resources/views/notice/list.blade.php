@@ -1,14 +1,13 @@
 <?php if(!isset($header)):?>
     @include('layout.header')
 <?php endif;?>
-<?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
-    @include('layout.noticelnb')
-<?php endif;?>
-
-<div style="width:1px; height:100px; padding-top:30px;"></div>
-<div class="section-title" id="info-content1">
-    공지사항
-</div>
+<div style="width:1px; height:100px;"></div>
+@include('layout.noticelnb')
+<!-- <div class="bs-layout">
+    <div class="section-title" id="info-content1">
+        공지사항
+    </div>
+</div> -->
 <div class="board-layout">
     <div class="search-area">
         <div class="board-count">전체 3건</div>
@@ -28,7 +27,7 @@
         <div class="tbody">
             <div class="tr">
                 <div class="num td">3</div>
-                <div class="title td">전자어음안내4</div>
+                <div class="title td">전자어음안내</div>
                 <div class="file td"></div>
                 <div class="date td">2022.08.23</div>
                 <div class="hit td">23</div>

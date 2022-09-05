@@ -701,6 +701,11 @@ a.btn {
   text-align: center;
   padding-top: 95px;
 }
+@media only screen and (max-width: 992px) {
+  .lnb-back {
+    padding: 0;
+  }
+}
 .lnb-back .text {
   position: absolute;
   left: 50%;
@@ -731,7 +736,9 @@ a.btn {
 }
 
 .lnb-info {
+  position: relative;
   height: 200px;
+  overflow: hidden;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -740,6 +747,14 @@ a.btn {
   .lnb-info {
     height: 100px;
   }
+}
+.lnb-info p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #fff;
 }
 
 .sub-header {
@@ -857,7 +872,8 @@ a.btn {
   max-width: 1100px;
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 25px;
   letter-spacing: -1px;
 }
 @media only screen and (max-width: 992px) {
@@ -868,6 +884,12 @@ a.btn {
 .section-title span {
   font-size: 25px;
   color: #606060;
+}
+.section-title .icon {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 9px;
+  font-size: 30px;
 }
 
 .top-btn {
@@ -1126,7 +1148,7 @@ a.btn {
   padding: 20px 20px 10px 40px;
   top: 40px;
   right: 0;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   background: #fff;
 }
@@ -1164,8 +1186,8 @@ a.btn {
 .company-layout .cooperative .text-area .content {
   text-align: left;
   color: #606060;
-  line-height: 24px;
-  letter-spacing: -1px;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
 }
 .company-layout .cooperative .text-area .content p {
   color: #606060;
@@ -1273,8 +1295,8 @@ a.btn {
   padding-top: 67px;
   box-sizing: border-box;
   width: 50%;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 1.56;
   color: #616161;
 }
 @media only screen and (max-width: 992px) {
@@ -1442,10 +1464,10 @@ a.btn {
   background: #8c8c8c;
 }
 .company-banner ul li .desc {
-  font-size: 15px;
+  font-size: 16px;
   color: #606060;
-  line-height: 24px;
-  letter-spacing: -1px;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
 }
 
 .company-list {
@@ -1471,7 +1493,9 @@ a.btn {
 }
 .company-list li p {
   margin: 20px 0 40px 0;
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  line-height: 1.56;
   color: #333;
 }
 
@@ -1501,9 +1525,6 @@ a.btn {
 
 .figcaption {
   position: relative;
-}
-.figcaption .image-box:hover img {
-  transform: scale(1.2);
 }
 .figcaption .image-box {
   overflow: hidden;
@@ -1536,7 +1557,7 @@ a.btn {
 @media only screen and (max-width: 992px) {
   .figcaption .test-box {
     margin: 0 20px !important;
-    width: 75% !important;
+    width: 80% !important;
     padding: 30px 20px !important;
     top: 100px !important;
     text-align: left;
@@ -1564,10 +1585,10 @@ a.btn {
   background: #929292;
 }
 .figcaption .test-box .desc {
-  letter-spacing: -1px;
-  line-height: 24px;
-  color: #868686;
-  font-size: 15px;
+  letter-spacing: -0.5px;
+  line-height: 1.56;
+  color: #231f20;
+  font-size: 16px;
 }
 
 .pub {
@@ -1653,7 +1674,9 @@ a.btn {
     font-weight: bold;
   }
   .bs-layout .figcaption .test-box .desc {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.56;
+    letter-spacing: -0.5px;
   }
 }
 
@@ -1772,8 +1795,9 @@ a.btn {
 .product-layout-mobile .text {
   padding: 20px 0;
   text-align: center;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: -0.5px;
   color: #606060;
 }
 .product-layout-mobile .text span {
@@ -1930,13 +1954,13 @@ a.btn {
   }
 }
 .bs-content .bs-content-box .text-layout .desc {
-  line-height: 24px;
-  font-size: 15px;
+  line-height: 1.56;
+  font-size: 16px;
   color: #606060;
 }
 @media only screen and (max-width: 992px) {
   .bs-content .bs-content-box .text-layout .desc {
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
   }
 }
 .bs-content .bs-content-box .text-layout .hr {

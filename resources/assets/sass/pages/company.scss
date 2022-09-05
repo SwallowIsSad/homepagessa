@@ -74,7 +74,7 @@
             padding: 20px 20px 10px 40px;
             top: 40px;
             right: 0;
-            font-size: 15px;
+            font-size: 16px;
             text-align: center;
             background: #fff;
             @media only screen and (max-width: $media-width) {
@@ -114,8 +114,8 @@
             .content {
                 text-align: left;
                 color: #606060;
-                line-height: 24px;
-                letter-spacing: -1px;
+                line-height: 1.56;
+                letter-spacing: -0.5px;
 
                 p {
                     color: #606060;
@@ -238,8 +238,8 @@
             padding-top: 67px;
             box-sizing: border-box;
             width: 50%;
-            font-size: 14px;
-            line-height: 22px;
+            font-size: 15px;
+            line-height: 1.56;
             color: #616161;
 
             @media only screen and (max-width: $media-width) {
@@ -431,10 +431,10 @@
             }
 
             .desc {
-                font-size: 15px;
+                font-size: 16px;
                 color: #606060;
-                line-height: 24px;
-                letter-spacing: -1px;
+                line-height: 1.56;
+                letter-spacing: -0.5px;
             }
         }
     }
@@ -463,7 +463,9 @@
 
         p {
             margin: 20px 0 40px 0;
-            font-size: 15px;
+            font-size: 17px;
+            letter-spacing: -0.5px;
+            line-height: 1.56;
             color: #333;
         }
     }
@@ -495,9 +497,9 @@
 }
 .figcaption {
     position: relative;
-    .image-box:hover img {
-        transform: scale(1.2);
-    }
+    // .image-box:hover img {
+    //     transform: scale(1.2);
+    // }
     .image-box {
         overflow: hidden;
 
@@ -531,7 +533,7 @@
         @media only screen and (max-width: $media-width) {
             & {
                 margin: 0 20px !important;
-                width: 75% !important;
+                width: 80% !important;
                 padding: 30px 20px !important;
                 top: 100px !important;
                 text-align: left;
@@ -565,10 +567,10 @@
         }
 
         .desc {
-            letter-spacing: -1px;
-            line-height: 24px;
-            color: #868686;
-            font-size: 15px;
+            letter-spacing: -0.5px;
+            line-height: 1.56;
+            color: #231f20;
+            font-size: 16px;
         }
     }
 }

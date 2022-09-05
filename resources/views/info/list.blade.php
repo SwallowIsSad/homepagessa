@@ -1,8 +1,11 @@
 
 <div style="width:1px; height:100px;"></div>
-<div class="section-title">
-    정보공시
-</div>
+@include('layout.boardlnb')
+<!-- <div class="bs-layout">
+    <div class="section-title">
+        정보공시
+    </div>
+</div> -->
 <div class="board-layout" id="#info-content2">
     <div class="search-area">
         <div class="board-count">전체 2건</div>

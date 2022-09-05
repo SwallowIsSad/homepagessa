@@ -5,6 +5,7 @@
         font-weight: bold;
     }
 </style>
+@include('layout.infolnb')
 <div class="sub-page-layout" id="#info-content3">
     <div style="width:1px; height:100px;"></div>
     <div class="sub-page-header">홍보센터</div>

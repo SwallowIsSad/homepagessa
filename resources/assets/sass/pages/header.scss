@@ -500,6 +500,12 @@
     text-align: center;
     padding-top: 95px;
 
+    @media only screen and (max-width: $media-width) {
+        & {
+            padding: 0;
+        }
+    }
+
     .text {
         position: absolute;
         left: 50%;
@@ -534,7 +540,9 @@
 }
 
 .lnb-info {
+    position: relative;
     height: 200px;
+    overflow: hidden;
     @media only screen and (max-width: $media-width) {
         & {
             height: 100px;
@@ -543,6 +551,15 @@
     background-position: 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        color: #fff;
+    }
 }
 
 .sub-header {
@@ -690,7 +707,8 @@
     max-width: 1100px;
     text-align: center;
     border-bottom: 1px solid #e6e6e6;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 25px;
     letter-spacing: -1px;
 
     @media only screen and (max-width: $media-width) {
@@ -702,6 +720,13 @@
     span {
         font-size: 25px;
         color: #606060;
+    }
+
+    .icon {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 9px;
+        font-size: 30px;
     }
 }
 
