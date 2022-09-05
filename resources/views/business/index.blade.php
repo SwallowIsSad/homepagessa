@@ -318,7 +318,7 @@
                     <p>깨끗한나라</p>
                 </li>
                 <li>
-                    <img src="{{ URL::asset('img/logo/logo2.jpg') }}" alt="">
+                    <img src="{{ URL::asset('img/logo/logo2.jpeg') }}" alt="">
                     <p>대한제지</p>
                 </li>
                 <li>
