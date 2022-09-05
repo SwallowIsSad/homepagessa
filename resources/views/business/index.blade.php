@@ -9,9 +9,9 @@
         <div class="bs-layout" id="bus-content1">
             <div style="width:1px; height:100px"></div>
             <div class="section-title">
-                <span class="icon">·</span>
+                <span class="icon">···</span>
                 사업개요
-                <span class="icon">·</span>
+                <span class="icon">···</span>
             </div>
             <div class="bs-content">
                 <div class="bs-content-box m20t">
