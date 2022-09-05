@@ -1,9 +1,9 @@
 
+<div style="width:1px; height:100px;"></div>
+<div class="section-title">
+    정보공시
+</div>
 <div class="board-layout" id="#info-content2">
-    <div style="width:1px; height:100px;"></div>
-    <div class="section-title">
-        정보공시
-    </div>
     <div class="search-area">
         <div class="board-count">전체 2건</div>
         <form action="">
