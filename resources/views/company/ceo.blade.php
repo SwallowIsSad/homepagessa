@@ -329,7 +329,6 @@
                 </p>
             </div>
         </div>
-        <!-- <img src="{{ URL::asset('img/company/history.jpg') }}" alt=""> -->
     </div>
     <div class="company-layout" id="company-content4">
         <div class="section-title">
