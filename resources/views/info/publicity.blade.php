@@ -8,7 +8,6 @@
 <div style="width:1px; height:100px;"></div>
 @include('layout.infolnb')
 <div class="sub-page-layout" id="#info-content3">
-    <div class="sub-page-header">홍보센터</div>
     <div class="company-layout">
         <img src="{{ URL::asset('img/banner/infotest2.png') }}" alt="" style="max-width:100%">
     </div>
