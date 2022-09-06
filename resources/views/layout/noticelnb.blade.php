@@ -4,7 +4,7 @@
         background-size: 100%;
     }
     @media only screen and (max-width: 992px) {
-        .info-notice {
+        .inb-notice {
             background-attachment: inherit;
         }
     }
