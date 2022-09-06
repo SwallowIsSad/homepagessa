@@ -2,6 +2,7 @@
     .info-board{
         background-image: url("{{ URL::asset('img/banner/banner3.jpg') }}");
         background-size: 100%;
+        background-attachment: fixed;
     }
 </style>
 <div class="lnb-back lnb-info info-board">

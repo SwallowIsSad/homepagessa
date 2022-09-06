@@ -2,6 +2,7 @@
     .inb-notice{
         background-image: url("{{ URL::asset('img/banner/banner1.jpg') }}");
         background-size: 100%;
+        background-attachment: fixed;
     }
 </style>
 
