@@ -2,7 +2,11 @@
     .inb-notice{
         background-image: url("{{ URL::asset('img/banner/banner1.jpg') }}");
         background-size: 100%;
-        background-attachment: inherit;
+    }
+    @media only screen and (max-width: 992px) {
+        .info-notice {
+            background-attachment: inherit;
+        }
     }
 </style>
 

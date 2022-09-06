@@ -2,7 +2,11 @@
     .info-info{
         background-image: url("{{ URL::asset('img/banner/banner5.jpg') }}");
         background-size: 100%;
-        background-attachment: fixed;
+    }
+    @media only screen and (max-width: 992px) {
+        .info-info {
+            background-attachment: inherit;
+        }
     }
 </style>
 <!-- lnb -->
