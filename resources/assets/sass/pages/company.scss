@@ -50,7 +50,7 @@
         }
 
         .mobile-title {
-            padding: 0 15px;
+            padding: 10px 15px;
             margin-bottom: 15px;
             box-sizing: border-box;
             text-align: center;
@@ -307,7 +307,7 @@
             &:after {
                 height: 50%;
                 @media only screen and (max-width: $media-width) {
-                    height: 33%;
+                    height: 35%;
                 }
             }
         }
@@ -405,7 +405,7 @@
 .history-2 {
     padding-top: 122px !important;
     @media only screen and (max-width: $media-width) {
-        padding-top: 167px !important;
+        padding-top: 145px !important;
     }
 }
 .history-3 {
@@ -423,7 +423,7 @@
 .history-5 {
     padding-top: 169px !important;
     @media only screen and (max-width: $media-width) {
-        padding-top: 236px !important;
+        padding-top: 215px !important;
     }
 }
 .company-banner-content {
@@ -577,8 +577,8 @@
         @media only screen and (max-width: $media-width) {
             & {
                 margin: 0 20px !important;
-                width: 80% !important;
-                padding: 30px 20px !important;
+                width: auto !important;
+                padding: 20px !important;
                 top: 100px !important;
                 text-align: left;
                 height: 200px;
@@ -586,9 +586,15 @@
         }
 
         .title {
-            font-size: 20px;
-            line-height: 20px;
-            letter-spacing: -1px;
+            font-size: 19px;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    text-align: center;
+                }
+            }
         }
 
         .puple {
@@ -608,6 +614,12 @@
             width: 25px;
             height: 2px;
             background: #929292;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    margin: 25px auto;
+                }
+            }
         }
 
         .desc {

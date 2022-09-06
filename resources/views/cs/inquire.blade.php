@@ -101,6 +101,7 @@
             <img src="{{ URL::asset('img/cs/map.png') }}" alt="" style="width:100%">
         </div>
     </div>
+    <div style="width:1px; height:50px;"></div>
     <?php endif;?>
 </div>
 <?php if(!isset($header)):?>

@@ -323,7 +323,7 @@
             협력업체
             <span class="icon">···</span>
         </div>
-        <nav class="company-list">
+        <nav class="company-list2">
             <ul>
                 <li>
                     <img src="{{ URL::asset('img/logo/logo1.jpg') }}" alt="">
@@ -363,7 +363,7 @@
                 </li>
             </ul>    
         </nav>
-        <div style="width:1px; height:140px"></div>
+        <div class="boxbox"></div>
     </div>
 </div>
 <?php if(!isset($header)):?>

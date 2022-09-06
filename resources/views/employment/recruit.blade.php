@@ -33,7 +33,7 @@
                 <p>
                     <span class="title">신승인은 고객의 가치를<br>소중히 생각합니다.</span>
                     <br>
-                    <span class="desc">고객만족이 신승인의 만족이라는 신념으로 고객가치를 지속적으로 창출<br>고객만족을 극대화 시킴으로써 새로운 지류유통문화를 이룩하는데 이바지합니다.</span>
+                    <span class="desc">고객만족이 신승인의 만족이라는 신념으로 고객가치를 지속적으로 창출, 고객만족을 극대화 시킴으로써 새로운 지류유통문화를 이룩하는데 이바지합니다.</span>
                 </p>
             </div>
             <div class="year need-border history-scroll">
@@ -44,7 +44,7 @@
                 <p>
                     <span class="title">신승인은 자율과 창의정신을<br>소중한 가치로 생각합니다.</span>
                     <br>
-                    <span class="desc">자율과 창의는 경쟁력의 원천입니다. 자율을 바탕으로 창의가 넘치는<br>기업문화 구축으로 미래 일류기업의 꿈을 열어갑니다.</span>
+                    <span class="desc">자율과 창의는 경쟁력의 원천입니다. 자율을 바탕으로 창의가 넘치는 기업문화 구축으로 미래 일류기업의 꿈을 열어갑니다.</span>
                 </p>
             </div>
             <div class="year need-border history-scroll">
@@ -55,7 +55,7 @@
                 <p>
                     <span class="title">신승인은 변화와 혁신을<br>두려워 하지 않습니다.</span>
                     <br>
-                    <span class="desc">더욱 빠르게, 보다 광범위하게, 보다 큰폭으로 변화해 가고있는 기업경영환경에<br>능동적이며, 적극적으로 대처 성공과 자부심으로 승화시킵니다.</span>
+                    <span class="desc">더욱 빠르게, 보다 광범위하게, 보다 큰폭으로 변화해 가고있는 기업경영환경에 능동적이며, 적극적으로 대처 성공과 자부심으로 승화시킵니다.</span>
                 </p>
             </div>
             <div class="year need-border history-scroll">
@@ -68,9 +68,7 @@
                     <br>
                     <span class="desc">
                         현재에 안주하려는 기업과 사람은 더 이상 영광은 없다는 신념으로
-                        <br>
                         올바른 가치관을 확립하고 하는 일에 최고가 되기 위해 땀을 흘리며,
-                        <br>
                         실패를 두려워 하지않는 도전정신과 패기로 초일류 신승인의 가치를 구현합니다.
                     </span>
                 </p>
