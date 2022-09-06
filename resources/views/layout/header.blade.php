@@ -316,7 +316,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('cs/suggest') }}">
+                                <a href="{{ url('cs/inquire') }}">
                                     <div class="img"> 
                                         <img src="{{ URL::asset('img/gnb/gnb5-2.jpg') }}" alt="" />
                                     </div>

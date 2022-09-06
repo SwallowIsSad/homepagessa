@@ -1,6 +1,4 @@
-<?php if(!isset($header)):?>
-    @include('layout.header')
-<?php endif;?>
+
 <div class="sub-page-layout">
     <div class="inquire-layout">
         <div class="section-title">
@@ -94,6 +92,3 @@
         </div>
     </div>
 </div>
-<?php if(!isset($header)):?>
-    @include('layout.footer')
-<?php endif;?>
