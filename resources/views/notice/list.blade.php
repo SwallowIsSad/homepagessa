@@ -1,7 +1,7 @@
 <?php if(!isset($header)):?>
     @include('layout.header')
 <?php endif;?>
-<div style="width:1px; height:100px;"></div>
+<div style="width:1px; height:86px;"></div>
 @include('layout.noticelnb')
 <!-- <div class="bs-layout">
     <div class="section-title" id="info-content1">

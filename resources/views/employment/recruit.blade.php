@@ -7,14 +7,18 @@
 <div class="cs-layout" id="content1">
     <div style="width:1px; height:100px"></div>
     <div class="section-title">
+        <span class="icon">···</span>
         인재상
+        <span class="icon">···</span>
     </div>
     <img src="{{ URL::asset('img/banner/infotest3.jpeg') }}" alt="" style="max-width:100%">
 </div>
 <div class="cs-layout" id="content2">
     <div style="width:1px; height:100px"></div>
     <div class="section-title">
+        <span class="icon">···</span>
         채용정보
+        <span class="icon">···</span>
     </div>
     <div class="employment-info">
         <nav class="label m20b">
@@ -78,7 +82,9 @@
 <div class="inquire-layout" id="content3">
     <div style="width:1px; height:100px"></div>
     <div class="section-title">
+        <span class="icon">···</span>
         지원서제출
+        <span class="icon">···</span>
     </div>
     <div class="inquire-form">
         <form action="#">

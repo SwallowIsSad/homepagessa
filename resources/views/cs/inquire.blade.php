@@ -10,7 +10,9 @@
         <div class="inquire-layout">
             <div style="width:1px; height:100px"></div>
             <div class="section-title">
+                <span class="icon">···</span>
                 문의하기
+                <span class="icon">···</span>
             </div>
             <div class="inquire-form">
                 <form action="#">
@@ -86,6 +88,20 @@
             </div>
         </div>
     </div>
+    @include('cs.suggest')
+    <?php if(preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
+    <div class="inquire-layout" id="content3">
+        <div style="width:1px; height:100px"></div>
+        <div class="section-title">
+            <span class="icon">···</span>
+            오시는길
+            <span class="icon">···</span>
+        </div>
+        <div class="inquire-form">
+            <img src="{{ URL::asset('img/cs/map.png') }}" alt="" style="width:100%">
+        </div>
+    </div>
+    <?php endif;?>
 </div>
 <?php if(!isset($header)):?>
     @include('layout.footer')
