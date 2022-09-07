@@ -17,6 +17,18 @@
         }
     }
 }
+.mobile-show-all {
+    position: fixed;
+    top: 47px;
+    right: 20px;
+    z-index: 5;
+
+    @media only screen and (max-width: $media-width) {
+        & {
+            display: none;
+        }
+    }
+}
 .header {
     position: relative;
     background: #fff;

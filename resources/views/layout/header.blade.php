@@ -13,6 +13,10 @@
         <script src="{{ URL::asset('js/common.js') }}?<?php echo time()?>"></script>
     </head>
     <body>
+        <a href="javascript:;" class="show-all mobile-show-all">
+            <img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" class="all-menuwc type2" style="display:none">
+            <img src="{{ URL::asset('img/gnb/all-menu.png?2') }}" alt="" class="all-menuc type1">
+        </a>
         <!-- header -->
         <?php if(isset($header) && $header === 'test'):?>
             <header class="header main-header">
@@ -94,7 +98,6 @@
                             <li>
                                 <a href="javascript:;" class="show-all">
                                     <img src="{{ URL::asset('img/gnb/all-menu.png?2') }}" alt="" class="all-menuc type1">
-                                    <img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" class="all-menuwc type2" style="display:none">
                                 </a>
                             </li>
                         </ul>
@@ -344,7 +347,7 @@
                             <div class="mobile-back"></div>
                             <nav class="all-menu-layout-mobile">
                                 <div class="menu-header">
-                                    <p class="close"><img src="{{ URL::asset('img/gnb/all_w.png') }}" alt="" /></p>
+                                    <p class="close"></p>
                                 </div>
                                 <div class="menu-layout">
                                     <ul class="all-mobile-box">
@@ -397,7 +400,7 @@
                                     </ul>
                                 </div>
                                 <div class="menu-footer">
-                                    <p class="tel">02-2270 - 4900</p>
+                                    <p class="tel">02 - 2270 - 4900</p>
                                     <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
                                     <a href="tel:02-2270-4900"><img src="{{ URL::asset('img/cs/menu-icon.png') }}?2" alt=""></a>
                                 </div>

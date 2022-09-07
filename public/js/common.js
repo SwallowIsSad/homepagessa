@@ -15,6 +15,7 @@ $(function () {
             $(".show-all img").removeClass("tra");
             $(".gnb-sub-menu-area").hide();
             $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
+            $(".mobile-show-all").hide();
         } else {
             $(".show-all img").addClass("tra");
             $(".gnb-sub-menu-area").show();
@@ -22,6 +23,9 @@ $(function () {
             $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
             $(".gnb-sub-menu-layout .gnb-sub-menu").eq(5).show();
             if ($(window).width() < 992) {
+                $(".mobile-show-all").show();
+                $(".type2").show();
+                $(".type1").hide();
                 $(".all-menu-layout-mobile").css("right", "0");
                 $(".mobile-back").show();
             }

@@ -278,6 +278,18 @@ a.btn {
   }
 }
 
+.mobile-show-all {
+  position: fixed;
+  top: 47px;
+  right: 20px;
+  z-index: 5;
+}
+@media only screen and (max-width: 992px) {
+  .mobile-show-all {
+    display: none;
+  }
+}
+
 .header {
   position: relative;
   background: #fff;
