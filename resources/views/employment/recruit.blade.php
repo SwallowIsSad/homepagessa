@@ -153,7 +153,7 @@
         <form action="#">
             <div class="inquire-input">
                 <div class="inquire full">
-                    <p class="title need">지원분야<span>*</span></p>
+                    <p class="title">지원분야</p>
                     <div class="input-layout">
                         <select name="" id="">
                             <option value="">
@@ -163,43 +163,31 @@
                     </div>
                 </div>
                 <div class="inquire left">
-                    <p class="title need">이름<span>*</span></p>
+                    <p class="title">이름</p>
                     <div class="input-layout">
                         <input type="text" placeholder="이름을 입력해주세요.">
                     </div>
                 </div>
                 <div class="inquire right">
-                    <p class="title need">이메일<span>*</span></p>
+                    <p class="title">이메일</p>
                     <div class="input-layout">
                         <input type="text" placeholder="메일 주소를 입력해주세요">
                     </div>
                 </div>
-                <div class="inquire left">
-                    <p class="title need">연락처<span>*</span></p>
+                <!-- <div class="inquire left">
+                    <p class="title">연락처</p>
                     <div class="input-layout">
                         <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
                     </div>
-                </div>
+                </div> -->
                 <div class="inquire right">
-                    <p class="title need">사진첨부<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
-                    </div>
-                </div>
-                <div class="inquire left">
-                    <p class="title need">비상연락처<span>*</span></p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
-                    </div>
-                </div>
-                <div class="inquire right">
-                    <p class="title need">이력서 첨부<span>*</span></p>
+                    <p class="title">파일첨부</p>
                     <div class="input-layout">
                         <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
                     </div>
                 </div>
                 <div class="inquire full">
-                    <p class="title need">자기소개서<span>*</span></p>
+                    <p class="title">자기소개서</p>
                     <textarea name="" id=""></textarea>
                 </div>
             </div>

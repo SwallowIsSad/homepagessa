@@ -10,8 +10,9 @@
     }
 </style>
 <!-- lnb -->
-
-<div class="lnb-back lnb-info info-info">
-    <p>홍보센터</p>
+<div class="mobile-lnb">
+    <div class="lnb-back lnb-info info-info">
+        <p>홍보센터</p>
+    </div>
 </div>
 <!-- lnb -->

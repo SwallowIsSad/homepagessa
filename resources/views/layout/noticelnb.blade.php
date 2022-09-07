@@ -9,8 +9,9 @@
         }
     }
 </style>
-
-<div class="lnb-back lnb-info inb-notice">
-    <p>공지사항</p>
+<div class="mobile-lnb">
+    <div class="lnb-back lnb-info inb-notice">
+        <p>공지사항</p>
+    </div>
 </div>
 <!-- lnb -->

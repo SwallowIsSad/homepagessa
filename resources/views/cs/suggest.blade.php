@@ -10,43 +10,37 @@
             <form action="#">
                 <div class="inquire-input">
                     <div class="inquire left">
-                        <p class="title need">이름<span>*</span></p>
+                        <p class="title">이름</p>
                         <div class="input-layout">
                             <input type="text" placeholder="이름을 입력해주세요.">
                         </div>
                     </div>
-                    <div class="inquire right">
-                        <p class="title need">업체명<span>*</span></p>
-                        <div class="input-layout">
-                            <input type="text" placeholder="업체명을 입력해주세요.">
-                        </div>
-                    </div>
                     <div class="inquire left">
-                        <p class="title need">연락처<span>*</span></p>
+                        <p class="title">연락처</p>
                         <div class="input-layout">
                             <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
                         </div>
                     </div>
                     <div class="inquire right">
-                        <p class="title need">이메일<span>*</span></p>
+                        <p class="title">이메일</p>
                         <div class="input-layout">
                             <input type="text" placeholder="메일 주소를 입력해주세요">
                         </div>
                     </div>
                     <div class="inquire left">
-                        <p class="title need">제목<span>*</span></p>
+                        <p class="title">제목</p>
                         <div class="input-layout">
                             <input type="text" placeholder="제목을 입력해주세요.">
                         </div>
                     </div>
                     <div class="inquire right">
-                        <p class="title need">첨부파일</p>
+                        <p class="title">첨부파일</p>
                         <div class="input-layout">
                             <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
                         </div>
                     </div>
                     <div class="inquire full">
-                        <p class="title need">제안내용<span>*</span></p>
+                        <p class="title">제안내용</p>
                         <textarea name="" id=""></textarea>
                     </div>
                 </div>

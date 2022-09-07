@@ -177,10 +177,10 @@
     .text {
         padding: 20px 0;
         text-align: center;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.56;
         letter-spacing: -0.5px;
-        color: #606060;
+        color: #231f20;
         span {
             font-weight: 500;
         }
@@ -264,8 +264,13 @@
 
             @media only screen and (max-width: $media-width) {
                 & {
-                    padding-right: 15px;
-                    width: 30%;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    display: block;
+
+                    img {
+                        width: 40%;
+                    }
                 }
             }
 
@@ -281,7 +286,12 @@
             @media only screen and (max-width: $media-width) {
                 & {
                     margin-bottom: 20px;
-                    width: 70%;
+                    width: 100%;
+                    display: block;
+
+                    img {
+                        width: 40%;
+                    }
                 }
             }
         }
@@ -354,7 +364,7 @@
             .desc {
                 line-height: 1.56;
                 font-size: 16px;
-                color: #606060;
+                color: #231f20;
 
                 @media only screen and (max-width: $media-width) {
                     & {

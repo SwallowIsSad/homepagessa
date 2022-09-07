@@ -735,6 +735,12 @@ a.btn {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .mobile-lnb {
+    box-sizing: border-box;
+    padding: 0 5px;
+  }
+}
 .lnb-info {
   position: relative;
   height: 200px;
@@ -1109,6 +1115,7 @@ a.btn {
 }
 .company-layout .cooperative .image-area {
   position: relative;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 992px) {
   .company-layout .cooperative .image-area {
@@ -1123,6 +1130,8 @@ a.btn {
     position: absolute;
     width: 100%;
     top: -120px;
+    box-sizing: border-box;
+    padding: 0 5px;
   }
 }
 .company-layout .cooperative .mobile-title {
@@ -1154,7 +1163,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .company-layout .cooperative .text-area {
-    padding: 40px 20px;
+    padding: 40px 15px;
     position: relative;
     width: 100%;
   }
@@ -1185,7 +1194,7 @@ a.btn {
 }
 .company-layout .cooperative .text-area .content {
   text-align: left;
-  color: #606060;
+  color: #231f20;
   line-height: 1.56;
   letter-spacing: -0.5px;
 }
@@ -1361,7 +1370,7 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .history-map .history-content .s-right:after {
-    height: 35%;
+    height: 24%;
   }
 }
 .history-map .history-content .right {
@@ -1454,7 +1463,10 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .history-3 {
-    padding-top: 168px !important;
+    padding-top: 129px !important;
+  }
+  .history-3 .circle {
+    top: 33px !important;
   }
 }
 
@@ -1463,7 +1475,10 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .history-4 {
-    padding-top: 143px !important;
+    padding-top: 128px !important;
+  }
+  .history-4 .circle {
+    top: 33px !important;
   }
 }
 
@@ -1472,7 +1487,10 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .history-5 {
-    padding-top: 215px !important;
+    padding-top: 171px !important;
+  }
+  .history-5 .circle {
+    top: 33px !important;
   }
 }
 
@@ -1523,7 +1541,7 @@ a.btn {
 }
 .company-banner ul li .desc {
   font-size: 16px;
-  color: #606060;
+  color: #231f20;
   line-height: 1.56;
   letter-spacing: -0.5px;
 }
@@ -1586,6 +1604,8 @@ a.btn {
 }
 .figcaption .image-box {
   overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 5px;
 }
 @media only screen and (max-width: 992px) {
   .figcaption .image-box {
@@ -1864,10 +1884,10 @@ a.btn {
 .product-layout-mobile .text {
   padding: 20px 0;
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.56;
   letter-spacing: -0.5px;
-  color: #606060;
+  color: #231f20;
 }
 .product-layout-mobile .text span {
   font-weight: 500;
@@ -1946,8 +1966,12 @@ a.btn {
 }
 @media only screen and (max-width: 992px) {
   .bs-content .bs-content-box .image-layout {
-    padding-right: 15px;
-    width: 30%;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+  }
+  .bs-content .bs-content-box .image-layout img {
+    width: 40%;
   }
 }
 .bs-content .bs-content-box .image-layout img {
@@ -1960,7 +1984,11 @@ a.btn {
 @media only screen and (max-width: 992px) {
   .bs-content .bs-content-box .text-layout {
     margin-bottom: 20px;
-    width: 70%;
+    width: 100%;
+    display: block;
+  }
+  .bs-content .bs-content-box .text-layout img {
+    width: 40%;
   }
 }
 .bs-content .bs-content-box .image-layout,
@@ -2025,7 +2053,7 @@ a.btn {
 .bs-content .bs-content-box .text-layout .desc {
   line-height: 1.56;
   font-size: 16px;
-  color: #606060;
+  color: #231f20;
 }
 @media only screen and (max-width: 992px) {
   .bs-content .bs-content-box .text-layout .desc {

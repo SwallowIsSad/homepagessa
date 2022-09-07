@@ -17,31 +17,31 @@
                 <form action="#">
                     <div class="inquire-input">
                         <div class="inquire left">
-                            <p class="title need">이름</p>
+                            <p class="title">이름</p>
                             <div class="input-layout">
                                 <input type="text" placeholder="이름을 입력해주세요.">
                             </div>
                         </div>
                         <div class="inquire left">
-                            <p class="title need">연락처</p>
+                            <p class="title">연락처</p>
                             <div class="input-layout">
                                 <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
                             </div>
                         </div>
                         <div class="inquire right">
-                            <p class="title need">이메일</p>
+                            <p class="title">이메일</p>
                             <div class="input-layout">
                                 <input type="text" placeholder="메일 주소를 입력해주세요">
                             </div>
                         </div>
                         <div class="inquire left">
-                            <p class="title need">제목</p>
+                            <p class="title">제목</p>
                             <div class="input-layout">
                                 <input type="text" placeholder="제목을 입력해주세요.">
                             </div>
                         </div>
                         <div class="inquire full">
-                            <p class="title need">문의내용</p>
+                            <p class="title">문의내용</p>
                             <textarea name="" id=""></textarea>
                         </div>
                     </div>

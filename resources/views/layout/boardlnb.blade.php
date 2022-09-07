@@ -9,6 +9,8 @@
         }
     }
 </style>
-<div class="lnb-back lnb-info info-board">
-    <p>정보공시</p>
+<div class="mobile-lnb">
+    <div class="lnb-back lnb-info info-board">
+        <p>정보공시</p>
+    </div>
 </div>

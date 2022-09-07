@@ -265,7 +265,7 @@
                 <img src="{{ URL::asset('img/bu/intro1.jpg') }}" alt="">
             </div>
             <div class="test-box" style="left:0; top: 90px;">
-                <p class="title puple">서울본사</p>
+                <p class="title puple">서울본사/물류센터</p>
                 <div class="hr"></div>
                 <p class="desc">
                     신승지류유통은 전문인력 육성을 통해 각 사업부문별 핵심역량을 강화하고
@@ -273,9 +273,9 @@
                     패키지 회사, 디자인 업체 등 다양하게 거래중 입니다.
                     <br>
                     <br>
-                    주소:서울특별시 중구 마른내로116 신승빌딩5층
+                    서울특별시 중구 마른내로116 신승빌딩5층
                     <br>
-                    전화번호 : 02 - 2270 - 4900
+                    02 - 2270 - 4900
                 </p>
             </div>
         </div>
@@ -284,16 +284,16 @@
                 <img src="{{ URL::asset('img/bu/intro2.jpg') }}" alt="">
             </div>
             <div class="test-box" style="right:0; top:80px;">
-                <p class="title blue">본사 물류센터</p>
+                <p class="title blue">파주 영업센터</p>
                 <div class="hr"></div>
                 <p class="desc">
                     최적의 물류 유통 인프라와 체계적인 공급 시스템이 구축되어 있으며, 
                     연매출 1,000억 달성으로 꾸준한 성장세를 기록하고 있습니다.
                     <br>
                     <br>
-                    주소:서울특별시 중구 마른내로116 신승빌딩1층
+                    경기도 파주시 산업단지길 179 2층
                     <br>
-                    전화번호 : 02 - 2270 - 4900
+                    02 - 2270 - 4900
                 </p>
             </div>
         </div>
@@ -309,9 +309,9 @@
                     또한 신속한 배송서비스을 위해 유연한 설비환경을 보유하고 있습니다.
                     <br>
                     <br>
-                    주소 : 경기도 파주시 조리읍 당재봉로 14
+                    경기도 파주시 조리읍 당재봉로 14
                     <br>
-                    전화번호 : 031 - 943 - 0918
+                    031 - 943 - 0918
                 </p>
             </div>
         </div>
