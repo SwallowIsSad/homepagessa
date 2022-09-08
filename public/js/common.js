@@ -15,7 +15,13 @@ $(function () {
             $(".show-all img").removeClass("tra");
             $(".gnb-sub-menu-area").hide();
             $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
-            $(".mobile-show-all").hide();
+            $(".mobile-back").hide();
+            $(".menu-up").hide();
+            if ($(window).width() < 992) {
+                $(".mobile-show-all").show();
+                $(".mobile-show-all").find(".type1").show();
+                $(".type2").hide();
+            }
         } else {
             $(".show-all img").addClass("tra");
             $(".gnb-sub-menu-area").show();
