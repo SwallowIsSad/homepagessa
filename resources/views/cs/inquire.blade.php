@@ -101,9 +101,19 @@
             오시는길
             <span class="icon">···</span>
         </div>
+        <?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
         <div class="inquire-form">
             <img src="{{ URL::asset('img/cs/map1.png') }}" alt="" style="width:100%">
-            <p class="zooso">서울 본사 / 을지 물류센터</p>
+            <p class="zooso">서울 본사 / 서울 영업센터 : 서울특별시 중구 마른내로116 신승빌딩, 02 - 2270 - 4900</p>
+            <div class="hr"></div>
+            <img src="{{ URL::asset('img/cs/map2.png') }}" alt="" style="width:100%">
+            <p class="zooso">파주 영업센터 : 경기도 파주시 산업단지길179 2층, 02 - 2270 - 4900</p>
+            <div class="hr"></div>
+        </div>
+        <?php else:?>
+        <div class="inquire-form">
+            <img src="{{ URL::asset('img/cs/map1.png') }}" alt="" style="width:100%">
+            <p class="zooso">서울 본사 / 서울 영업센터</p>
             <div class="hr"></div>
             <p class="desc m5b">서울특별시 중구 마른내로116 신승빌딩</p>
             <p class="desc m20b">02 - 2270 - 4900</p>
@@ -113,6 +123,7 @@
             <p class="desc m5b">경기도 파주시 산업단지길179 2층</p>
             <p class="desc">02 - 2270 - 4900</p>
         </div>
+        <?php endif;?>
     </div>
     <div style="width:1px; height:50px;"></div>
 </div>
