@@ -280,8 +280,8 @@
             </div>
         </div>
         <div class="figcaption m100b">
-            <div class="image-box" style="width:730px; height: 310px; margin:0 auto 0 90px;">
-                <img src="{{ URL::asset('img/bu/intro2.jpg') }}" alt="">
+            <div class="image-box" style="width:730px; height: 310px; margin:0 0 0 auto;">
+                <img src="{{ URL::asset('img/bu/intro3.jpg') }}" alt="">
             </div>
             <div class="test-box" style="right:0; top:80px;">
                 <p class="title blue">파주 영업센터</p>
@@ -298,8 +298,8 @@
             </div>
         </div>
         <div class="figcaption">
-            <div class="image-box" style="width:730px; height: 310px; margin:0 0 0 auto;">
-                <img src="{{ URL::asset('img/bu/intro3.jpg') }}" alt="">
+            <div class="image-box" style="width:730px; height: 310px; margin:0 auto 0 90px;">
+                <img src="{{ URL::asset('img/bu/intro2.jpg') }}" alt="">
             </div>
             <div class="test-box" style="left:0; top:90px"> 
                 <p class="title green">파주 물류센터</p>
