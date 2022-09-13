@@ -75,7 +75,7 @@
                             <ul>
                                 <li><a href="http://211.54.23.129" target="blank">영업정보서비스</a></li>
                                 <li><a href="http://211.54.23.129:8077" target="blank">고객지원서비스</a></li>
-                                <li><a href="javascript:;" onclick="desktopMode()">모바일 버전 보기</a></li>
+                                <!-- <li><a href="javascript:;" onclick="desktopMode()">모바일 버전 보기</a></li> -->
                             </ul>
                         </nav>
                     </div>
@@ -447,7 +447,7 @@
                                     <p class="tel">02 - 2270 - 4900</p>
                                     <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
                                     <a href="tel:02-2270-4900"><img src="{{ URL::asset('img/cs/menu-icon.png') }}?2" alt=""></a>
-                                    <a class="gopc" href="javascript:;" onclick="desktopMode()">pc 버전 보기 </a>
+                                    <!-- <a class="gopc" href="javascript:;" onclick="desktopMode()">pc 버전 보기 </a> -->
                                 </div>
                             </nav>
                             <nav class="all-menu-layout">
