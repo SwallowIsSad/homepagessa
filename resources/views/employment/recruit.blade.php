@@ -152,7 +152,7 @@
     <div class="inquire-form">
         <form action="#">
             <div class="inquire-input">
-                <div class="inquire full">
+                <div class="inquire left">
                     <p class="title">지원분야</p>
                     <div class="input-layout">
                         <select name="" id="">
@@ -163,9 +163,15 @@
                     </div>
                 </div>
                 <div class="inquire left">
-                    <p class="title">이름</p>
+                    <p class="title need">이름<span>*</span></p>
                     <div class="input-layout">
                         <input type="text" placeholder="이름을 입력해주세요.">
+                    </div>
+                </div>
+                <div class="inquire left">
+                    <p class="title need">연락처<span>*</span></p>
+                    <div class="input-layout">
+                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
                     </div>
                 </div>
                 <div class="inquire right">
@@ -174,12 +180,6 @@
                         <input type="text" placeholder="메일 주소를 입력해주세요">
                     </div>
                 </div>
-                <!-- <div class="inquire left">
-                    <p class="title">연락처</p>
-                    <div class="input-layout">
-                        <input type="text" placeholder="( - ) 없이 숫자만 입력해주세요.">
-                    </div>
-                </div> -->
                 <div class="inquire right">
                     <p class="title">파일첨부</p>
                     <div class="input-layout">
