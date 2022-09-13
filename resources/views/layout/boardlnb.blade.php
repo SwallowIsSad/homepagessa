@@ -10,6 +10,8 @@
     }
 </style>
 <div class="mobile-lnb">
-    <div class="lnb-back lnb-info info-board">
+    <div class="lnb-height">
+        <div class="lnb-back lnb-info info-board">
+        </div>
     </div>
 </div>

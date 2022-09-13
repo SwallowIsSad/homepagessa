@@ -11,7 +11,9 @@
 </style>
 <!-- lnb -->
 <div class="mobile-lnb">
-    <div class="lnb-back lnb-info info-info">
+    <div class="lnb-height">
+        <div class="lnb-back lnb-info info-info">
+        </div>
     </div>
 </div>
 <!-- lnb -->

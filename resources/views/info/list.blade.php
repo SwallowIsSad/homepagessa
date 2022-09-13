@@ -1,5 +1,8 @@
-
 <div style="width:1px; height:100px;"></div>
+<?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
+    @include('layout.boardlnb')
+    <div style="width:1px; height:100px;"></div>
+<?php endif;?>
 <div class="nopadding-layout">
     <div class="section-title">
         <span class="icon">···</span>
@@ -7,7 +10,9 @@
         <span class="icon">···</span>
     </div>
 </div>
-@include('layout.boardlnb')
+<?php if(preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
+    @include('layout.boardlnb')
+<?php endif;?>
 <!-- <div class="bs-layout">
     <div class="section-title">
         정보공시

@@ -1,6 +1,8 @@
 <?php if(!isset($header)):?>
     @include('layout.header')
-    <div style="width:1px; height:130px;"></div>
+<?php endif;?>
+<?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
+    @include('layout.noticelnb')
 <?php endif;?>
 <div style="width:1px; height:130px;"></div>
 <div class="nopadding-layout">
@@ -10,12 +12,9 @@
         <span class="icon">···</span>
     </div>
 </div>
-@include('layout.noticelnb')
-<!-- <div class="bs-layout">
-    <div class="section-title" id="info-content1">
-        공지사항
-    </div>
-</div> -->
+<?php if(preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
+    @include('layout.noticelnb')
+<?php endif;?>
 <div class="board-layout">
     <div class="search-area">
         <div class="board-count">전체 3건</div>
