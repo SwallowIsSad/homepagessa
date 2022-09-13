@@ -2034,19 +2034,6 @@ a.btn {
   font-size: 30px;
   font-weight: 500;
 }
-.bs-content .bs-content-box .text-layout .hr,
-.bs-content .bs-content-box .image-layout .hr {
-  margin: 25px 0;
-  width: 25px;
-  height: 2px;
-  background: #929292;
-}
-@media only screen and (max-width: 992px) {
-  .bs-content .bs-content-box .text-layout .hr,
-.bs-content .bs-content-box .image-layout .hr {
-    margin: 25px auto;
-  }
-}
 .bs-content .bs-content-box .image-layout .title {
   font-size: 15px;
 }

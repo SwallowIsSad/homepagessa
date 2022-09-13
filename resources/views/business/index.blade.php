@@ -18,7 +18,6 @@
                     <div class="image-layout">
                         <img src="{{ URL::asset('img/bu/place2.jpg') }}" alt="" class="">
                         <p class="title blue">Premium</p>
-                        <p class="hr"></p>
                     </div>
                     <div class="text-layout" style="text-align:left">
                         <p class="title blue">Premium</p>

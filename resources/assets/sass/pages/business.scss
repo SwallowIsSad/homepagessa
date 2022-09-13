@@ -325,19 +325,6 @@
                 font-size: 30px;
                 font-weight: 500;
             }
-
-            .hr {
-                margin: 25px 0;
-                width: 25px;
-                height: 2px;
-                background: #929292;
-
-                @media only screen and (max-width: $media-width) {
-                    & {
-                        margin: 25px auto;
-                    }
-                }
-            }
         }
 
         .image-layout {
