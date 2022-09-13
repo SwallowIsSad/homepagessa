@@ -723,9 +723,8 @@ a.btn {
 }
 .lnb-height .text {
   position: absolute;
-  left: 50%;
-  top: 49%;
-  transform: translate(-50%, -50%);
+  left: 34%;
+  top: 38%;
   color: #fff;
   line-height: 55px;
   font-size: 30px;
