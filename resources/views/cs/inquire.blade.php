@@ -34,6 +34,12 @@
                                 <input type="text" placeholder="메일 주소를 입력해주세요">
                             </div>
                         </div>
+                        <div class="inquire right">
+                            <p class="title">파일첨부</p>
+                            <div class="input-layout">
+                                <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
+                            </div>
+                        </div>
                         <div class="inquire left">
                             <p class="title">제목</p>
                             <div class="input-layout">
