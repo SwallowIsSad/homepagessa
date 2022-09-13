@@ -18,7 +18,7 @@
                     <img src="{{ URL::asset('img/company/company1.jpg') }}" alt="">
                 </div>
                 <div class="test-box" style="right:0px; bottom:-20px;">
-                    <p class="title blue">정도경영</p>
+                    <p class="title">정도경영</p>
                     <div class="hr"></div>
                     <p class="desc">"뿌리 깊은 나무가 꽃 좋고 열매 많다" 는 진리의 실현을 목표로 합니다</p>
                 </div>
