@@ -1755,7 +1755,7 @@ a.btn {
 @media only screen and (max-width: 992px) {
   .bs-layout .figcaption {
     box-sizing: border-box;
-    margin-bottom: 180px !important;
+    margin-bottom: 120px !important;
   }
   .bs-layout .figcaption:last-child {
     margin-bottom: 100px !important;
