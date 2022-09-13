@@ -110,14 +110,20 @@
         font-size: 16px;
         letter-spacing: -0.5px;
         color: #231f20;
-        text-align: left;
+    }
+
+    .hr {
+        margin: 15px 0;
+        width: 25px;
+        height: 2px;
+        display: inline-block;
+        background: #929292;
     }
 
     .desc {
         font-size: 15px;
         letter-spacing: -0.5px;
         color: #231f20;
-        text-align: left;
     }
 
     .check-text {
