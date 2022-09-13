@@ -265,7 +265,7 @@
                 <img src="{{ URL::asset('img/bu/intro1.jpg') }}" alt="">
             </div>
             <div class="test-box" style="left:0; top: 90px;">
-                <p class="title puple">서울본사 / 물류센터</p>
+                <p class="title puple">서울본사 / 을지물류센터</p>
                 <div class="hr"></div>
                 <p class="desc">
                     신승지류유통은 전문인력 육성을 통해 각 사업부문별 핵심역량을 강화하고
