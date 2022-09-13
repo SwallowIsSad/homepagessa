@@ -22,12 +22,7 @@
     top: 49px;
     right: 20px;
     z-index: 5;
-
-    @media only screen and (max-width: $media-width) {
-        & {
-            display: none;
-        }
-    }
+    display: none;
 }
 .header {
     position: relative;
@@ -793,7 +788,6 @@
         }
     }
 }
-
 
 .tra {
     transform: rotate(90deg);

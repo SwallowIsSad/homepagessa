@@ -1,11 +1,14 @@
 <?php if(!isset($header)):?>
     @include('layout.header')
+    <div style="width:1px; height:130px;"></div>
 <?php endif;?>
 <div style="width:1px; height:130px;"></div>
-<div class="section-title">
-    <span class="icon">···</span>
-    공지사항
-    <span class="icon">···</span>
+<div class="nopadding-layout">
+    <div class="section-title">
+        <span class="icon">···</span>
+        공지사항
+        <span class="icon">···</span>
+    </div>
 </div>
 @include('layout.noticelnb')
 <!-- <div class="bs-layout">

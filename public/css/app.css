@@ -283,11 +283,7 @@ a.btn {
   top: 49px;
   right: 20px;
   z-index: 5;
-}
-@media only screen and (max-width: 992px) {
-  .mobile-show-all {
-    display: none;
-  }
+  display: none;
 }
 
 .header {

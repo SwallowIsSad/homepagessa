@@ -1,9 +1,11 @@
 
 <div style="width:1px; height:100px;"></div>
-<div class="section-title">
-    <span class="icon">···</span>
-    정보공시
-    <span class="icon">···</span>
+<div class="nopadding-layout">
+    <div class="section-title">
+        <span class="icon">···</span>
+        정보공시
+        <span class="icon">···</span>
+    </div>
 </div>
 @include('layout.boardlnb')
 <!-- <div class="bs-layout">
