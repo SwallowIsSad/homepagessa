@@ -646,13 +646,13 @@ a.btn {
 }
 .all-menu-layout-mobile .active {
   display: block;
-  background: #f7f7f7;
+  background: #e6e6e6;
 }
 .all-menu-layout-mobile .active li {
   display: block;
 }
 .all-menu-layout-mobile .active .title {
-  background: #f7f7f7;
+  background: #e6e6e6;
 }
 .all-menu-layout-mobile .active .title img {
   transform: rotate(360deg);
