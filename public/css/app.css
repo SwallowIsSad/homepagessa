@@ -2182,19 +2182,19 @@ a.btn {
 }
 .inquire-form .zooso {
   margin: 5px 0 5px 0;
-  font-size: 16px;
+  font-size: 19px;
   letter-spacing: -0.5px;
   color: #231f20;
 }
 .inquire-form .hr {
-  margin: 15px 0;
+  margin: 13px 0;
   width: 25px;
   height: 2px;
   display: inline-block;
   background: #929292;
 }
 .inquire-form .desc {
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: -0.5px;
   color: #231f20;
 }
