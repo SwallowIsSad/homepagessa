@@ -1903,6 +1903,10 @@ a.btn {
 .product-layout-mobile .text span {
   font-weight: 500;
 }
+.product-layout-mobile .list {
+  box-sizing: border-box;
+  padding: 0 5px;
+}
 .product-layout-mobile .list li {
   position: relative;
   border-bottom: 1px solid #fff;

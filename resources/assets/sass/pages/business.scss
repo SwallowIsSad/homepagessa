@@ -186,6 +186,8 @@
         }
     }
     .list {
+        box-sizing: border-box;
+        padding: 0 5px;
         li {
             position: relative;
             border-bottom: 1px solid #fff;
