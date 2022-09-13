@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div class="inquire full">
-                            <p class="title">문의내용</p>
+                            <p class="title">본문내용</p>
                             <textarea name="" id=""></textarea>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                         </div>
                         <div class="check-text">
                             <span class="check">
-                                <div class="on" style="display:none">
+                                <div class="on">
                                     <img src="{{ URL::asset('img/cs/check-on.png') }}" alt="">
                                 </div>
-                                <div class="off">
+                                <div class="off" style="display:none">
                                     <img src="{{ URL::asset('img/cs/check-off.png') }}" alt="">
                                 </div>
                             </span>

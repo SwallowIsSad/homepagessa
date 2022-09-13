@@ -34,13 +34,13 @@
                         </div>
                     </div>
                     <div class="inquire right">
-                        <p class="title">첨부파일</p>
+                        <p class="title">파일첨부</p>
                         <div class="input-layout">
                             <input type="text" placeholder="5MB이하 파일만 첨부 가능합니다.">
                         </div>
                     </div>
                     <div class="inquire full">
-                        <p class="title">제안내용</p>
+                        <p class="title">본문내용</p>
                         <textarea name="" id=""></textarea>
                     </div>
                 </div>
@@ -69,10 +69,10 @@
                 </div>
                 <div class="check-text">
                     <span class="check">
-                        <div class="on" style="display:none">
+                        <div class="on" >
                             <img src="{{ URL::asset('img/cs/check-on.png') }}" alt="">
                         </div>
-                        <div class="off">
+                        <div class="off" style="display:none">
                             <img src="{{ URL::asset('img/cs/check-off.png') }}" alt="">
                         </div>
                     </span>
