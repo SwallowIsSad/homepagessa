@@ -5,6 +5,7 @@
         <meta name="theme-color" content="#506354">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobiole-web-app-status-bar-style" content="#506354">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
         <title>신승지류유통</title>
         <link rel="stylesheet" href="{{ URL::asset('css/normalize.css') }}?<?php echo time()?>">
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}?<?php echo time()?>">
