@@ -711,6 +711,11 @@ a.btn {
   padding-top: 131px;
   text-align: center;
 }
+@media only screen and (max-width: 992px) {
+  .lnb-height {
+    padding: 0;
+  }
+}
 .lnb-height .lnb-back {
   position: relative;
   width: 100%;
@@ -1511,6 +1516,7 @@ a.btn {
 }
 
 .company-banner {
+  position: relative;
   box-sizing: border-box;
   background: #eeeeee;
   text-align: center;

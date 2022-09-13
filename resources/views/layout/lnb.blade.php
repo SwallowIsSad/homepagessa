@@ -1,7 +1,7 @@
 <style>
     .lnb-ceo{
         background-image: url("{{ URL::asset('img/lnb.jpg') }}");
-        background-size:100% 100%;
+        background-size:100% 400px;
     }
 </style>
 <!-- lnb -->

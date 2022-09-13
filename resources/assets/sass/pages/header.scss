@@ -509,6 +509,12 @@
     padding-top: 131px;
     text-align: center;
 
+    @media only screen and (max-width: $media-width) {
+        & {
+            padding: 0;
+        }
+    }
+
     .lnb-back {
         position: relative;
         width: 100%;
