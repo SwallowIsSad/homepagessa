@@ -9,6 +9,7 @@ $(function () {
     });
 
     // 전체 메뉴 이벤트
+    $(".type2").addClass("tra");
     $(document).on("click", ".show-all", function (e) {
         e.preventDefault();
         if ($(".gnb-sub-menu-layout .gnb-sub-menu").is(":visible")) {
@@ -18,6 +19,7 @@ $(function () {
             $(".mobile-back").hide();
             $(".menu-up").hide();
             if ($(window).width() < 992) {
+                $(".all-menu-layout-mobile").css("right", "-100%");
                 $(".mobile-show-all").show();
                 $(".mobile-show-all").find(".type1").show();
                 $(".type2").hide();
@@ -32,10 +34,9 @@ $(function () {
                 $(".mobile-show-all").show();
                 $(".type2").show();
                 $(".type1").hide();
-                $(".all-menu-layout-mobile").css("right", "0");
+                $(".all-menu-layout-mobile").css("right", "-1px");
                 $(".mobile-back").show();
             }
-            $(".all-menu-layout-mobile").css("right", "-1px");
         }
     });
 

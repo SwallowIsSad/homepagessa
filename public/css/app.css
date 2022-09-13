@@ -462,9 +462,6 @@ a.btn {
   width: 11px;
   height: 6px;
 }
-.header .nav-layout .global-nav .all-menu .tra {
-  transform: rotate(90deg);
-}
 .header .nav-layout .gnb-sub-menu-area {
   position: absolute;
   display: none;
@@ -953,6 +950,10 @@ a.btn {
   .boxbox {
     height: 50px;
   }
+}
+
+.tra {
+  transform: rotate(90deg);
 }
 
 .visual-area {
@@ -1656,7 +1657,6 @@ a.btn {
 }
 .figcaption .test-box .title {
   font-size: 19px;
-  font-weight: bold;
   letter-spacing: -0.5px;
 }
 @media only screen and (max-width: 992px) {
