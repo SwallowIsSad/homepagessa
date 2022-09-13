@@ -1,7 +1,7 @@
 <style>
     .lnb-bus{
-        background-image: url("{{ URL::asset('img/lnb.png') }}");
-        background-size:100% 500px;
+        background-image: url("{{ URL::asset('img/lnb400.png') }}");
+        background-size:100% 80%;
     }
 </style>
 <!-- lnb -->
