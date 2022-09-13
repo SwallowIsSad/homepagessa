@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#506354">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobiole-web-app-status-bar-style" content="#506354">
@@ -11,6 +10,51 @@
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}?<?php echo time()?>">
         <script src="{{ URL::asset('js/jquery-3.6.0.min.js') }}"></script>
         <script src="{{ URL::asset('js/common.js') }}?<?php echo time()?>"></script>
+        <script>
+            function getCookie(name) {
+                var cookies = document.cookie.split(";");
+                for (var i = 0; i < cookies.length; i++) {
+                    if (cookies[i].indexOf("=") == -1) {
+                        if (name == cookies[i])
+                            return "";
+                    } else {
+                        var crumb = cookies[i].split("=");
+                        if (name == crumb[0].trim())
+                            return unescape(crumb[1].trim());
+                    }
+                }
+            };
+            var desktopModeTF = getCookie("DesktopMode");
+            var Scale = getCookie("DesktopModeScale");
+            var defWidth = 1170;
+            if (desktopModeTF == "true") {
+                document
+                        .write('<meta name="viewport" content="width='+defWidth+', user-scalable=yes, initial-scale='+Scale+'">');
+            } else {
+                document
+                        .write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">');
+            }
+            function desktopMode() {
+                if(getCookie("DesktopMode") == "true"){
+                    setModeCookie(false);
+                }else{
+                    setModeCookie(true);
+                    window.scrollTo(0, 0);
+                }
+                location.reload();
+
+            }
+            function setModeCookie(switchOn){
+                var now = new Date();
+                var time = now.getTime();
+                time += 3600 * 1000;
+                now.setTime(time);
+                document.cookie ='DesktopMode='+switchOn +'; expires=' + now.toUTCString() ;
+                if(switchOn){
+                    document.cookie = "DesktopModeScale=" + $('html').width() / defWidth +'; expires=' + now.toUTCString() ;;
+                }
+            }
+        </script>
     </head>
     <body>
         <a href="javascript:;" class="show-all mobile-show-all">
@@ -403,6 +447,7 @@
                                     <p class="tel">02 - 2270 - 4900</p>
                                     <p class="date">08:30~18:30 (토,일 공휴일 휴무)</p>
                                     <a href="tel:02-2270-4900"><img src="{{ URL::asset('img/cs/menu-icon.png') }}?2" alt=""></a>
+                                    <a class="gopc" href="javascript:;" onclick="desktopMode()">pc <-> 모바일 전환 </a>
                                 </div>
                             </nav>
                             <nav class="all-menu-layout">

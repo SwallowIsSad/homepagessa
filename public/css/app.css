@@ -608,6 +608,9 @@ a.btn {
   right: 20px;
   width: 30px;
 }
+.all-menu-layout-mobile .menu-footer .gopc {
+  font-size: 14px;
+}
 .all-menu-layout-mobile .all-mobile-box {
   width: 100%;
 }
