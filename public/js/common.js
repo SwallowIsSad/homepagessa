@@ -174,6 +174,8 @@ $(function () {
         var top = self.data("top");
         window.location = "/#" + top;
 
+        $(".mobile-show-all").find(".type1").show();
+        $(".type2").hide();
         $(".menu-layout").find(".all-mobile-box").removeClass("active");
         $(".show-all img").removeClass("tra");
         $(".gnb-sub-menu-area").hide();

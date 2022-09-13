@@ -103,7 +103,14 @@
             <span class="icon">···</span>
         </div>
         <div class="inquire-form">
-            <img src="{{ URL::asset('img/cs/map.png') }}" alt="" style="width:100%">
+            <img src="{{ URL::asset('img/cs/map1.png') }}" alt="" style="width:100%">
+            <p class="zooso">서울 본사 / 을지 물류센터</p>
+            <p class="desc">서울특별시 중구 마른내로116 신승빌딩5층</p>
+            <img src="{{ URL::asset('img/cs/map2.png') }}" alt="" style="width:100%">
+            <p class="zooso">파주 영업센터</p>
+            <p class="desc">경기도 파주시 산업단지길 179 2층</p>
+            <img src="{{ URL::asset('img/cs/map3.png') }}" alt="" style="width:100%">
+            <p class="zooso">파주 물류센터</p>
         </div>
     </div>
     <div style="width:1px; height:50px;"></div>

@@ -2180,6 +2180,18 @@ a.btn {
   box-sizing: border-box;
   padding: 0 15px;
 }
+.inquire-form .zooso {
+  margin: 5px 0 5px 0;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  color: #231f20;
+}
+.inquire-form .desc {
+  margin: 0px 0 10px 0;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  color: #231f20;
+}
 .inquire-form .check-text {
   position: relative;
   margin-top: 20px;
