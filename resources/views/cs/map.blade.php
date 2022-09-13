@@ -1,6 +1,5 @@
 @include('layout.header')
 @include('layout.lnb')
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=yjsqmlnesd"></script>
 @include('layout.maplnb')
 <div class="cs-layout">
     <div class="inquire-layout">

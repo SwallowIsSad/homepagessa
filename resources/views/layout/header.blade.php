@@ -375,7 +375,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('cs/map') }}">
+                                <a href="{{ url('cs/inquire') }}">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb5-3.jpg') }}" alt="" />
                                     </div>
@@ -476,8 +476,8 @@
                                 </ul>
                                 <ul>
                                     <li><a href="{{ url('cs/inquire') }}">문의하기</a></li>
-                                    <li><a href="{{ url('cs/suggest') }}">제안하기</a></li>
-                                    <li><a href="{{ url('cs/map') }}">오시는길</a></li>
+                                    <li><a href="{{ url('cs/inquire') }}">제안하기</a></li>
+                                    <li><a href="{{ url('cs/inquire') }}">오시는길</a></li>
                                 </ul>
                             </nav>
                         </div>
