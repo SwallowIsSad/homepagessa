@@ -448,8 +448,16 @@ p {
     margin: 0;
 }
 
+.m5b {
+    margin-bottom: 5px;
+}
+
 .m10b {
     margin-bottom: 10px;
+}
+
+.m15b {
+    margin-bottom: 15px;
 }
 
 .m20b {

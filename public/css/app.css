@@ -2185,12 +2185,13 @@ a.btn {
   font-size: 16px;
   letter-spacing: -0.5px;
   color: #231f20;
+  text-align: left;
 }
 .inquire-form .desc {
-  margin: 0px 0 10px 0;
   font-size: 15px;
   letter-spacing: -0.5px;
   color: #231f20;
+  text-align: left;
 }
 .inquire-form .check-text {
   position: relative;
