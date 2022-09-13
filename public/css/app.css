@@ -652,7 +652,7 @@ a.btn {
   display: block;
 }
 .all-menu-layout-mobile .active .title {
-  background: #e6e6e6;
+  background: #f7f7f7;
 }
 .all-menu-layout-mobile .active .title img {
   transform: rotate(360deg);
