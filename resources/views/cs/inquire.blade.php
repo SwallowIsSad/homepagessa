@@ -6,7 +6,8 @@
 <?php endif;?>
 <div class="sub-page-layout">
     <div>
-        <div class="inquire-layout">
+        <div class="inquire-layout" id="cs-content1">
+            <div class="pc-box"></div>
             <div style="width:1px; height:100px"></div>
             <div class="section-title">
                 <span class="icon">···</span>
@@ -94,7 +95,9 @@
         </div>
     </div>
     @include('cs.suggest')
-    <div class="inquire-layout" id="content3">
+    <div id="cs-content3"></div>
+    <div class="pc-box"></div>
+    <div class="inquire-layout">
         <div style="width:1px; height:100px"></div>
         <div class="section-title">
             <span class="icon">···</span>

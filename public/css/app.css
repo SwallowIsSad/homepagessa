@@ -714,6 +714,7 @@ a.btn {
 @media only screen and (max-width: 992px) {
   .lnb-height {
     padding: 0;
+    height: 120px;
   }
 }
 .lnb-height .lnb-back {
@@ -960,6 +961,15 @@ a.btn {
 
 .tra {
   transform: rotate(90deg);
+}
+
+.pc-box {
+  height: 50px;
+}
+@media only screen and (max-width: 992px) {
+  .pc-box {
+    height: 0px;
+  }
 }
 
 .visual-area {

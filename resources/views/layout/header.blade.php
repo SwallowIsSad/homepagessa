@@ -310,7 +310,7 @@
                                 <img src="{{ URL::asset('img/gnb/gnb4.jpg') }}" alt="" />
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('employment/recruit') }}#content1">
+                                <a href="{{ url('employment/recruit') }}#em-content1">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb4-1.jpg') }}" alt="" />
                                     </div>
@@ -323,7 +323,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('employment/recruit') }}#content2">
+                                <a href="{{ url('employment/recruit') }}#em-content2">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb4-2.jpg') }}" alt="" />
                                     </div>
@@ -336,7 +336,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('employment/recruit') }}#content3">
+                                <a href="{{ url('employment/recruit') }}#em-content3">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb4-3.jpg') }}" alt="" />
                                     </div>
@@ -353,7 +353,7 @@
                         <!-- gnb5 -->
                         <div class="gnb-sub-menu gnb5">
                             <div class="box m40r">
-                                <a href="{{ url('cs/inquire') }}">
+                                <a href="{{ url('cs/inquire') }}#cs-content1">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb5-1.jpg') }}" alt="" />
                                     </div>
@@ -364,7 +364,7 @@
                                 </a>
                             </div>
                             <div class="box m40r">
-                                <a href="{{ url('cs/inquire') }}">
+                                <a href="{{ url('cs/inquire') }}#cs-content2">
                                     <div class="img"> 
                                         <img src="{{ URL::asset('img/gnb/gnb5-2.jpg') }}" alt="" />
                                     </div>
@@ -375,7 +375,7 @@
                                 </a>
                             </div>
                             <div class="box">
-                                <a href="{{ url('cs/inquire') }}">
+                                <a href="{{ url('cs/inquire') }}#cs-content3">
                                     <div class="img">
                                         <img src="{{ URL::asset('img/gnb/gnb5-3.jpg') }}" alt="" />
                                     </div>
@@ -430,18 +430,18 @@
                                             인재채용
                                             <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
                                         </li>
-                                        <li><a href="javascript:;" data-num="4">채용정보</a></li>
-                                        <li><a href="javascript:;" data-num="4">지원서제출</a></li>
                                         <li><a href="javascript:;" data-num="4">인재상</a></li>
+                                        <li><a href="javascript:;" data-num="4" data-top="em-content2">채용정보</a></li>
+                                        <li><a href="javascript:;" data-num="4" data-top="em-content3">지원서제출</a></li>
                                     </ul>
                                     <ul class="all-mobile-box">
                                         <li class="title">
                                             고객센터
                                             <img src="{{ URL::asset('img/cs/personal-arrow.png') }}" alt="">
                                         </li>
-                                        <li><a href="javascript:;" data-num="5">문의하기</a></li>
-                                        <li><a href="javascript:;" data-num="5">제안하기</a></li>
-                                        <li><a href="javascript:;" data-num="5">오시는길</a></li>
+                                        <li><a href="javascript:;" data-num="5" data-top="cs-content1">문의하기</a></li>
+                                        <li><a href="javascript:;" data-num="5" data-top="cs-content2">제안하기</a></li>
+                                        <li><a href="javascript:;" data-num="5" data-top="cs-content3">오시는길</a></li>
                                     </ul>
                                 </div>
                                 <div class="menu-footer">

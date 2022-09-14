@@ -161,6 +161,7 @@ $(function () {
         }
     });
 
+    var aa = 1;
     $(document).on("click", ".all-mobile-box a, .close", function (e) {
         e.preventDefault();
         var self = $(this);
@@ -171,8 +172,16 @@ $(function () {
             "translate3d(" + data + ", 0px, 0px)"
         );
 
-        var top = self.data("top");
-        window.location = "/#" + top;
+        if (aa == 1) {
+            setTimeout(function () {
+                var top = self.data("top");
+                window.location = "/#" + top;
+            }, 1000);
+            aa = 2;
+        } else {
+            var top = self.data("top");
+            window.location = "/#" + top;
+        }
 
         $(".mobile-show-all").find(".type1").show();
         $(".type2").hide();

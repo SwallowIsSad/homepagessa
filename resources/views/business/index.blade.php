@@ -7,6 +7,7 @@
 <div class="sub-page-layout">
     <div>
         <div class="bs-layout" id="bus-content1">
+        <div class="pc-box"></div>
             <div style="width:1px; height:100px"></div>
             <div class="section-title">
                 <span class="icon">···</span>
@@ -73,8 +74,9 @@
         </div>
     </div>
     <div class="nopadding-layout" id="bus-content2">
-        <div class="boxbox"></div>
         <div class="section-title">
+            <div class="boxbox"></div>
+            <div class="boxbox"></div>
             <span class="icon">···</span>
             제품소개
             <span class="icon">···</span>
@@ -255,6 +257,7 @@
     </div>
     <div class="bs-layout" id="bus-content3">
         <div class="boxbox"></div>
+        <div class="boxbox"></div>
         <div class="section-title">
             <span class="icon">···</span>
             사업장소개
@@ -317,6 +320,7 @@
         </div>
     </div>
     <div class="bs-layout" id="bus-content4">
+        <div class="boxbox"></div>
         <div class="boxbox"></div>
         <div class="section-title">
             <span class="icon">···</span>

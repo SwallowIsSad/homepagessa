@@ -512,6 +512,7 @@
     @media only screen and (max-width: $media-width) {
         & {
             padding: 0;
+            height: 120px;
         }
     }
 
@@ -799,4 +800,14 @@
 
 .tra {
     transform: rotate(90deg);
+}
+
+.pc-box {
+    height: 50px;
+
+    @media only screen and (max-width: $media-width) {
+        & {
+            height: 0px;
+        }
+    }
 }

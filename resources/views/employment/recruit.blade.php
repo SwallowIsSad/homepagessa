@@ -4,8 +4,9 @@
 <?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
     @include('layout.lnb')
 <?php endif;?>
-<div class="cs-layout" id="content1">
+<div class="cs-layout" id="em-content1">
     <div style="width:1px; height:100px"></div>
+    <div class="pc-box"></div>
     <div class="section-title">
         <span class="icon">···</span>
         인재상
@@ -76,8 +77,9 @@
         </div>
     </div>
 </div>
-<div class="cs-layout" id="content2">
+<div class="cs-layout" id="em-content2">
     <div style="width:1px; height:100px"></div>
+    <div class="pc-box"></div>
     <div class="section-title">
         <span class="icon">···</span>
         채용정보
@@ -142,8 +144,9 @@
         </nav>
     </div>
 </div>
-<div class="inquire-layout" id="content3">
+<div class="inquire-layout" id="em-content3">
     <div style="width:1px; height:100px"></div>
+    <div class="pc-box"></div>
     <div class="section-title">
         <span class="icon">···</span>
         지원서제출

@@ -6,6 +6,7 @@
 <?php endif;?>
 <div class="swiper-company">
     <div class="company-layout" id="company-content1">
+        <div class="pc-box"></div>
         <div style="width:1px; height:100px"></div>
         <div class="section-title">
             <span class="icon">···</span>
@@ -66,9 +67,13 @@
                         <p class="title m20t">변화와 혁신</p>
                         <div class="line"></div>
                         <p class="desc">
-                            더욱 빠르게, 보다 광범위하게, <br>보다 큰 폭으로 
-                            진행되고 있는 기업환경 변화에 능동적으로 대처.
-                            고난과 역경을 성공과 자부심으로 승화 시킵니다.
+                            더욱 빠르게, 보다 광범위하게,
+                            <br>
+                            보다 큰 폭으로 진행되고 있는 기업환경 
+                            <br>
+                            변화에 능동적으로 대처. 고난과 역경을
+                            <br>
+                            성공과 자부심으로 승화 시킵니다.
                         </p>
                 </li>
                 <li class="m100r m100l">
@@ -101,7 +106,8 @@
     </div>
     <div class="company-layout"  id="company-content2">
         <div class="section-title">
-        <div class="boxbox"></div>
+            <div style="height:50px"></div>
+            <div class="boxbox"></div>
             <span class="icon">···</span>
             CEO 인사
             <span class="icon">···</span>
@@ -155,6 +161,7 @@
             </div>
         </div>
         <div id="company-content3" style="padding-top:50px">
+            <div class="boxbox"></div>
             <div class="section-title">
                 <div class="boxbox"></div>
                 <span class="icon">···</span>
@@ -329,6 +336,7 @@
         </div>
     </div>
     <div class="company-layout" id="company-content4">
+        <div style="height:50px"></div>
         <div class="section-title">
             <div class="boxbox"></div>
             <span class="icon">···</span>

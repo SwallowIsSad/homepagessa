@@ -4,8 +4,9 @@
 <?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
     @include('layout.noticelnb')
 <?php endif;?>
-<div style="width:1px; height:130px;"></div>
-<div class="nopadding-layout">
+<div class="nopadding-layout" id="info-content1">
+    <div class="pc-box"></div>
+    <div style="width:1px; height:130px;"></div>
     <div class="section-title">
         <span class="icon">···</span>
         공지사항

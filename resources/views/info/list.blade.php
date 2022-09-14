@@ -1,3 +1,4 @@
+<div id="info-content2"></div>
 <div style="width:1px; height:100px;"></div>
 <?php if(!preg_match('/(alcatel|amoi|android|avantgo|blackberry|benq|cell|cricket|docomo|elaine|htc|iemobile|iphone|ipad|ipaq|ipod|j2me|java|midp|mini|mmp|mobi|motorola|nec-|nokia|palm|panasonic|philips|phone|sagem|sharp|sie-|smartphone|sony|symbian|t-mobile|telus|up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i', $_SERVER['HTTP_USER_AGENT'])):?>
     @include('layout.boardlnb')
@@ -18,7 +19,7 @@
         정보공시
     </div>
 </div> -->
-<div class="board-layout" id="#info-content2">
+<div class="board-layout">
     <div class="search-area">
         <div class="board-count">전체 2건</div>
         <form action="">
