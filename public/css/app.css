@@ -728,13 +728,15 @@ a.btn {
 }
 .lnb-height .text {
   position: absolute;
-  left: 34%;
+  left: 50%;
   top: 192px;
   color: #fff;
   line-height: 55px;
   font-size: 30px;
   letter-spacing: -1px;
   position: fixed;
+  transform: translateX(-50%);
+  width: 850px;
 }
 @media only screen and (max-width: 992px) {
   .lnb-height .text {
@@ -1256,6 +1258,7 @@ a.btn {
 }
 
 .history-map {
+  position: relative;
   max-width: 1250px;
   margin: 0 auto;
 }
@@ -1787,6 +1790,7 @@ a.btn {
 }
 
 .product-layout {
+  position: relative;
   width: 100%;
   font-size: 0;
   background: #e6e6e6;

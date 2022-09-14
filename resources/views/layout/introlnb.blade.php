@@ -8,7 +8,7 @@
 <div class="lnb-height">
     <div class="lnb-back lnb-layout lnb-bus">
     </div>
-    <p class="text" style="left:20%">
+    <p class="text">
         신승지류유통은 고객에게 최상의 상품을,
         <br>
         제지사에는 더욱 편리한 유통망을 제공하는 지류 유통 전문기업 입니다.
