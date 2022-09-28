@@ -4,12 +4,22 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <div class="visual-area">
     <div class="visual-back">
-        <ul class="slide-mobile">
-            <li class="mobile"><img src="{{ URL::asset('img/main/mslide1.jpg') }}" alt="" /></li>
-            <li class="mobile"><img src="{{ URL::asset('img/main/mslide2.jpg') }}" alt="" /></li>
-            <li class="mobile"><img src="{{ URL::asset('img/main/mslide4.jpg') }}" alt="" /></li>
-        </ul>
         <ul class="slide-pc">
+            <li class="pc">
+                <video autoplay loop muted preload="none" width="100%" height="100%">
+                    <source src="{{ URL::asset('data/video/airplane5.mp4') }}">
+                </video>
+            </li>
+            <li class="pc">
+                <video autoplay loop muted preload="none" width="100%" height="100%">
+                    <source src="{{ URL::asset('data/video/book.mp4') }}">
+                </video>
+            </li>
+            <li class="pc">
+                <video autoplay loop muted preload="none" width="100%" height="100%">
+                    <source src="{{ URL::asset('data/video/car.mp4') }}">
+                </video>
+            </li>
             <li class="pc"><img src="{{ URL::asset('img/main/slide1.jpg') }}" alt="" /></li>
             <li class="pc"><img src="{{ URL::asset('img/main/slide5.jpg') }}" alt="" /></li>
             <li class="pc"><img src="{{ URL::asset('img/main/slide3.jpg') }}" alt="" /></li>
@@ -38,17 +48,17 @@
         {
             if($(window).width() > 992)
             {
-                $(".visual-back").find('.slide-pc').show();
-                $(".visual-back").find('.slide-mobile').hide();
+                // $(".visual-back").find('.slide-pc').show();
+                // $(".visual-back").find('.slide-mobile').hide();
             }
             else {
-                $(".visual-back").find('.slide-pc').hide();
-                $(".visual-back").find('.slide-mobile').show();
+                // $(".visual-back").find('.slide-pc').hide();
+                // $(".visual-back").find('.slide-mobile').show();
                 setTimeout(function () {
                     if($(".slide-mobile").is(':visible')){
-                $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"50px"});
-                    $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
-                }
+                    $(".visual-area").css({"height" : $(window).height()  - $(".footer").height() + "px", "top":"50px"});
+                        $(".visual-back").css("height", $(window).height()  - $(".footer").height() + "px");
+                    }
                 }, 150)
             }   
             
@@ -71,15 +81,7 @@
             autoHover: false
         });
         
-        var slide2 = $(".slide-mobile").slippry({
-            transition: 'fade',
-            useCSS: true,
-            speed: 1000,
-            pause: 3000,
-            auto: true,
-            preload: 'visible',
-            autoHover: false
-        });
+
     })
 </script>
 @include('layout.mainfooter')
