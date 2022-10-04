@@ -20,10 +20,6 @@
                     <source src="{{ URL::asset('data/video/car.mp4') }}">
                 </video>
             </li>
-            <li class="pc"><img src="{{ URL::asset('img/main/slide1.jpg') }}" alt="" /></li>
-            <li class="pc"><img src="{{ URL::asset('img/main/slide5.jpg') }}" alt="" /></li>
-            <li class="pc"><img src="{{ URL::asset('img/main/slide3.jpg') }}" alt="" /></li>
-            <li class="pc"><img src="{{ URL::asset('img/main/slide4.jpg') }}" alt="" /></li>
         </ul>
     </div>
     <div class="visual-front">
@@ -75,7 +71,7 @@
             transition: 'fade',
             useCSS: true,
             speed: 1000,
-            pause: 3000,
+            pause: 17000,
             auto: true,
             preload: 'visible',
             autoHover: false
