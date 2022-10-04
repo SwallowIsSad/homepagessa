@@ -43,7 +43,7 @@
                 <div class="date td">2022.09.28</div>
                 <div class="hit td">23</div>
                 <div class="content">
-                    <img src="{{ URL::asset('data/board/220919.jpg') }}" alt="">
+                    <img src="{{ URL::asset('data/board/220919.jpg') }}" alt="" class="m5b">
                     <img src="{{ URL::asset('data/board/220919_2.jpg') }}" alt="">
                 </div>
             </div>

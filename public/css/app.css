@@ -2580,11 +2580,14 @@ a.btn {
 .board-layout .table .content {
   transition: all 0.5s;
   display: none;
-  padding: 10px 20px 10px 40px;
+  padding: 10px 20px 10px 20px;
   text-align: left;
   background: #ececec;
   line-height: 20px;
   font-size: 15px;
+}
+.board-layout .table .content img {
+  width: 100%;
 }
 .board-layout .search-area {
   position: relative;
