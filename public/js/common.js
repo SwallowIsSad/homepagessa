@@ -54,6 +54,7 @@ $(function () {
         $(".gnb-sub-menu-layout .gnb-sub-menu").hide(200);
         $(".show-all img").removeClass("tra");
         $(".mobile-back").hide();
+        $(".mobile-show-all").find(".type1").show();
         $(".gnb-sub-menu-area").hide();
         $(".menu-up").hide();
     });

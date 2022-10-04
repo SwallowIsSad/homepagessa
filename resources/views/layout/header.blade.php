@@ -422,7 +422,6 @@
                                         </li>
                                         <li><a href="javascript:;" data-num="3" data-top="info-content1">공지사항</a></li>
                                         <li><a href="javascript:;" data-num="3" data-top="info-content2">정보공시</a></li>
-                                        <li><a href="http://211.54.23.129" target="blank">주문시스템</a></li>
                                         <li><a href="javascript:;" data-num="3" data-top="info-content3">홍보센터</a></li>
                                     </ul>
                                     <ul class="all-mobile-box">
