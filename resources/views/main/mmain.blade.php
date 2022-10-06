@@ -4,6 +4,14 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <style>
+    .swiper-banner{
+        position: fixed;
+        left:50%;
+        bottom:10vh;
+        transform: translateX(-50%);
+        transition: all .5s;
+        z-index: 30;
+    }
     .swiper-wrapper{
         transition: all .5s;
     }
@@ -46,6 +54,9 @@
         margin: 6px 2px !important;
     }
 </style>
+<div class="swiper-banner">
+    <img src="{{ URL::asset('img/img_drag_ex.png') }}" alt="" >
+</div>
 <div class="swiper-container">
     <!-- 보여지는 영역 -->
     <div class="swiper-wrapper">
@@ -175,7 +186,23 @@
             centeredSlides: true,
             // 페이지 전환효과 slidesPerView효과와 같이 사용 불가
             // effect: 'fade',
-        }) 
+        })
+        
+        var inter = 0;
+        setInterval(function () {
+            if(inter < 3)
+            {
+                if($(".swiper-banner").css("opacity") == 1)
+                {
+                    $(".swiper-banner").css("opacity", "0");
+                }
+                else
+                {
+                    $(".swiper-banner").css("opacity", "1");
+                }
+            }
+        inter+=1;
+        }, 1000);
     })
 </script>
 @include('layout.footer')
