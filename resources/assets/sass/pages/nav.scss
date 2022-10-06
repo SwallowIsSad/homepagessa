@@ -1,40 +1,3 @@
-// .visual-area2 {
-//     position: relative;
-//     z-index: 2;
-//     width: 100%;
-//     height: 100%;
-//     overflow: hidden;
-
-//     #fullpage {
-//         position: relative;
-//         top: 0px;
-//         z-index: 9;
-//         width: 100%;
-//         height: 100%;
-//     }
-//     .fullsection {
-//         width: 100%;
-//         height: 100%;
-//         position: relative;
-
-//         img {
-//             display: block;
-//             height: 100%;
-//         }
-//     }
-
-//     #fullpage span {
-//         display: block;
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         color: #fff;
-//         font-size: 4em;
-//         font-weight: bold;
-//     }
-// }
-
 .visual-area {
     position: relative;
     width: 100%;
@@ -170,7 +133,86 @@
     }
 }
 
-.visual-area {
+.visual-area-pc {
+    position: relative;
+    text-align: center;
+    height: 1080px;
+    .visual-front {
+        position: relative;
+        padding:350px 0 0 200px;
+        margin: 0 auto;
+        text-align: left;
+        max-width: 1250px;
+        z-index: 2;
+        box-sizing: border-box;
+      
+        .slide-font {
+            box-sizing: border-box;
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    padding: 0;
+                    position: absolute;
+                    width: 100%;
+                    top: 32%;
+                    padding-left: 20px;
+                }
+            }
+            .title {
+                font-size: 62px;
+                line-height: 75px;
+                letter-spacing: -1px;
+                color: #fff;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        font-size: 40px;
+                        line-height: 45px;
+                    }
+                }
+            }
+
+            .desc {
+                padding-top: 20px;
+                font-size: 24px;
+                color: #fff;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        padding-top: 30px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+    .visual-back {
+        position: absolute;
+        width: 100%;
+        height: 1080px;
+        overflow: hidden;
+        z-index: 0;
+
+        li {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: $slide-height;
+
+                @media only screen and (max-width: $media-width) {
+                    & {
+                        display: block;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.visual-area, .visual-area-pc {
     .visual-back {
         .sy-controls {
             display: none !important;
