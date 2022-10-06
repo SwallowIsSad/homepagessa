@@ -7,7 +7,7 @@
         <ul class="slide-pc">
             <li class="pc">
                 <video autoplay loop muted preload="none" width="1920px"  height="1080px">
-                    <source src="{{ URL::asset('data/video/airplane5.mp4') }}#t=7">
+                    <source src="{{ URL::asset('data/video/airplane5.mp4') }}#t=5">
                 </video>
             </li>
             <li class="pc">
