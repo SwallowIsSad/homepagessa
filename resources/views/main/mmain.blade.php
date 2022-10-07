@@ -201,6 +201,10 @@
                     $(".swiper-banner").css("opacity", "1");
                 }
             }
+            else
+            {
+                    $(".swiper-banner").hide();
+            }
         inter+=1;
         }, 1000);
     })
