@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700");
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 body {
   font-size: 14px;
 }
@@ -349,9 +349,6 @@ a.btn {
   position: absolute;
   left: 0;
   top: 53%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .header .nav-layout .global-nav .logo a {
@@ -398,9 +395,6 @@ a.btn {
 .header .nav-layout .global-nav .all-menu {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 0;
   font-size: 16px;
@@ -443,9 +437,6 @@ a.btn {
   display: block;
   left: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .header .nav-layout .global-nav .all-menu .lang p,
@@ -1055,9 +1046,6 @@ a.btn {
   position: absolute;
   left: 57%;
   top: 614px;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 .visual-area .visual-front .slide-index li {
@@ -1821,9 +1809,6 @@ a.btn {
 .product-layout .text-area .text {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 50px;
   color: #516355;
@@ -2392,9 +2377,6 @@ a.btn {
   position: absolute;
   padding: 9px 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 40px;
   width: 130px;
