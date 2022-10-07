@@ -8,6 +8,7 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\NoticeController;
 use App\Http\Controllers\EmploymentController;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -66,4 +67,9 @@ Route::prefix('cs')->group(function () {
 Route::prefix('test')->group(function () {
     Route::get('/', [TestController::class, 'test']);
     Route::get('/test', [TestController::class, 'test2']);
+});
+
+// 고객센터
+Route::prefix('admin')->group(function () {
+    Route::get('/', [DashboardController::class, 'index']);
 });
