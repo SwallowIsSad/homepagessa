@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title')</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/AdminLTE.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/_all-skins.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/OverlayScrollbars.min.css')}}" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
-    @yield('stylesheets')
-</head>
-<body class="hold-transition skin-blue sidebar-mini">
-    <div class="wrapper">
+
         @include('admin.header')
         @include('admin.sidebar')
         <div class="content-wrapper" style="min-height: 464px;">
@@ -615,10 +598,4 @@
     </section>
     <!-- /.content -->
   </div>
-    </div>
-    <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/adminlte.min.js') }}"></script>
-    @yield('scripts')
-</body>
-</html>
+@include('admin.footer')
