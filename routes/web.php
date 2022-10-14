@@ -8,7 +8,8 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\NoticeController;
 use App\Http\Controllers\EmploymentController;
 use App\Http\Controllers\TestController;
-use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\AdminNoticeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -63,13 +64,15 @@ Route::prefix('cs')->group(function () {
     Route::get('/map', [CsController::class, 'map']);
 });
 
-// 고객센터
+// 테스트 페이지
 Route::prefix('test')->group(function () {
     Route::get('/', [TestController::class, 'test']);
     Route::get('/test', [TestController::class, 'test2']);
 });
 
-// 고객센터
+// 관리자 페이지
 Route::prefix('admin')->group(function () {
     Route::get('/', [DashboardController::class, 'index']);
+    Route::get('/notice', [AdminNoticeController::class, 'index']);
+    Route::get('/bb', [DashboardController::class, 'index']);
 });
