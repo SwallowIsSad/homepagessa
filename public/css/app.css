@@ -876,8 +876,7 @@ a.btn {
 .visual-area-pc {
   position: relative;
   text-align: center;
-  top: 131px;
-  height: 100%; }
+  height: 100vh; }
   .visual-area-pc .visual-front {
     position: relative;
     padding: 350px 0 0 200px;
@@ -915,7 +914,7 @@ a.btn {
   .visual-area-pc .visual-back {
     position: absolute;
     width: 100%;
-    height: 1080px;
+    height: 100%;
     overflow: hidden;
     z-index: 0;
     background: #202020; }
