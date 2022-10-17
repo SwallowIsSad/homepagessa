@@ -12,7 +12,6 @@ class BoardService
     /**
      * 조건에 맞는 게시글을 모두 받아온다.
      *
-     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
      */
     public function getBoardList(array $conditions)
     {
