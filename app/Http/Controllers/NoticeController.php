@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\BoardService;
+
 
 class NoticeController extends Controller
 {
