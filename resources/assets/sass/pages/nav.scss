@@ -136,7 +136,9 @@
 .visual-area-pc {
     position: relative;
     text-align: center;
-    height: 1080px;
+    top:131px;
+    height: 100%;
+
     .visual-front {
         position: relative;
         padding:350px 0 0 200px;
@@ -193,6 +195,7 @@
         height: 1080px;
         overflow: hidden;
         z-index: 0;
+        background: #202020;
 
         li {
             width: 100%;

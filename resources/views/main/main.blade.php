@@ -6,18 +6,18 @@
     <div class="visual-back">
         <ul class="slide-pc">
             <li class="pc">
-                <video autoplay loop muted preload="none" width="1920px"  height="1080px">
+                <video autoplay loop muted preload="none" width="100%">
                     <source src="{{ URL::asset('data/video/airplane5.mp4') }}#t=5">
                 </video>
             </li>
             <li class="pc">
-                <video autoplay loop muted preload="none" width="1920px"  height="1080px">
+                <video autoplay loop muted preload="none" width="100%">
                     <source src="{{ URL::asset('data/video/book.mp4') }}">
                 </video>
             </li>
             <li class="pc">
-                <video autoplay loop muted preload="none" width="1920px"  height="1080px">
-                    <source src="{{ URL::asset('data/video/car.mp4') }}">
+                <video autoplay loop muted preload="none" width="100%">
+                    <source src="{{ URL::asset('data/video/sae.mp4') }}">
                 </video>
             </li>
         </ul>

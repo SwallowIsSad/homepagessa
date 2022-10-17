@@ -63,12 +63,7 @@
             <img src="{{ URL::asset('img/gnb/all-menu.png?2') }}" alt="" class="all-menuc type1">
         </a>
         <!-- header -->
-        <?php if(isset($header) && $header === 'test'):?>
-            <header class="header main-header">
-            <!-- header-fix -->
-        <?php else:?>
-            <header class="header sub-header">
-        <?php endif?>
+        <header class="header sub-header">
             <div class="nav-layout">
                 <div class="top-nav-area">
                     <div class="top-nav-layout">
