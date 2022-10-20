@@ -12,7 +12,7 @@
             </li>
             <li class="pc">
                 <video autoplay loop muted preload="none" width="100%">
-                    <source src="{{ URL::asset('data/video/book.mp4') }}">
+                    <source src="{{ URL::asset('data/video/book.mp4') }}#t=5">
                 </video>
             </li>
             <li class="pc">
@@ -46,7 +46,7 @@
             transition: 'fade',
             useCSS: true,
             speed: 1000,
-            pause: 11000,
+            pause: 10000,
             auto: true,
             preload: 'visible',
             autoHover: false
