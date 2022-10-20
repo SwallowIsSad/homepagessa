@@ -13,7 +13,7 @@ class CreateNoticeTable extends Migration
      */
     public function up()
     {
-        Schema::create('notice', function (Blueprint $table) {
+        Schema::create('notices', function (Blueprint $table) {
             $table->id();
             $table->string('title')->comment('게시글 타이틀');
             $table->text('content')->comment('게시글 내용');
@@ -34,6 +34,6 @@ class CreateNoticeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('notice');
+        Schema::dropIfExists('notices');
     }
 }
