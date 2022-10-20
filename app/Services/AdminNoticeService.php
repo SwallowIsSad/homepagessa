@@ -2,29 +2,21 @@
 
 namespace App\Services;
 
-use App\Models\AdminBoard;
-use App\Models\UploadFile;
+use App\Models\Notice;
 use Exception;
 use Log;
 
-class NoticeService
+class AdminNoticeService
 {
     /**
      * 조건에 맞는 게시글을 모두 받아온다.
      *
      */
-    public function getBoardList(array $conditions)
+    public function getBoardList()
     {
-        $search = $conditions['search'] ?? '';
-        $query = AdminBoard::with(['admin', 'files'])->where('title', 'like', "%{$search}%");
-
-        $collection = collect($conditions)->except(['limit', 'search']);
-        $collection->each(function ($condition, $key) use ($query) {
-            $query->where($key, $condition);
-        });
-        $query->orderBy('id', 'desc');
-
-        return $query->paginate($conditions['limit'])->withPath('/admin/board');
+        return Notice::All();
+        $notice = Notice::OrderBy('created_at', 'desc')->get();
+        return $notice;
     }
 
     /**
