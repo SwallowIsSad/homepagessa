@@ -18,6 +18,23 @@ class AdminNoticeService
         $notice = Notice::OrderBy('created_at', 'desc')->get();
         return $notice;
     }
+    
+
+    /**
+     * 게시글 상세 내용.
+     *
+     * @return array
+     */
+    public function getBoardDetail(int $id)
+    {
+        $board['data'] =  Notice::where('id', $id)->first();
+        // $detailQuery->increment('hit');
+
+        $board['prev'] = Notice::where('id', '<', $id)->max('id');
+        $board['next'] = Notice::where('id', '>', $id)->min('id');
+
+        return $board;
+    }
 
     /**
      * 게시글 전체 개수를 반환한다.
@@ -116,23 +133,6 @@ class AdminNoticeService
             Log::error($e);
             throw new Exception('게시글 삭제 중 문제가 발생하였습니다.\n잠시 후 다시 시도해주세요.');
         }
-    }
-
-    /**
-     * 게시글 상세 내용.
-     *
-     * @return array
-     */
-    public function getBoardDetail(int $id)
-    {
-        $detailQuery = AdminBoard::with(['admin', 'files'])->where('id', $id);
-        $detailQuery->increment('hit');
-        $board['data'] = $detailQuery->get();
-
-        $board['prev'] = AdminBoard::where('id', '<', $id)->max('id');
-        $board['next'] = AdminBoard::where('id', '>', $id)->min('id');
-
-        return $board;
     }
 
     /**
