@@ -1,0 +1,79 @@
+@include('admin.header')
+@include('admin.sidebar')
+<div class="content-wrapper" style="min-height: 464px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">공지사항 상세</h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item">
+                            <a href="/admin">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <a href="/admin/notice">공지사항</a>
+                        </li>
+                    </ol>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                check notice
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div>
+                                            제목 <?php echo $boardList['data']->title?>
+                                        </div>
+                                        <div>
+                                            작성일 <?php echo $boardList['data']->created_at?>
+                                        </div>
+                                        <div>
+                                            조회수 <?php echo $boardList['data']->hit?>
+                                        </div>
+                                        <div>
+                                            내용 <?php echo $boardList['data']->content?>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="text-align:center">
+                        <div class="col-12">
+                            <?php if($boardList['prev'] != null):?>
+                                <a href="/admin/notice/view/<?php echo $boardList['prev']?>" class="btn btn-secondary">이전</a>
+                            <?php endif;?>
+                            <a href="/admin/notice" class="btn btn-secondary">목록</a>
+                            <?php if($boardList['next'] != null):?>
+                                <a href="/admin/notice/view/<?php echo $boardList['next']?>" class="btn btn-secondary">다음</a>
+                            <?php endif;?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.content -->
+</div>
+@include('admin.footer')
