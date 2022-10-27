@@ -46,6 +46,7 @@ $(function () {
         $(".gnb-sub-menu-area").slideUp(200);
         $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
         $(".menu-up").hide();
+        $(".show-all img").removeClass("tra");
     });
 
     $(document).on("click", ".mobile-back", function (e) {
