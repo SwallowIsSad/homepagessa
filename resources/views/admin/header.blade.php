@@ -7,7 +7,6 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/AdminLTE.min.css')}}" />
     <link rel="stylesheet" href="{{asset('css/_all-skins.min.css')}}" />
     <link rel="stylesheet" href="{{asset('css/all.min.css')}}" />
     <link rel="stylesheet" href="{{asset('css/OverlayScrollbars.min.css')}}" />

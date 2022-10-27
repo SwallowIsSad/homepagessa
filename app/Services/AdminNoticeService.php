@@ -28,8 +28,6 @@ class AdminNoticeService
     public function getBoardDetail(int $id)
     {
         $board['data'] =  Notice::where('id', $id)->first();
-        // $detailQuery->increment('hit');
-
         $board['prev'] = Notice::where('id', '<', $id)->max('id');
         $board['next'] = Notice::where('id', '>', $id)->min('id');
 
@@ -63,14 +61,10 @@ class AdminNoticeService
     public function addBoard(array $datas)
     {
         try {
-            $datas['admin_id'] = auth('admin')->id();
-            $board = AdminBoard::create($datas);
-
-            if (array_key_exists('boardfile', $datas) && $datas['boardfile'] != []) {
-                $this->addFile($board->id, $datas);
-            }
+            Notice::create($datas);
         } catch (Exception $e) {
             Log::error($e);
+            dd($e);
             throw new Exception('게시글 작성 중 문제가 발생하였습니다.\n잠시 후 다시 시도해주세요.');
         }
     }
