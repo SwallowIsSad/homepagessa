@@ -889,7 +889,8 @@ a.btn {
     box-sizing: border-box; }
     .visual-area-pc .visual-front .visual-front-area {
       position: absolute;
-      top: 49%;
+      width: 400px;
+      top: 40%;
       transform: translateY(-50%); }
     .visual-area-pc .visual-front .slide-font {
       box-sizing: border-box; }
