@@ -27,23 +27,6 @@ class NoticeService
         return $query->paginate($conditions['limit'])->withPath('/admin/board');
     }
 
-    /**
-     * 게시글 전체 개수를 반환한다.
-     *
-     * @return int
-     */
-    public function getBoardCount(array $conditions)
-    {
-        $search = $conditions['search'] ?? '';
-        $query = AdminBoard::with(['admin', 'files'])->where('title', 'like', "%{$search}%");
-
-        $collection = collect($conditions)->except(['limit', 'search']);
-        $collection->each(function ($condition, $key) use ($query) {
-            $query->where($key, $condition);
-        });
-
-        return $query->count();
-    }
 
     /**
      * 게시글 작성.

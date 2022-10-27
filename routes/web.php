@@ -77,5 +77,7 @@ Route::prefix('admin')->group(function () {
     Route::prefix('notice')->group(function () {
         Route::get('/', [AdminNoticeController::class, 'index']);
         Route::get('/view/{id}', [AdminNoticeController::class, 'view']);
+        Route::get('/add', [AdminNoticeController::class, 'addView']);
+        Route::post('/add', [AdminNoticeController::class, 'add']);
     });
 });

@@ -12,7 +12,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item">
-                            <a href="#">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li class="breadcrumb-item active">공지사항</li>
                     </ol>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="col-12">
                         <!-- <a href="#" class="btn btn-secondary">Cancel</a> -->
-                        <a href="#" class="btn btn-primary float-right">작성</a>
+                        <a href="/admin/notice/add" class="btn btn-primary float-right">작성</a>
                     </div>
                 </div>
             </div>
