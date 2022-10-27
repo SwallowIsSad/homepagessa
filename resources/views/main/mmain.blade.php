@@ -27,6 +27,7 @@
         font-size: 18px;
         background: #fff;
         overflow-y: scroll;
+        
 
         /* Center slide text vertically */
         display: -webkit-box;
