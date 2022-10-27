@@ -371,7 +371,6 @@ a.btn {
     display: none;
     width: 100%;
     background: #fff;
-    border-bottom: 1px solid #506354;
     font-size: 0;
     z-index: 5; }
     @media only screen and (max-width: 992px) {
