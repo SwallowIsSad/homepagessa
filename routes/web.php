@@ -70,7 +70,7 @@ Route::prefix('test')->group(function () {
     Route::get('/test', [TestController::class, 'test2']);
 });
 
-// 관리자 페이지ss
+// 관리자 페이지
 Route::prefix('admin')->group(function () {
     Route::get('/', [DashboardController::class, 'index']);
 
@@ -79,5 +79,7 @@ Route::prefix('admin')->group(function () {
         Route::get('/view/{id}', [AdminNoticeController::class, 'view']);
         Route::get('/add', [AdminNoticeController::class, 'addView']);
         Route::post('/add', [AdminNoticeController::class, 'add']);
+        Route::get('/edit/{id}', [AdminNoticeController::class, 'editView']);
+        Route::post('/edit', [AdminNoticeController::class, 'edit']);
     });
 });

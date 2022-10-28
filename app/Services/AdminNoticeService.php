@@ -75,19 +75,10 @@ class AdminNoticeService
      * @return void
      * @throws \Exception
      */
-    public function editBoard(int $id, array $datas)
+    public function edit(array $datas)
     {
         try {
-            $datas['admin_id'] = auth('admin')->id();
-            AdminBoard::where('id', $id)->update(['title' => $datas['title'], 'content' => $datas['content']]);
-
-            if (array_key_exists('boardfile', $datas) && $datas['boardfile'] != []) {
-                $this->addFile($id, $datas);
-            }
-
-            if (array_key_exists('deletefile', $datas) && $datas['deletefile'] != []) {
-                $this->deleteFile($datas['deletefile']);
-            }
+            $aa = Notice::where('id', $datas['id'])->update(['title' => $datas['title'], 'content' => $datas['content'], 'hit' => $datas['hit'], 'kind' => $datas['kind']]);
         } catch (Exception $e) {
             Log::error($e);
             throw new Exception('게시글 수정 중 문제가 발생하였습니다.\n잠시 후 다시 시도해주세요.');

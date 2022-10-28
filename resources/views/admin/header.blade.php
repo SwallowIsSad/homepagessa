@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="{{asset('css/OverlayScrollbars.min.css')}}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
     @yield('stylesheets')
+    <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/adminlte.min.js') }}"></script>
+    <script src="{{asset('js/all.min.js')}}"></script>
+    @yield('scripts')
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
