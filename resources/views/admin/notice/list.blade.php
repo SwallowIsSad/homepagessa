@@ -46,7 +46,8 @@
                                         <table id="example2" class="table table-bordered table-hover dataTable dtr-inline" aria-describedby="example2_info">
                                             <colgroup>
                                                 <col width="10%">
-                                                <col width="60%">
+                                                <col width="10%">
+                                                <col width="50%">
                                                 <col width="10%">
                                                 <col width="10%">
                                                 <col width="10%">
