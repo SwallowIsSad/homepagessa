@@ -31,7 +31,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <div class="card">
+                    <div class="card">  
                         <div class="card-header">
                             <h3 class="card-title">
                                 check notice
@@ -39,7 +39,7 @@
                         </div>
                         <div class="card-body">
                             <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">
-                                <div class="row">
+                                <div class="row" style="margin-bottom:20px">
                                     <div class="col-sm-12">
                                         <div>
                                             제목 <?php echo $boardList['data']->title?>
@@ -53,9 +53,16 @@
                                         <div>
                                             내용 <?php echo $boardList['data']->content?>
                                         </div>
+                                        <div>
+                                             타입 <?php echo $boardList['data']->kind?>
+                                        </div>
                                     </div>
                                 </div>
-                                
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <a href="/admin/notice/edit/<?php echo $boardList['data']->id?>" class="btn btn-primary">수정</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -53,6 +53,7 @@
                                             </colgroup>
                                             <thead>
                                                 <tr>
+                                                    <th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"></th>
                                                     <th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">번호</th>
                                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1">제목</th>
                                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1">조회수</th>
@@ -63,6 +64,7 @@
                                             <tbody>
                                                 <?php foreach($boardList as $key => $value):?>
                                                 <tr class="odd">
+                                                    <td><input type="checkbox" value="<?php echo $value->id?>"></td>
                                                     <td><?php echo $value->id?></td>
                                                     <td>
                                                         <a href="{{ url('admin/notice/view/') }}/{{$value->id}}"><?php echo $value->title?></a>
@@ -125,4 +127,9 @@
     </section>
     <!-- /.content -->
 </div>
+<script>
+    $(function () {
+        console.log(1);
+    })
+</script>
 @include('admin.footer')
