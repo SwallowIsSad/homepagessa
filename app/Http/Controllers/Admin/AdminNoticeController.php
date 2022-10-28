@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\controllers\Controller;
 use App\Http\Requests\AdminNoticeDetailRequest;
 use App\Http\Requests\AdminNoticeAddRequest;
+use App\Http\Requests\AdminNoticeEditRequest;
 use App\Services\AdminNoticeService;
 
 class AdminNoticeController extends Controller
@@ -37,5 +38,18 @@ class AdminNoticeController extends Controller
     {
         $a = $this->noticeService->addBoard($request->validated());
         return view('admin.notice.write');
+    }
+
+    public function editView(AdminNoticeDetailRequest $request)
+    {
+        $data['boardList'] = $this->noticeService->getBoardDetail($request->id);
+
+        return view('admin.notice.edit')->with($data);
+    }
+
+    public function edit(AdminNoticeEditRequest $request)
+    {
+        $this->noticeService->edit($request->validated());
+        return back();
     }
 }
