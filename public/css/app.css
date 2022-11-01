@@ -280,7 +280,6 @@ a.btn {
         line-height: 55px; } }
     .header .nav-layout .global-nav .logo {
       position: absolute;
-      left: 20px;
       top: 53%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -322,7 +321,7 @@ a.btn {
       -ms-transform: translateY(-50%);
       -o-transform: translateY(-50%);
       transform: translateY(-50%);
-      right: 20px;
+      right: 0px;
       font-size: 16px;
       color: #506354; }
       @media only screen and (max-width: 992px) {
