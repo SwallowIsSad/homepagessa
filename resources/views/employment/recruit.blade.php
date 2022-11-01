@@ -104,9 +104,9 @@
                         <p class="title">
                             [신입] 회계·재무·세무·IR 신입 사원 모집                        
                         </p>
-                        <p class="date">2022-07-01~2022-07-31</p>
+                        <p class="date">2022-10-01~2022-12-31</p>
                         <p class="button">
-                            마감
+                            진행중
                         </p>
                     </div>
                 </li>
@@ -115,31 +115,31 @@
                         <p class="title">
                             [신입] 회계·재무·세무·IR 신입 사원 모집                        
                         </p>
-                        <p class="date">2022-07-01~2022-07-31</p>
+                        <p class="date">2022-09-01~2022-12-31</p>
                         <p class="button">
-                            마감
+                            진행중
                         </p>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p class="title">
-                            [신입] 회계·재무·세무·IR 신입 사원 모집                        
+                            [신입] 영업 관리 사원 모집
                         </p>
-                        <p class="date">2022-07-01~2022-07-31</p>
+                        <p class="date">2022-07-01~2022-12-31</p>
                         <p class="button">
-                            마감
+                            진행중
                         </p>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p class="title">
-                            [신입] 회계·재무·세무·IR 신입 사원 모집                        
+                            [신입] PHP개발자 모집
                         </p>
-                        <p class="date">2022-07-01~2022-07-31</p>
+                        <p class="date">2022-09-01~2022-12-31</p>
                         <p class="button">
-                            마감
+                            진행중
                         </p>
                     </div>
                 </li>
