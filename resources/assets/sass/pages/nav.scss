@@ -152,6 +152,19 @@
             width: 400px;
             top: 40%;
             transform: translateY(-50%);
+
+    
+            @media only screen and (max-width: 1200px) {
+                & {
+                    padding-left: 20px;
+                }
+            }
+
+            @media only screen and (max-width: $media-width) {
+                & {
+                    padding-left: 0;
+                }
+            }
         }
       
         .slide-font {
