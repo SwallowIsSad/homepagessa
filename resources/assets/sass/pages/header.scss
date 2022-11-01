@@ -40,6 +40,11 @@
                 text-align: right;
 
                 .top-nav {
+                    @media only screen and (max-width: 1200px) {
+                        & {
+                            padding-right: 16px;
+                        }
+                    }
                     @media only screen and (max-width: $media-width) {
                         & {
                             padding-right: 16px;
@@ -111,10 +116,13 @@
                     height: 25px;
                 }
 
-                @media only screen and (max-width: $media-width) {
-                    & {
+                @media only screen and (max-width: 1200px) {
+                    &{
                         padding-left: 20px;
                     }
+                }
+
+                @media only screen and (max-width: $media-width) {
 
                     .mobile {
                         display: block;
@@ -127,7 +135,7 @@
             }
 
             .gnb-menu-layout {
-                @media only screen and (max-width: $media-width) {
+                @media only screen and (max-width: 1200px) {
                     & {
                         display: none;
                     }
@@ -150,10 +158,14 @@
             }
 
             .all-menu {
-                @media only screen and (max-width: $media-width) {
-                    & {
+                
+
+                @media only screen and (max-width: 1200px) {
+                    &{
                         padding-right: 20px;
                     }
+                }
+                @media only screen and (max-width: $media-width) {
 
                     .only-pc {
                         display: none;
@@ -624,6 +636,12 @@
     @media only screen and (max-width: $media-width) {
         & {
             padding: 0 5px 0 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        & {
+            padding-left: 20px;
         }
     }
     position: relative;

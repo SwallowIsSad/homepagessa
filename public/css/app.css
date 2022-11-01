@@ -250,6 +250,9 @@ a.btn {
         height: 35px;
         line-height: 35px;
         color: #fff; }
+        @media only screen and (max-width: 1200px) {
+          .header .nav-layout .top-nav-area .top-nav-layout .top-nav {
+            padding-right: 16px; } }
         @media only screen and (max-width: 992px) {
           .header .nav-layout .top-nav-area .top-nav-layout .top-nav {
             padding-right: 16px; } }
@@ -293,9 +296,10 @@ a.btn {
       .header .nav-layout .global-nav .logo .mobile {
         display: none;
         height: 25px; }
-      @media only screen and (max-width: 992px) {
+      @media only screen and (max-width: 1200px) {
         .header .nav-layout .global-nav .logo {
-          padding-left: 20px; }
+          padding-left: 20px; } }
+      @media only screen and (max-width: 992px) {
         .header .nav-layout .global-nav .logo .mobile {
           display: block; }
         .header .nav-layout .global-nav .logo .pc {
@@ -303,7 +307,7 @@ a.btn {
     .header .nav-layout .global-nav .gnb-menu-layout {
       height: 95px;
       line-height: 95px; }
-      @media only screen and (max-width: 992px) {
+      @media only screen and (max-width: 1200px) {
         .header .nav-layout .global-nav .gnb-menu-layout {
           display: none; } }
       .header .nav-layout .global-nav .gnb-menu-layout li {
@@ -324,9 +328,10 @@ a.btn {
       right: 0px;
       font-size: 16px;
       color: #506354; }
-      @media only screen and (max-width: 992px) {
+      @media only screen and (max-width: 1200px) {
         .header .nav-layout .global-nav .all-menu {
-          padding-right: 20px; }
+          padding-right: 20px; } }
+      @media only screen and (max-width: 992px) {
         .header .nav-layout .global-nav .all-menu .only-pc {
           display: none; } }
       .header .nav-layout .global-nav .all-menu .down-arrow img {
@@ -655,6 +660,9 @@ a.btn {
   @media only screen and (max-width: 992px) {
     .footer {
       padding: 0 5px 0 20px; } }
+  @media only screen and (max-width: 1200px) {
+    .footer {
+      padding-left: 20px; } }
   .footer .footer-layout {
     padding: 20px 0;
     max-width: 1250px;
@@ -887,6 +895,12 @@ a.btn {
       width: 400px;
       top: 40%;
       transform: translateY(-50%); }
+      @media only screen and (max-width: 1200px) {
+        .visual-area-pc .visual-front .visual-front-area {
+          padding-left: 20px; } }
+      @media only screen and (max-width: 992px) {
+        .visual-area-pc .visual-front .visual-front-area {
+          padding-left: 0; } }
     .visual-area-pc .visual-front .slide-font {
       box-sizing: border-box; }
       .visual-area-pc .visual-front .slide-font .title {
