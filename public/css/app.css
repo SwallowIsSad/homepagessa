@@ -2077,7 +2077,7 @@ a.btn {
     .board-layout .table .content {
       transition: all 0.5s;
       display: none;
-      padding: 10px 20px 10px 20px;
+      padding: 10px 20px 10px 85px;
       text-align: left;
       background: #ececec;
       line-height: 20px;
