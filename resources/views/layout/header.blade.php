@@ -480,5 +480,9 @@
                 </div>
             </div>
         </header>
-        <div class="menu-up"></div>
+        <?php if(isset($header)):?>
+            <div class="menu-up" style="height:100vh;"></div>
+        <?php else:?>
+            <div class="menu-up"></div>
+        <?php endif;?>
         <!-- header -->
