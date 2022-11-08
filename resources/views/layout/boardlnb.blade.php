@@ -3,7 +3,7 @@
         background-image: url("{{ URL::asset('img/banner/banner3.jpg') }}");
         background-size: 100%;
     }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 1200px) {
         .info-board {
             background-attachment: inherit;
         }
