@@ -23,6 +23,11 @@ $(function () {
                 $(".mobile-show-all").show();
                 $(".mobile-show-all").find(".type1").show();
                 $(".type2").hide();
+                $(".gnb-sub-menu-area").show();
+            }
+            else
+            {
+                $(".gnb-sub-menu-area").hide();
             }
         } else {
             $(".show-all img").addClass("tra");
@@ -30,6 +35,7 @@ $(function () {
             $(".menu-up").show();
             $(".gnb-sub-menu-layout .gnb-sub-menu").hide();
             $(".gnb-sub-menu-layout .gnb-sub-menu").eq(5).show();
+            // $(".gnb-sub-menu-area").hide();
             if ($(window).width() < 992) {
                 $(".mobile-show-all").show();
                 $(".type2").show();
