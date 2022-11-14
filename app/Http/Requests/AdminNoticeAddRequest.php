@@ -26,6 +26,8 @@ class AdminNoticeAddRequest extends FormRequest
             'content' => ['required'],
             'hit' => ['required', 'numeric'],
             'kind' => ['required', 'numeric'],
+            'boardfile' => ['nullable', 'array'],
+            'boardfile.*' => ['nullable'],
         ];
     }
 
@@ -41,6 +43,7 @@ class AdminNoticeAddRequest extends FormRequest
             'content' => '내용',
             'hit' => '조회수',
             'kind' => '종류',
+            'boardfile.*' => '첨부파일',
         ];
     }
 }
