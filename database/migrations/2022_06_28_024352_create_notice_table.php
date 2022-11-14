@@ -17,7 +17,6 @@ class CreateNoticeTable extends Migration
             $table->id();
             $table->string('title')->comment('게시글 타이틀');
             $table->text('content')->comment('게시글 내용');
-            $table->text('file')->comment('게시글 첨부파일')->nullable();
             $table
                 ->integer('hit')
                 ->default(0)
