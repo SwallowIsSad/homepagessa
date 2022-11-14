@@ -37,6 +37,15 @@
                                 check notice
                             </h3>
                         </div>
+                        @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                        @endif
                         <form action="/admin/notice/add" method="POST">
                             @csrf
                             <div class="card-body">
@@ -61,6 +70,16 @@
                                                         <label for="inputClientCompany">타입</label>
                                                         <input type="text" name="kind" id="inputClientCompany" class="form-control" value="0">
                                                     </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputFile">File input</label>
+                                                        <div class="input-group">
+                                                            <div class="custom-file">
+                                                                <input type="file" name="boardfile[]" class="custom-file-input" id="exampleInputFile" multiple>
+                                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="preview" style="width:100%; height:100px; display:none"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -80,5 +99,32 @@
         </div>
     </section>
     <!-- /.content -->
+    <script>
+        $(function () {
+            function readURL(input) {
+                for(i = 0; i < input.files.length; i++)
+                {
+                    // input.files[i]
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        console.log(e)
+                        vimg = $('<img>', {
+                            'src' : e.target.result,
+                            'width' : '100px',
+                            'height' : '100px'
+                        });
+                        $(".preview").show();
+                        $(".preview").append(vimg);
+                    }
+                    reader.readAsDataURL(input.files[i]);
+                }
+               
+            }
+
+            $("#exampleInputFile").change(function() {
+                readURL(this);
+            });
+        })
+    </script>
 </div>
 @include('admin.footer')

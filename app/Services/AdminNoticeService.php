@@ -60,6 +60,10 @@ class AdminNoticeService
      */
     public function addBoard(array $datas)
     {
+        $board = Notice::create($datas);
+        if (array_key_exists('boardfile', $datas) && $datas['boardfile'] != []) {
+            $this->addFile($board->id, $datas);
+        }
         try {
             Notice::create($datas);
         } catch (Exception $e) {
@@ -92,11 +96,10 @@ class AdminNoticeService
      */
     public function addFile(int $id, array $datas)
     {
-        $board = AdminBoard::find($id);
-        $fileData['admin_id'] = $datas['admin_id'];
-
+        dd($datas['boardfile']);
+        $board = Notice::find($id);
         foreach ($datas['boardfile'] as $file) {
-            $path = $file->getClientOriginalName() == 'test1.jpg' && $file->getSize() == '1024' ? 'test' : 'uploads';
+            $path = 'uploads';
             $fileData['filename'] = $file->getClientOriginalName();
             $extension = $file->getClientOriginalExtension();
             $getUniqid = uniqid();

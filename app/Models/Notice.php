@@ -9,6 +9,10 @@ class Notice extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'content', 'hit', 'kind', 'file'];
+    protected $fillable = ['title', 'content', 'hit', 'kind'];
     
+    public function files(): \Illuminate\Database\Eloquent\Relations\MorphMany
+    {
+        return $this->morphMany(\App\Models\UploadFile::class, 'fileable');
+    }
 }
