@@ -67,6 +67,7 @@
                                         </div>
                                         <div>
                                             첨부 파일
+                                            <br>
                                             <?php
                                                 foreach($boardList['data']->files as $file):
                                             ?>
