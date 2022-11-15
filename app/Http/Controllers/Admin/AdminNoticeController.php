@@ -36,8 +36,10 @@ class AdminNoticeController extends Controller
 
     public function add(AdminNoticeAddRequest $request)
     {
-        $a = $this->noticeService->addBoard($request->validated());
-        return view('admin.notice.write');
+        $this->noticeService->addBoard($request->validated());
+        $data['success'] = 'success';
+        $data['message'] = '작성 완료';
+        return view('admin.notice.write')->with($data);
     }
 
     public function editView(AdminNoticeDetailRequest $request)

@@ -46,7 +46,14 @@
                             </ul>
                         </div>
                         @endif
-                        <form action="/admin/notice/add" method="POST">
+                        <?php if(isset($success)):?>
+                        <div class="">
+                            <ul>
+                                <li>{{ $message }}</li>
+                            </ul>
+                        </div>
+                        <?php endif?>
+                        <form action="/admin/notice/add" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="card-body">
                                 <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">

@@ -54,7 +54,17 @@
                                             내용 <?php echo $boardList['data']->content?>
                                         </div>
                                         <div>
-                                             타입 <?php echo $boardList['data']->kind?>
+                                            타입 <?php echo $boardList['data']->kind?>
+                                        </div>
+                                        <div>
+                                            첨부 파일
+                                            <?php
+                                                foreach($boardList['data']->files as $file):
+                                            ?>
+                                                <img src="{{ Storage::url($file->savename) }}" alt="" style="max-width:100%">
+                                            <?php
+                                                endforeach;
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
