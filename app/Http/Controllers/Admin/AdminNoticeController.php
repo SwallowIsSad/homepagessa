@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\controllers\Controller;
+use App\Http\Controllers\Controller;
 use App\Http\Requests\AdminNoticeDetailRequest;
 use App\Http\Requests\AdminNoticeAddRequest;
 use App\Http\Requests\AdminNoticeEditRequest;
