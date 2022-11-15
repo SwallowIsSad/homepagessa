@@ -70,7 +70,7 @@
                                             <?php
                                                 foreach($boardList['data']->files as $file):
                                             ?>
-                                                <img src="{{ Storage::url($file->savename) }}" alt="" style="max-width:100%">
+                                                <img src="{{ Storage::url($file->savename) }}" alt="" style="max-width:100%">                                                
                                             <?php
                                                 endforeach;
                                             ?>
