@@ -6,6 +6,7 @@ use App\Http\controllers\Controller;
 use App\Http\Requests\AdminNoticeDetailRequest;
 use App\Http\Requests\AdminNoticeAddRequest;
 use App\Http\Requests\AdminNoticeEditRequest;
+use App\Http\Requests\AdminNoticeDeleteRequest;
 use App\Services\AdminNoticeService;
 
 class AdminNoticeController extends Controller
@@ -53,5 +54,11 @@ class AdminNoticeController extends Controller
     {
         $this->noticeService->edit($request->validated());
         return back();
+    }
+
+    public function delete(AdminNoticeDeleteRequest $request)
+    {
+        $this->noticeService->boardDelete($request->validated());
+        return redirect('/admin/notice');
     }
 }
