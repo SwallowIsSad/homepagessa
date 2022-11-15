@@ -14,7 +14,7 @@ class UploadFile extends Model
 
     /**
      * @return bool|null
-     */
+     */ 
     public function delete()
     {
         if (Storage::exists($this->savename)) {
