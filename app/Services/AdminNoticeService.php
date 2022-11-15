@@ -15,7 +15,6 @@ class AdminNoticeService
      */
     public function getBoardList()
     {
-        return Notice::All();
         $notice = Notice::OrderBy('created_at', 'desc')->get();
         return $notice;
     }
