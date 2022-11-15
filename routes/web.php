@@ -81,5 +81,6 @@ Route::prefix('admin')->group(function () {
         Route::post('/add', [AdminNoticeController::class, 'add']);
         Route::get('/edit/{id}', [AdminNoticeController::class, 'editView']);
         Route::post('/edit', [AdminNoticeController::class, 'edit']);
+        Route::delete('/delete/{id}', [AdminNoticeController::class, 'delete']);
     });
 });

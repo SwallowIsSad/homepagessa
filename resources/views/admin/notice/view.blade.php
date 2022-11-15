@@ -37,6 +37,15 @@
                                 check notice
                             </h3>
                         </div>
+                        @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                        @endif
                         <div class="card-body">
                             <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">
                                 <div class="row" style="margin-bottom:20px">
@@ -71,6 +80,11 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <a href="/admin/notice/edit/<?php echo $boardList['data']->id?>" class="btn btn-primary">수정</a>
+                                        <form action="/admin/notice/delete/<?php echo $boardList['data']->id?>" method="POST">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button class="btn btn-danger float-right" title="Delete">Delete</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

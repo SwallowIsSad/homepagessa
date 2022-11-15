@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Models\Notice;
 use Exception;
 use Log;
+use App\Services\UploadFileService;
 
 class AdminNoticeService
 {
@@ -127,10 +128,10 @@ class AdminNoticeService
      * @return void
      * @throws \Exception
      */
-    public function boardDelete(array $idList)
+    public function boardDelete(array $data)
     {
         try {
-            $boardQuery = AdminBoard::with(['files'])->whereIn('id', $idList['id']);
+            $boardQuery = Notice::with(['files'])->where('id', $data['id']);
             $file = new \App\Services\UploadFileService();
             $file->fileDelete(
                 $boardQuery
