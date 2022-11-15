@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\controllers\Controller;
+use App\Http\Controllers\Controller;
 
 class DashboardController extends Controller
 {
