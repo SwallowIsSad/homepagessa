@@ -42,37 +42,38 @@
             <div class="hit td">조회</div>
         </div>
         <div class="tbody">
+            <?php foreach($boardList as $key => $value):?>
             <div class="tr">
-                <div class="num td">3</div>
-                <div class="title td">신승단가표 2022년 9월 기준 수정3</div>
-                <div class="file td"></div>
-                <div class="date td">2022.09.28</div>
-                <div class="hit td">23</div>
+                <div class="num td"></div>
+                <div class="title td"><?php echo $value->title?></div>
+                <div class="file td">    
+                    <?php
+                        if(!$value->files->isEmpty())
+                        {
+                    ?>
+                    <a href="/down/file/{{$value->id}}"><img src="{{ URL::asset('img/board/file-logo.png') }}" alt="" style="width:20px; padding-top:15px;"></a>
+                    <?php
+                        }
+                        foreach($value->files as $file):
+                    ?> 
+                    <?php
+                        endforeach;
+                    ?>
+                </div>
+                <div class="date td"><?php echo $value->created_at->diffForHumans()?></div>
+                <div class="hit td"><?php echo $value->hit?></div>
                 <div class="content">
-                    <img src="{{ URL::asset('data/board/220919.jpg') }}" alt="" class="m5b">
-                    <img src="{{ URL::asset('data/board/220919_2.jpg') }}" alt="">
+                    <?php echo $value->content?>
+                    <?php
+                        foreach($value->files as $file):
+                    ?>
+                        <img src="{{ Storage::url($file->savename) }}" alt="" style="max-width:100%">                                                
+                    <?php
+                        endforeach;
+                    ?>
                 </div>
             </div>
-            <div class="tr">
-                <div class="num td">2</div>
-                <div class="title td">반기보고서 (2022.06)</div>
-                <div class="file td"></div>
-                <div class="date td">2022.06.26</div>
-                <div class="hit td">223</div>
-                <div class="content">
-                    해당 내용은 첨부파일로 자세한 확인이 가능합니다.
-                </div>
-            </div>
-            <div class="tr">
-                <div class="num td">1</div>
-                <div class="title td">분기보고서 (2022.03)</div>
-                <div class="file td"></div>
-                <div class="date td">2022.03.31</div>
-                <div class="hit td">622</div>
-                <div class="content">
-                    해당 내용은 첨부파일로 자세한 확인이 가능합니다.
-                </div>
-            </div>
+            <?php endforeach;?>
         </div>
     </div>
     <!-- <div class="pagination">
@@ -89,9 +90,9 @@
 </div>
 <script>
     $(function () {
-        $(".info .tr").click(function (e) {
+        $(".info .tr .title").click(function (e) {
             e.preventDefault();
-            var $self = $(this);
+            var $self = $(this).parent();
             if(!$self.find(".content").is(':visible'))
             {
                 $(".info .content").hide();
