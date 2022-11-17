@@ -10,6 +10,7 @@ use App\Http\Controllers\EmploymentController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\AdminNoticeController;
+use App\Http\Controllers\Admin\AdminInfoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -70,10 +71,18 @@ Route::prefix('test')->group(function () {
     Route::get('/test', [TestController::class, 'test2']);
 });
 
+// 파일 다운로드 용
+Route::prefix('down')->group(function () {
+    Route::prefix('file')->group(function () {
+        Route::get('/{id}', [NoticeController::class, 'down']);
+    });
+});
+
 // 관리자 페이지
 Route::prefix('admin')->group(function () {
     Route::get('/', [DashboardController::class, 'index']);
 
+    // 공지사항
     Route::prefix('notice')->group(function () {
         Route::get('/', [AdminNoticeController::class, 'index']);
         Route::get('/view/{id}', [AdminNoticeController::class, 'view']);
@@ -82,5 +91,16 @@ Route::prefix('admin')->group(function () {
         Route::get('/edit/{id}', [AdminNoticeController::class, 'editView']);
         Route::post('/edit', [AdminNoticeController::class, 'edit']);
         Route::delete('/delete/{id}', [AdminNoticeController::class, 'delete']);
+    });
+
+    // 정보공시
+    Route::prefix('info')->group(function () {
+        Route::get('/', [AdminInfoController::class, 'index']);
+        Route::get('/view/{id}', [AdminInfoController::class, 'view']);
+        Route::get('/add', [AdminInfoController::class, 'addView']);
+        Route::post('/add', [AdminInfoController::class, 'add']);
+        Route::get('/edit/{id}', [AdminInfoController::class, 'editView']);
+        Route::post('/edit', [AdminInfoController::class, 'edit']);
+        Route::delete('/delete/{id}', [AdminInfoController::class, 'delete']);
     });
 });

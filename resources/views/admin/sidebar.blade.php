@@ -33,7 +33,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{ url('admin/info') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>정보공시 관리</p>
                 </a>
