@@ -191,7 +191,7 @@
                 <p>
                     7월
                     <br>
-                    경영혁시형 중소기업 선정(중소벤처기업부)
+                    경영혁신형 중소기업 선정(중소벤처기업부)
                 </p>
             </div>
             <div class="year need-border history-scroll">
