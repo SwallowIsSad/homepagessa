@@ -58,6 +58,9 @@
 <div class="swiper-banner">
     <img src="{{ URL::asset('img/img_drag_ex.png') }}" alt="" >
 </div>
+<div class="m-banner">
+    <img src="{{ URL::asset('img/popup/popup1.jpg') }}" alt="">
+</div>
 <div class="swiper-container">
     <!-- 보여지는 영역 -->
     <div class="swiper-wrapper">

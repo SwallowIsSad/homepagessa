@@ -2,6 +2,25 @@
 <script src="{{ URL::asset('js/slippry.min.js') }}"></script>
 <link rel="stylesheet" href="{{ URL::asset('css/slippry.css') }}">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<div class="banner-slide">
+    <ul>
+        <li>
+            <img src="{{ URL::asset('img/popup/popup1.jpg') }}" alt="">
+        </li>
+        <!-- <li>
+            <img src="{{ URL::asset('img/popup/popup2.jpg') }}" alt="">
+        </li>
+        <li>
+            <img src="{{ URL::asset('img/popup/popup3.jpg') }}" alt="">
+        </li>
+        <li>
+            <img src="{{ URL::asset('img/popup/popup4.jpg') }}" alt="">
+        </li>
+        <li>
+            <img src="{{ URL::asset('img/popup/popup5.jpg') }}" alt="">
+        </li> -->
+    </ul>
+</div>
 <div class="visual-area-pc">
     <div class="visual-back">
         <ul class="slide-pc">
@@ -41,7 +60,7 @@
     <div class="slide-background"></div>
 </div>
 <script>
-    $(function () {        
+    $(function () {
         var slide = $(".slide-pc").slippry({
             transition: 'fade',
             useCSS: true,
@@ -52,8 +71,6 @@
             autoHover: false
         });
 
-        
-        
 
     })
 </script>
