@@ -58,9 +58,19 @@
 <div class="swiper-banner">
     <img src="{{ URL::asset('img/img_drag_ex.png') }}" alt="" >
 </div>
-<div class="m-banner">
-    <img src="{{ URL::asset('img/popup/popup1.jpg') }}" alt="">
+<div class="m-banner-layout">
+    <div class="m-banner">
+        <div>
+            <img src="{{ URL::asset('img/popup/popup1.jpg') }}" alt="">
+        </div>
+        <div class="popup-btn">
+            <a href="javascript:;" class="btn-main-pp event-close" data-time="1">하루간 보지 않기</a>
+            <a href="javascript:;" class="btn-main-pp active event-close-s">닫기</a>
+        </div>
+    </div>
 </div>
+<div class="m-banner-back"></div>
+
 <div class="swiper-container">
     <!-- 보여지는 영역 -->
     <div class="swiper-wrapper">
@@ -211,6 +221,46 @@
             }
         inter+=1;
         }, 1000);
+
+        var getCookie = function (cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1);
+                if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+            }
+            return "";
+        }
+
+        var setCookie = function (cname, cvalue, exdays) {
+            var todayDate = new Date();
+            todayDate.setTime(todayDate.getTime() + (exdays*24*60*60*1000));    
+            var expires = "expires=" + todayDate.toUTCString(); // UTC기준의 시간에 exdays인자로 받은 값에 의해서 cookie가 설정 됩니다.
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        }
+        
+        $(document).on("click", ".event-close", function (e) {
+            e.preventDefault();
+            setCookie("close","Y",1); 
+            $(".m-banner").hide()
+            $(".m-banner-back").hide()
+        })
+        
+        $(document).on("click", ".event-close-s", function (e) {
+            e.preventDefault();
+            $(".m-banner").hide()
+            $(".m-banner-back").hide()
+        })
+
+        var cookiedata = document.cookie;
+        if(cookiedata.indexOf("close=Y")<0) {
+            $(".m-banner").show()
+            $(".m-banner-back").show()
+        } else {
+            $(".m-banner").hide()
+            $(".m-banner-back").hide()
+        }
     })
 </script>
 @include('layout.footer')

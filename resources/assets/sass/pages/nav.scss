@@ -135,7 +135,7 @@
 .visual-area-pc {
     position: relative;
     text-align: center;
-    top:131px;
+    top: 131px;
     height: calc(100vh - 131px);
 
     .visual-front {
@@ -143,17 +143,16 @@
         margin: 0 auto;
         text-align: left;
         max-width: 1250px;
-        height: 100%;;
+        height: 100%;
         z-index: 2;
         box-sizing: border-box;
 
-        .visual-front-area{
+        .visual-front-area {
             position: absolute;
             width: 400px;
             top: 40%;
             transform: translateY(-50%);
 
-    
             @media only screen and (max-width: 1200px) {
                 & {
                     padding-left: 20px;
@@ -166,7 +165,7 @@
                 }
             }
         }
-      
+
         .slide-font {
             box-sizing: border-box;
             .title {
@@ -196,7 +195,6 @@
                 }
             }
         }
-
     }
     .visual-back {
         position: absolute;
@@ -223,35 +221,87 @@
         }
     }
 }
-
-.m-banner{
+.m-banner {
     position: fixed;
-    left:50%;
-    bottom:10vh;
+    left: 50%;
+    bottom: 20vh;
     transform: translateX(-50%);
-    transition: all .5s;
+    transition: all 0.5s;
     z-index: 30;
-    width:50%;
+    width: 320px;
 
-    img{
-        width:100%;
+    img {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        display: block;
+    }
+
+    .popup-btn {
+        text-align: center;
+        display: flex;
+    }
+
+    .btn-main-pp {
+        width: 50%;
+        height: 50px;
+        line-height: 50px;
+        background: #c1c1c1;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .active {
+        background: #506354;
     }
 }
 
-.banner-slide{
+.m-banner-back {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-slide {
     position: absolute !important;
-    width: 400px !important;
-    z-index: 1;
-    top:180px;
+    width: 480px !important;
+    z-index: 10;
+    top: 180px;
     right: 150px;
 
-    img{
+    img {
         display: block;
         width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .popup-btn {
+        text-align: center;
+        display: flex;
+    }
+
+    .btn-main-pp {
+        width: 50%;
+        height: 50px;
+        line-height: 50px;
+        background: #c1c1c1;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .active {
+        background: #506354;
     }
 }
 
-.visual-area, .visual-area-pc {
+.visual-area,
+.visual-area-pc {
     .sy-controls {
         display: none !important;
     }
