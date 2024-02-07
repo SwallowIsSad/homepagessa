@@ -2,29 +2,29 @@
 <script src="{{ URL::asset('js/slippry.min.js') }}"></script>
 <link rel="stylesheet" href="{{ URL::asset('css/slippry.css') }}">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<div class="banner-slide">
-    <ul>
-        <li>
-            <img src="{{ URL::asset('img/popup/popup1.jpg') }}" alt="">
-        </li>
-        <!-- <li>
-            <img src="{{ URL::asset('img/popup/popup2.jpg') }}" alt="">
-        </li>
-        <li>
-            <img src="{{ URL::asset('img/popup/popup3.jpg') }}" alt="">
-        </li>
-        <li>
-            <img src="{{ URL::asset('img/popup/popup4.jpg') }}" alt="">
-        </li>
-        <li>
-            <img src="{{ URL::asset('img/popup/popup5.jpg') }}" alt="">
-        </li> -->
-    </ul>
-    <div class="popup-btn">
-        <a href="javascript:;" class="btn-main-pp event-close" data-time="1">하루간 보지 않기</a>
-        <a href="javascript:;" class="btn-main-pp active event-close-s">닫기</a>
-    </div>
-</div>
+{{--<div class="banner-slide">--}}
+{{--    <ul>--}}
+{{--        <li>--}}
+{{--            <img src="{{ URL::asset('img/popup/popup1.jpg') }}" alt="">--}}
+{{--        </li>--}}
+{{--        <!-- <li>--}}
+{{--            <img src="{{ URL::asset('img/popup/popup2.jpg') }}" alt="">--}}
+{{--        </li>--}}
+{{--        <li>--}}
+{{--            <img src="{{ URL::asset('img/popup/popup3.jpg') }}" alt="">--}}
+{{--        </li>--}}
+{{--        <li>--}}
+{{--            <img src="{{ URL::asset('img/popup/popup4.jpg') }}" alt="">--}}
+{{--        </li>--}}
+{{--        <li>--}}
+{{--            <img src="{{ URL::asset('img/popup/popup5.jpg') }}" alt="">--}}
+{{--        </li> -->--}}
+{{--    </ul>--}}
+{{--    <div class="popup-btn">--}}
+{{--        <a href="javascript:;" class="btn-main-pp event-close" data-time="1">하루간 보지 않기</a>--}}
+{{--        <a href="javascript:;" class="btn-main-pp active event-close-s">닫기</a>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <div class="visual-area-pc">
     <div class="visual-back">
         <ul class="slide-pc">
@@ -89,17 +89,17 @@
 
         var setCookie = function (cname, cvalue, exdays) {
             var todayDate = new Date();
-            todayDate.setTime(todayDate.getTime() + (exdays*24*60*60*1000));    
+            todayDate.setTime(todayDate.getTime() + (exdays*24*60*60*1000));
             var expires = "expires=" + todayDate.toUTCString(); // UTC기준의 시간에 exdays인자로 받은 값에 의해서 cookie가 설정 됩니다.
             document.cookie = cname + "=" + cvalue + "; " + expires;
         }
-        
+
         $(document).on("click", ".event-close", function (e) {
             e.preventDefault();
-            setCookie("close","Y",1); 
+            setCookie("close","Y",1);
             $(".banner-slide").hide()
         })
-        
+
         $(document).on("click", ".event-close-s", function (e) {
             e.preventDefault();
             $(".banner-slide").hide()
@@ -111,7 +111,7 @@
         } else {
             $(".banner-slide").hide()
         }
-        
+
     })
 </script>
 @include('layout.mainfooter')
