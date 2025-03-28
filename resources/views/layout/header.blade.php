@@ -6,7 +6,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobiole-web-app-status-bar-style" content="#506354">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-        <title>신승지류유통</title>
+        <title>신승아이엔씨</title>
         <link rel="stylesheet" href="{{ URL::asset('css/normalize.css') }}?<?php echo time()?>">
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}?<?php echo time()?>">
         <script src="{{ URL::asset('js/jquery-3.6.0.min.js') }}"></script>
