@@ -154,7 +154,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">기업이념</p>
-                                        <p class="desc">신승지류유통의 기업이념을 <br> 소개합니다.</p>
+                                        <p class="desc">(주)신승아이엔씨의 기업이념을 <br> 소개합니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -178,7 +178,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">회사연혁</p>
-                                        <p class="desc">한 눈에 알아보는 신승지류유통의 <br> 과거와 현재입니다.</p>
+                                        <p class="desc">한 눈에 알아보는 (주)신승아이엔씨의 <br> 과거와 현재입니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -189,7 +189,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">관계업체</p>
-                                        <p class="desc">신승지류유통과 함께하는 <br> 관련업체 입니다.</p>
+                                        <p class="desc">(주)신승아이엔씨와 함께하는 <br> 관련업체 입니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -215,7 +215,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">제품소개</p>
-                                        <p class="desc">신승지류유통의 공급 및 취급 상품을 <br> 만나보세요.</p>
+                                        <p class="desc">(주)신승아이엔씨의 공급 및 취급 상품을 <br> 만나보세요.</p>
                                     </div>
                                 </a>
                             </div>
@@ -237,7 +237,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="title">협력업체</p>
-                                        <p class="desc">고객과 함께하는 신승지류유통의 <br> 협력업체입니다.</p>
+                                        <p class="desc">고객과 함께하는 (주)신승아이엔씨의 <br> 협력업체입니다.</p>
                                     </div>
                                 </a>
                             </div>
@@ -279,7 +279,7 @@
                                     <div class="text">
                                         <p class="title">주문시스템</p>
                                         <p class="desc">
-                                            신승지류유통의 영업정보서비스 입니다.
+                                            (주)신승아이엔씨의 영업정보서비스 입니다.
                                         </p>
                                     </div>
                                 </a>
@@ -325,7 +325,7 @@
                                     <div class="text">
                                         <p class="title">채용정보</p>
                                         <p class="desc">
-                                            신승지류유통과 함게 꿈과 미래를 <br> 펼쳐 나갈 인재를 찾습니다.
+                                        (주)신승아이엔씨와 함게 꿈과 미래를 <br> 펼쳐 나갈 인재를 찾습니다.
                                         </p>
                                     </div>
                                 </a>
@@ -338,7 +338,7 @@
                                     <div class="text">
                                         <p class="title">지원서제출</p>
                                         <p class="desc">
-                                            저희 신승지류유통은 여러분들을 <br> 열린 마음으로 기다리고 있습니다.
+                                            저희 (주)신승아이엔씨는 여러분들을 <br> 열린 마음으로 기다리고 있습니다.
                                         </p>
                                     </div>
                                 </a>
