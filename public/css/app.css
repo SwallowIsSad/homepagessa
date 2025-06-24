@@ -1426,11 +1426,11 @@ a.btn {
 .company-layout .cooperative .text-area .sign-area {
   position: absolute;
   right: 20px;
-  bottom: 0px;
+  bottom: 12px;
 }
 @media only screen and (max-width: 992px) {
   .company-layout .cooperative .text-area .sign-area {
-    bottom: 30px;
+    bottom: 40px;
   }
 }
 .company-layout .history {
