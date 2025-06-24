@@ -158,7 +158,7 @@
                         대표이사
                     </p>
                 </div>
-                <p class="sign-area" style="font-size:20px; font-weight: bold;">
+                <p class="sign-area" style="font-size:20px; font-weight: bold; color:#606060">
                     최재혁
                 </p>
             </div>
