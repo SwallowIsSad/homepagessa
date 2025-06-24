@@ -18,7 +18,7 @@
                         <p class="">주소: 04559</p> 서울특별시 중구 마른내로 116 신승빌딩 5층 <p class="on-p">｜ 대표자: 최재혁 ｜ 법인명: (주)신승아이엔씨 </p>
                         <div>
                         <p class="on-m">TEL: 02-2270-4900 ㅣ FAX: 02-2270-4944</p>
-                        사업자등록번호: 107-81-52415  <p class="on-p">｜ 업종: 가구·목재·펄프·종이 ｜ 업태: 제조, 도매, 서비스</p>
+                        사업자등록번호: 107-81-52415  <p class="on-p">｜ 업종: 인쇄용지, 종이 및 상자 ｜ 업태: 제조, 도매, 서비스</p>
                         </div>
                     </address>
                     <p>COPYRIGHT ⓒ 2008 SINSEUNG PAPER CORPORATION.All RIGHTS RESERVED.</p>
