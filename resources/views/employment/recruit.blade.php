@@ -16,14 +16,14 @@
         <span class="icon">···</span>
     </div>
     <div style="position:relative">
-        <p class="title" style="position:absolute; top:20px; left:70px; font-weight:bold; font-size:20px; color:#606060">
+        <p class="title" style="position:absolute; top:20px; left:70px; font-weight:bold; font-size:26px; color:#505050; line-height:31px">
             우리 (주)신승아이엔씨에서
             <br>
             여러분의 꿈과 미래를 펼쳐
             <br>
             나가시길 바랍니다.
         </p>
-        <p class="content" style="position:absolute; top:180px; left:70px; font-weight:bold; font-size:13px; color:#606060">
+        <p class="content" style="position:absolute; top:180px; left:70px; font-size:15px; color:#505050; line-height:21px">
             종이는 문화를 담는 그릇이라는 신념으로 21세기 국가경쟁력은 문화이며, 문화의 창달 중심은 미래의
             <br>
             신승임을 자각 급변하는 경영환경속에서도 지속적인 성장,발전으로 초일류기업으로 도약을 이끌어갈
