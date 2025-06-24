@@ -158,8 +158,8 @@
                         대표이사
                     </p>
                 </div>
-                <p class="sign-area">
-                    <img src="{{ URL::asset('img/company/sign.png') }}" alt="">
+                <p class="sign-area" style="font-size:20px; font-weight: bold;">
+                    최재혁
                 </p>
             </div>
         </div>
