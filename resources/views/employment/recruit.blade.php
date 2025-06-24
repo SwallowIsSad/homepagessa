@@ -15,7 +15,23 @@
         인재상
         <span class="icon">···</span>
     </div>
-    <img src="{{ URL::asset('img/banner/infotest3.jpg') }}" alt="" style="max-width:100%" class="m100b">
+    <div>
+        <p class="title">
+            우리 (주)신승아이엔씨에서
+            <br>
+            여러분의 꿈과 미래를 펼쳐
+            <br>
+            나가시길 바랍니다.
+        </p>
+        <p class="content">
+            종이는 문화를 담는 그릇이라는 신념으로 21세기 국가경쟁력은 문화이며, 문화의 창달 중심은 미래의
+            <br>
+            신승임을 자각 급변하는 경영환경속에서도 지속적인 성장,발전으로 초일류기업으로 도약을 이끌어갈
+            <br>
+            인재를 찾기위해 (주)신승아이엔씨 인재상을 정립하여 이에 부합하는 인재를 선발하고 있습니다.
+        </p>
+    </div>
+    <img src="{{ URL::asset('img/banner/infotest3.jpg?2') }}" alt="" style="max-width:100%" class="m100b">
     <div class="history-map">
         <div class="history-content">
             <div class="year main history-scroll">
