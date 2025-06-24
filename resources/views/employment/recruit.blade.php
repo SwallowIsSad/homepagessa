@@ -16,7 +16,7 @@
         <span class="icon">···</span>
     </div>
     <div style="position:relative">
-        <p class="title" style="position:absolute; top:20px; left:70px; font-weight:bold; font-size:26px; color:#505050; line-height:31px">
+        <p class="title" style="position:absolute; top:20px; left:70px; font-weight:bold; font-size:26px; color:#505050; line-height:36px">
             우리 (주)신승아이엔씨에서
             <br>
             여러분의 꿈과 미래를 펼쳐
