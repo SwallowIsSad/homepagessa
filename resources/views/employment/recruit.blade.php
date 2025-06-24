@@ -15,7 +15,7 @@
         인재상
         <span class="icon">···</span>
     </div>
-    <div stlye="position:relative">
+    <div style="position:relative">
         <p class="title" style="position:absolute; top:20px; left:30px; font-weight:bold; font-size:30px">
             우리 (주)신승아이엔씨에서
             <br>
